@@ -1,13 +1,13 @@
 import React from 'react';
 
 const CustomerJourney: React.FC = () => {
-    // Colors from the reference image
+    // Colors from the Fieldsman Brand Palette
     const stageColors = {
-        awareness: '#FBBF24', // Yellow/Orange
-        consideration: '#F87171', // Red/Pink
-        purchase: '#34D399', // Green/Teal
-        retention: '#22D3EE', // Cyan/Light Blue
-        advocacy: '#3B82F6'   // Blue/Dark Blue
+        awareness: '#E6DDBF', // Soft Sandstone
+        consideration: '#C8B696', // Warm Beige
+        purchase: '#546E35', // Olive Drab (Target/Primary)
+        retention: '#6B8A44', // Light Olive
+        advocacy: '#3F5228'   // Dark Olive (Loyalty)
     };
 
     const stages = [

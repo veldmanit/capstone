@@ -346,13 +346,13 @@ export default function ProudHostEmpathyMap() {
           flex-shrink: 0;
         }
 
-        .box-triggers { background-color: #F8FAFC; border-left-color: #0F172A; }
-        .box-pains { background-color: #FEF2F2; border-left-color: #EF4444; }
-        .box-gains { background-color: #F0FDF4; border-left-color: #10B981; }
+        .box-triggers { background-color: #FAF9F6; border-left-color: #4D4D4D; }
+        .box-pains { background-color: #FAF9F6; border-left-color: #A69475; }
+        .box-gains { background-color: #F0FDF4; border-left-color: #4A5D23; }
 
-        .box-triggers .p-title { color: #0F172A; }
-        .box-pains .p-title { color: #991B1B; }
-        .box-gains .p-title { color: #065F46; }
+        .box-triggers .p-title { color: #4D4D4D; }
+        .box-pains .p-title { color: #A69475; }
+        .box-gains .p-title { color: #4A5D23; }
 
         /* 6. Strategic Well */
         .well-box {

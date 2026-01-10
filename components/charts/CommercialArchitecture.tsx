@@ -21,57 +21,57 @@ const CommercialArchitecture = () => {
                 <div style={{ position: 'absolute', top: '10px', bottom: '10px', left: '24px', width: '2px', background: '#e2e8f0', zIndex: 0 }}></div>
 
                 {/* LAYER 1: MARKETING (Inputs) */}
-                <div style={{ position: 'relative', zIndex: 1, background: '#f0fdf4', border: '1px solid #bbf7d0', borderRadius: '6px', padding: '12px' }}>
+                <div style={{ position: 'relative', zIndex: 1, background: '#FAF9F6', border: '1px solid #C8B696', borderRadius: '6px', padding: '12px' }}>
                     <div style={{ display: 'flex', alignItems: 'center', marginBottom: '8px' }}>
-                        <div style={{ width: '24px', height: '24px', borderRadius: '50%', background: '#16a34a', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '10px', fontWeight: 'bold', marginRight: '10px', boxShadow: '0 2px 4px rgba(22, 163, 74, 0.2)' }}>1</div>
-                        <h4 style={{ fontSize: '11px', fontWeight: 800, color: '#166534', textTransform: 'uppercase' }}>Marketing Engine (Inflow)</h4>
+                        <div style={{ width: '24px', height: '24px', borderRadius: '50%', background: '#546E35', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '10px', fontWeight: 'bold', marginRight: '10px', boxShadow: '0 2px 4px rgba(84, 110, 53, 0.2)' }}>1</div>
+                        <h4 style={{ fontSize: '11px', fontWeight: 800, color: '#546E35', textTransform: 'uppercase' }}>Marketing Engine (Inflow)</h4>
                     </div>
 
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: '8px' }}>
-                        <MetricCard title="SEO & Content" target="30-40% Traffic" text="High-intent capture at near-zero marginal cost." color="#15803d" />
-                        <MetricCard title="Paid Social" target="4-6x ROAS" text="Lifestyle interruption. Prospecting → Retargeting." color="#15803d" />
-                        <MetricCard title="Influencers" target="15-20% Referral" text="Authentic validation via narrative cooking content." color="#15803d" />
-                        <MetricCard title="Experiential" target="5-10 Events/Yr" text="Physical lead gen at high-intent garden shows." color="#15803d" />
-                        <MetricCard title="Review Moat" target="600+ Reviews" text="Structural advantage. The primary trust signal." color="#15803d" bg="#dcfce7" />
+                        <MetricCard title="SEO & Content" target="30-40% Traffic" text="High-intent capture at near-zero marginal cost." color="#546E35" />
+                        <MetricCard title="Paid Social" target="4-6x ROAS" text="Lifestyle interruption. Prospecting → Retargeting." color="#546E35" />
+                        <MetricCard title="Influencers" target="15-20% Referral" text="Authentic validation via narrative cooking content." color="#546E35" />
+                        <MetricCard title="Experiential" target="5-10 Events/Yr" text="Physical lead gen at high-intent garden shows." color="#546E35" />
+                        <MetricCard title="Review Moat" target="600+ Reviews" text="Structural advantage. The primary trust signal." color="#546E35" bg="#F2EBD4" />
                     </div>
                 </div>
 
                 {/* Arrow Down */}
                 <div style={{ display: 'flex', justifyContent: 'center', height: '12px' }}>
-                    <svg width="20" height="12" viewBox="0 0 24 24" fill="none" stroke="#cbd5e1" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 5v14M19 12l-7 7-7-7" /></svg>
+                    <svg width="20" height="12" viewBox="0 0 24 24" fill="none" stroke="#E6DDBF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 5v14M19 12l-7 7-7-7" /></svg>
                 </div>
 
                 {/* LAYER 2: AI OPS (Processing) */}
-                <div style={{ position: 'relative', zIndex: 1, background: '#eef2ff', border: '1px solid #c7d2fe', borderRadius: '6px', padding: '12px' }}>
+                <div style={{ position: 'relative', zIndex: 1, background: '#FAF9F6', border: '1px solid #A69475', borderRadius: '6px', padding: '12px' }}>
                     <div style={{ display: 'flex', alignItems: 'center', marginBottom: '8px' }}>
-                        <div style={{ width: '24px', height: '24px', borderRadius: '50%', background: '#4f46e5', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '10px', fontWeight: 'bold', marginRight: '10px', boxShadow: '0 2px 4px rgba(79, 70, 229, 0.2)' }}>2</div>
-                        <h4 style={{ fontSize: '11px', fontWeight: 800, color: '#3730a3', textTransform: 'uppercase' }}>AI Operations (Throughput)</h4>
+                        <div style={{ width: '24px', height: '24px', borderRadius: '50%', background: '#A69475', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '10px', fontWeight: 'bold', marginRight: '10px', boxShadow: '0 2px 4px rgba(166, 148, 117, 0.2)' }}>2</div>
+                        <h4 style={{ fontSize: '11px', fontWeight: 800, color: '#A69475', textTransform: 'uppercase' }}>AI Operations (Throughput)</h4>
                     </div>
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '12px' }}>
-                        <FeatureBlock title="AI Configurator" text="Real-time assistant fixes compatibility & upsells." outcome="+20% Completion" color="#3730a3" />
-                        <FeatureBlock title="Intelligent Qual" text="Scores leads. Sales focuses only on top 30%." outcome="High Efficiency" color="#3730a3" />
-                        <FeatureBlock title="Auto-Service" text="85% of queries handled instantly 24/7." outcome="<5min Response" color="#3730a3" />
+                        <FeatureBlock title="AI Configurator" text="Real-time assistant fixes compatibility & upsells." outcome="+20% Completion" color="#A69475" />
+                        <FeatureBlock title="Intelligent Qual" text="Scores leads. Sales focuses only on top 30%." outcome="High Efficiency" color="#A69475" />
+                        <FeatureBlock title="Auto-Service" text="85% of queries handled instantly 24/7." outcome="<5min Response" color="#A69475" />
                     </div>
                 </div>
 
                 {/* Arrow Down */}
                 <div style={{ display: 'flex', justifyContent: 'center', height: '12px' }}>
-                    <svg width="20" height="12" viewBox="0 0 24 24" fill="none" stroke="#cbd5e1" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 5v14M19 12l-7 7-7-7" /></svg>
+                    <svg width="20" height="12" viewBox="0 0 24 24" fill="none" stroke="#E6DDBF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 5v14M19 12l-7 7-7-7" /></svg>
                 </div>
 
                 {/* LAYER 3: PHYGITAL (Conversion) */}
-                <div style={{ position: 'relative', zIndex: 1, background: '#fff7ed', border: '1px solid #fed7aa', borderRadius: '6px', padding: '12px' }}>
+                <div style={{ position: 'relative', zIndex: 1, background: '#FAF9F6', border: '1px solid #E6DDBF', borderRadius: '6px', padding: '12px' }}>
                     <div style={{ display: 'flex', alignItems: 'center', marginBottom: '8px' }}>
-                        <div style={{ width: '24px', height: '24px', borderRadius: '50%', background: '#f97316', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '10px', fontWeight: 'bold', marginRight: '10px', boxShadow: '0 2px 4px rgba(249, 115, 22, 0.2)' }}>3</div>
-                        <h4 style={{ fontSize: '11px', fontWeight: 800, color: '#9a3412', textTransform: 'uppercase' }}>Phygital Conversion (Trust)</h4>
+                        <div style={{ width: '24px', height: '24px', borderRadius: '50%', background: '#C8B696', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '10px', fontWeight: 'bold', marginRight: '10px', boxShadow: '0 2px 4px rgba(200, 182, 150, 0.2)' }}>3</div>
+                        <h4 style={{ fontSize: '11px', fontWeight: 800, color: '#A69475', textTransform: 'uppercase' }}>Phygital Conversion (Trust)</h4>
                     </div>
                     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
-                        <div style={{ padding: '8px', background: 'rgba(255,255,255,0.6)', borderRadius: '4px', border: '1px solid #ffedd5' }}>
-                            <div style={{ fontSize: '10px', fontWeight: 800, color: '#9a3412', marginBottom: '4px' }}>Partner Showroom Network</div>
+                        <div style={{ padding: '8px', background: 'rgba(255,255,255,0.6)', borderRadius: '4px', border: '1px solid #E6DDBF' }}>
+                            <div style={{ fontSize: '10px', fontWeight: 800, color: '#A69475', marginBottom: '4px' }}>Partner Showroom Network</div>
                             <p style={{ fontSize: '9px', color: '#64748b', lineHeight: '1.3' }}>Complementary retail (Garden/BBQ). <strong>5-15% fee</strong> vs 40% margin. Preserves unitary economics.</p>
                         </div>
-                        <div style={{ padding: '8px', background: 'rgba(255,255,255,0.6)', borderRadius: '4px', border: '1px solid #ffedd5' }}>
-                            <div style={{ fontSize: '10px', fontWeight: 800, color: '#9a3412', marginBottom: '4px' }}>"Showroom-Light" Trade-off</div>
+                        <div style={{ padding: '8px', background: 'rgba(255,255,255,0.6)', borderRadius: '4px', border: '1px solid #E6DDBF' }}>
+                            <div style={{ fontSize: '10px', fontWeight: 800, color: '#A69475', marginBottom: '4px' }}>"Showroom-Light" Trade-off</div>
                             <p style={{ fontSize: '9px', color: '#64748b', lineHeight: '1.3' }}>Fewer locations, lower prices. Gap bridged by High-Res Content, Social Proof, and Pop-up Events.</p>
                         </div>
                     </div>

@@ -47,7 +47,7 @@ export default function ChartContainer({
           font-family: var(--font-body);
           font-size: var(--font-size-tiny);
           font-weight: var(--font-weight-bold);
-          color: var(--color-accent);
+          color: var(--color-primary);
           text-transform: uppercase;
           letter-spacing: var(--letter-spacing-wide);
           display: block;

@@ -43,45 +43,57 @@
   --letter-spacing-wider: 0.1em;
 
   /* =============== COLORS =============== */
-  /* Primary Palette - Deep Navy/Charcoal */
-  --color-primary: #1E3A5F;
-  --color-primary-dark: #152B47;
-  --color-primary-light: #2F4F6F;
+  /* Primary Palette - Fieldsman Brand */
+  /* Olive Drab (Primary Strong) */
+  --color-primary: #4A5D23;
+  --color-primary-dark: #364419;
+  --color-primary-light: #6B8A44;
 
-  --color-secondary: #2F4F4F;
-  --color-secondary-dark: #1F3F3F;
+  /* Warm Beige (Secondary/Structural) */
+  --color-secondary: #C8B696;
+  --color-secondary-dark: #A69475;
 
-  /* Accent - Steel Blue (sophisticated, premium) */
-  --color-accent: #3B82F6;
-  --color-accent-dark: #2563EB;
-  --color-accent-light: #60A5FA;
+  /* Accent - Soft Sandstone & Highlights */
+  --color-accent: #E6DDBF;
+  --color-accent-dark: #D4C8A0;
+  --color-accent-light: #F2EBD4;
 
-  /* Neutrals - Grayscale */
-  --color-neutral-50: #F8FAFC;
-  --color-neutral-100: #F1F5F9;
-  --color-neutral-200: #E2E8F0;
-  --color-neutral-300: #CBD5E1;
-  --color-neutral-400: #94A3B8;
-  --color-neutral-500: #64748B;
-  --color-neutral-600: #475569;
-  --color-neutral-700: #334155;
-  --color-neutral-800: #1E293B;
-  --color-neutral-900: #0F172A;
+  /* Neutrals - Warm Grayscale */
+  --color-neutral-50: #FAF9F6;
+  /* Ivory White (Bg) */
+  --color-neutral-100: #F4F3F1;
+  /* Fieldsman Light Gray */
+  --color-neutral-200: #E2DFD8;
+  --color-neutral-300: #CUC7BD;
+  --color-neutral-400: #9CA3AF;
+  --color-neutral-500: #6B7280;
+  --color-neutral-600: #4D4D4D;
+  /* Fieldsman Dark Gray (Text) */
+  --color-neutral-700: #374151;
+  --color-neutral-800: #1F2937;
+  --color-neutral-900: #111827;
 
   /* Semantic Colors */
-  --color-text-primary: var(--color-neutral-900);
-  --color-text-secondary: var(--color-neutral-600);
-  --color-text-tertiary: var(--color-neutral-500);
+  --color-text-primary: var(--color-neutral-600);
+  /* #4d4d4d */
+  --color-text-secondary: var(--color-neutral-500);
+  --color-text-tertiary: #8C8C8C;
   --color-background: #FFFFFF;
-  --color-background-subtle: var(--color-neutral-50);
+  --color-background-subtle: #F4F3F1;
 
-  /* Chart Colors */
-  --color-chart-1: #3B82F6;
-  --color-chart-2: #10B981;
-  --color-chart-3: #F59E0B;
-  --color-chart-4: #EF4444;
-  --color-chart-5: #8B5CF6;
-  --color-chart-6: #EC4899;
+  /* Chart Colors - Brand Aligned */
+  --color-chart-1: #546E35;
+  /* Olive */
+  --color-chart-2: #C8B696;
+  /* Beige */
+  --color-chart-3: #4D4D4D;
+  /* Dark Gray */
+  --color-chart-4: #E6DDBF;
+  /* Sandstone */
+  --color-chart-5: #A69475;
+  /* Dark Beige */
+  --color-chart-6: #D4C8A0;
+  /* Dark Sandstone */
 
   /* =============== SPACING =============== */
   /* 4mm baseline grid */

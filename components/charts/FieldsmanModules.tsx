@@ -17,8 +17,8 @@ export default function FieldsmanModules() {
 
     // Flat, clean technical illustration style
     const ModuleBox = ({ w, hasCircle, isCorner }: { w: number; hasCircle?: boolean; isCorner?: boolean }) => {
-        const strokeColor = "#333";
-        const accentFill = "#404040"; // Dark for contrast
+        const strokeColor = "#4D4D4D"; // Dark Gray
+        const accentFill = "#4A5D23"; // Olive Primary
 
         if (isCorner) {
             return (
@@ -68,7 +68,7 @@ export default function FieldsmanModules() {
         <div style={{
             width: w,
             height: 12,
-            background: '#404040',
+            background: '#4A5D23',
             marginRight: 1,
             position: 'relative'
         }}>
@@ -95,14 +95,14 @@ export default function FieldsmanModules() {
                 margin: '0 auto 6px',
                 position: 'relative',
                 overflow: 'hidden',
-                border: border || '1px solid #ddd'
+                border: border || '1px solid #E6DDBF'
             }}>
                 {veins && <>
                     <div style={{ position: 'absolute', top: '20%', left: '5%', width: '90%', height: 1.5, background: veins, transform: 'rotate(25deg)', opacity: 0.5 }} />
                     <div style={{ position: 'absolute', top: '60%', left: '15%', width: '70%', height: 1, background: veins, transform: 'rotate(-15deg)', opacity: 0.35 }} />
                 </>}
             </div>
-            <div style={{ fontSize: 9, color: '#333', lineHeight: 1.2, fontWeight: 500 }}>{label}</div>
+            <div style={{ fontSize: 9, color: '#4D4D4D', lineHeight: 1.2, fontWeight: 500 }}>{label}</div>
         </div>
     );
 

@@ -195,19 +195,35 @@ export default function ImplementationSection() {
 
                     {/* Strategic Logic Text (Full Width) */}
                     <TextBlock style={{ marginBottom: 'var(--space-6)' }}>
-                        <h4 style={{ fontSize: '11px', fontWeight: 800, color: '#1e293b', marginBottom: '6px', textTransform: 'uppercase' }}>The Strategic Logic</h4>
-                        <p style={{ fontSize: '10px', color: '#475569', lineHeight: '1.5', marginBottom: '16px' }}>
-                            Fieldsman's growth is currently constrained by production, not demand. The transformation reverses current logic: <strong>outsource what is standardized, control what is customized.</strong> This hybrid approach breaks the "Capacity Trap" by decoupling volume from fixed payroll.
-                        </p>
-                        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: 'var(--space-4)' }}>
-                            <div>
-                                <strong>Steel Frames (Commodity):</strong> Standardized, repeatable components are mass-produced in China. This converts fixed skilled labor into variable unit cost and removes the throughput ceiling.
-                            </div>
-                            <div>
-                                <strong>Countertops (Differentiation):</strong> Bespoke per kitchen. Vertical integration of cutting capabilities becomes a competitive advantage, reducing cost from <strong>€900 to €100</strong> and lead times from <strong>8 weeks to 2 weeks</strong>.
-                            </div>
-                            <div>
-                                <strong>Flex Assembly Line (Quality):</strong> Centralizing final assembly in the NL hub allows for 100% quality control before dispatch. The line scales with temporary labor during peak season, maintaining flexibility without fixed payroll risk.
+                        {/* Part 1: Problem */}
+                        <div style={{ marginBottom: '16px', paddingBottom: '16px', borderBottom: '1px dashed #e2e8f0' }}>
+                            <h4 style={{ fontSize: '11px', fontWeight: 800, color: '#b91c1c', marginBottom: '6px', textTransform: 'uppercase' }}>The Challenge: The Seasonal Capacity Trap</h4>
+                            <p style={{ fontSize: '10px', color: '#475569', lineHeight: '1.5' }}>
+                                The fundamental challenge of the outdoor living market is extreme seasonality: <strong>80% of consumer demand occurs between March and July.</strong> Under the current model, scaling production requires hiring permanent skilled craftsmen. This creates a "Capacity Trap": you either under-produce during the summer peak (losing revenue) or carry massive overhead during the winter trough (destroying margin).
+                            </p>
+                        </div>
+
+                        {/* Part 2: Solution */}
+                        <div>
+                            <h4 style={{ fontSize: '11px', fontWeight: 800, color: '#15803d', marginBottom: '6px', textTransform: 'uppercase' }}>The Solution: The Integrated Hub Strategy</h4>
+                            <p style={{ fontSize: '10px', color: '#475569', lineHeight: '1.5', marginBottom: '16px' }}>
+                                The Transformation solves this by decoupling component stability from assembly flexibility. By moving to an <strong>Integrated Hub Model</strong>, Fieldsman can flatten the production curve:
+                            </p>
+                            <ul style={{ fontSize: '10px', color: '#475569', lineHeight: '1.5', margin: '0 0 16px 12px', paddingLeft: '12px' }}>
+                                <li style={{ marginBottom: '4px' }}><strong>Winter (Stockpile):</strong> Steady production of standardized modules from global partners fills the buffer.</li>
+                                <li><strong>Summer (Assemble):</strong> The NL Hub scales final assembly using flexible labor to meet the 5x demand spike, drawing from the buffer.</li>
+                            </ul>
+
+                            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: 'var(--space-4)' }}>
+                                <div>
+                                    <strong>Steel Modules (Dual Sourcing):</strong> Standardized frames are sourced via a **Dual Vendor Strategy (China & East Europe)**. This balances cost efficiency with supply chain resilience, converting fixed labor into variable unit costs.
+                                </div>
+                                <div>
+                                    <strong>Ceramics & Cutting (Value Add):</strong> Slabs are sourced globally (**China & Spain**), but cutting is vertically integrated in the NL Hub. This reduces unit costs from <strong>€900 to €100</strong> and lead times from <strong>8 weeks to 2 weeks</strong>.
+                                </div>
+                                <div>
+                                    <strong>Flex Assembly Hub (Quality):</strong> The NL Hub acts as a critical **seasonal buffer** and quality gate. Centralized final assembly ensures <strong>100% quality control</strong> before dispatch, scaling with temporary labor during peak demand.
+                                </div>
                             </div>
                         </div>
                     </TextBlock>
@@ -292,7 +308,7 @@ export default function ImplementationSection() {
                         <div style={{ display: 'flex', gap: '8px' }}>
                             <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary-main)', color: 'white', borderRadius: '50%', fontSize: '9px', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>3</div>
                             <p style={{ fontSize: '9.5px', color: 'var(--color-neutral-700)', lineHeight: '1.4', margin: 0 }}>
-                                <strong style={{ color: '#0f172a' }}>Reverse Logic:</strong> Transformation implies outsourcing standardized steel (China) while vertically integrating custom countertops (NL).
+                                <strong style={{ color: '#0f172a' }}>Reverse Logic:</strong> Transformation implies outsourcing standardized modules (**Global Dual-Sourcing**) while vertically integrating custom countertops (**NL Hub**).
                             </p>
                         </div>
                         <div style={{ display: 'flex', gap: '8px' }}>

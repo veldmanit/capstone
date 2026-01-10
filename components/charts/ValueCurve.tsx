@@ -22,11 +22,11 @@ const ValueCurve = () => {
     ];
 
     const segments = [
-        { name: 'Low Budget', color: '#94a3b8', values: [10, 3, 3, 2, 5, 9, 3], dash: '6 4' },
-        { name: 'Mid-Premium', color: '#0ea5e9', values: [7, 5, 6, 7, 3, 5, 8], dash: '4 2' },
-        { name: 'Fieldsman', color: '#166534', values: [7, 7, 7, 5, 9, 8, 4], dash: '0' },
-        { name: 'Premium', color: '#d97706', values: [4, 8, 9, 6, 7, 4, 8], dash: '4 3' },
-        { name: 'Luxury', color: '#7c3aed', values: [1, 10, 10, 10, 2, 2, 10], dash: '2 2' },
+        { name: 'Low Budget', color: '#9CA3AF', values: [10, 3, 3, 2, 5, 9, 3], dash: '6 4' },
+        { name: 'Mid-Premium', color: '#C8B696', values: [7, 5, 6, 7, 3, 5, 8], dash: '4 2' },
+        { name: 'Fieldsman', color: '#4A5D23', values: [7, 7, 7, 5, 9, 8, 4], dash: '0' },
+        { name: 'Premium', color: '#A69475', values: [4, 8, 9, 6, 7, 4, 8], dash: '4 3' },
+        { name: 'Luxury', color: '#4D4D4D', values: [1, 10, 10, 10, 2, 2, 10], dash: '2 2' },
     ];
 
     const data = dimensions.map((dim, idx) => {
@@ -36,11 +36,11 @@ const ValueCurve = () => {
     });
 
     const competitors = [
-        { segment: 'Low Budget', range: '€0 – €2K', brands: 'IKEA, Buitenkeukendeal, Weber, Boretti, DIY', color: '#94a3b8' },
-        { segment: 'Mid-Premium', range: '€3K – €8K', brands: 'MetaalEnzo, regional craftsmen, small workshops', color: '#0ea5e9' },
-        { segment: 'Fieldsman', range: '€3K – €8K', brands: 'Fieldsman', color: '#166534', highlight: true },
-        { segment: 'Premium', range: '€10K – €20K', brands: 'Roostr, Novara, Life-Steel, Freiluft, OFYR, Otto Wilde, Flammkraft', color: '#d97706' },
-        { segment: 'Luxury', range: '€25K+', brands: 'COOXS Concepts, Röshults, Anker', color: '#7c3aed' },
+        { segment: 'Low Budget', range: '€0 – €2K', brands: 'IKEA, Buitenkeukendeal, Weber, Boretti, DIY', color: '#9CA3AF' },
+        { segment: 'Mid-Premium', range: '€3K – €8K', brands: 'MetaalEnzo, regional craftsmen, small workshops', color: '#C8B696' },
+        { segment: 'Fieldsman', range: '€3K – €8K', brands: 'Fieldsman', color: '#4A5D23', highlight: true },
+        { segment: 'Premium', range: '€10K – €20K', brands: 'Roostr, Novara, Life-Steel, Freiluft, OFYR, Otto Wilde, Flammkraft', color: '#A69475' },
+        { segment: 'Luxury', range: '€25K+', brands: 'COOXS Concepts, Röshults, Anker', color: '#4D4D4D' },
     ];
 
     return (

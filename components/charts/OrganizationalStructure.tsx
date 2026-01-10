@@ -127,14 +127,14 @@ export default function OrganizationalStructure() {
                 {/* LEVEL 2: COMPANY ENTITY */}
                 <div style={{
                     ...cardStyle,
-                    background: '#1e293b', // Dark Blue
-                    borderColor: '#1e293b',
+                    background: '#546E35', // Olive Drab
+                    borderColor: '#546E35',
                     color: 'white',
                     minWidth: '160px',
                     padding: '8px 16px'
                 }}>
                     <div style={{ ...nameStyle, fontSize: '11px', color: 'white' }}>FIELDSMAN VOF</div>
-                    <div style={{ ...roleStyle, color: '#94a3b8' }}>Operational Entity</div>
+                    <div style={{ ...roleStyle, color: '#F4F3F1' }}>Operational Entity</div>
                 </div>
 
                 {/* Vertical Line Level 2 -> 3 */}

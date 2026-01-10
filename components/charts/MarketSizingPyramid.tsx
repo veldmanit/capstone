@@ -10,141 +10,141 @@ import React from 'react';
  * and high-density data integration.
  */
 export default function MarketSizingPyramid() {
-    return (
-        <div className="pyramid-container">
-            <h2 className="chart-title">
-                Market Sizing: The "Missing Middle" Opportunity
-            </h2>
-            <p className="chart-subtitle">
-                Netherlands, Belgium & Germany — Modular Outdoor Kitchens
-            </p>
+  return (
+    <div className="pyramid-container">
+      <h2 className="chart-title">
+        Market Sizing: The "Missing Middle" Opportunity
+      </h2>
+      <p className="chart-subtitle">
+        Netherlands, Belgium & Germany — Modular Outdoor Kitchens
+      </p>
 
-            <div className="pyramid-wrapper">
-                <div className="pyramid-column">
+      <div className="pyramid-wrapper">
+        <div className="pyramid-column">
 
-                    {/* SOM - Top Tier (Priority Shift: ~35% NL) */}
-                    <div className="pyramid-level som-level">
-                        <div className="pyramid-shape som-shape">
-                            <div className="segment de" style={{ width: '55%' }}></div>
-                            <div className="segment nl" style={{ width: '35%' }}></div>
-                            <div className="segment be" style={{ width: '10%' }}></div>
-                        </div>
-
-                        {/* Right Label (Values + NL-Heavy Breakdown) */}
-                        <div className="label-group right">
-                            <div className="connector-line"></div>
-                            <div className="text-content">
-                                <div className="value color-som">€2.7–6.4M SOM</div>
-                                <div className="subtext">
-                                    🇩🇪 €1.5–3.5M 🇳🇱 €0.9–2.2M 🇧🇪 €0.3–0.7M
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Left Label */}
-                        <div className="label-group left">
-                            <div className="text-content">
-                                <span className="badge bg-som">SOM</span>
-                                <div className="subtext">Obtainable Market</div>
-                            </div>
-                            <div className="connector-line"></div>
-                        </div>
-                    </div>
-
-                    {/* SAM - Middle Tier (Standard Market Split) */}
-                    <div className="pyramid-level sam-level">
-                        <div className="pyramid-shape sam-shape">
-                            <div className="segment de" style={{ width: '80%' }}></div>
-                            <div className="segment nl" style={{ width: '13%' }}></div>
-                            <div className="segment be" style={{ width: '7%' }}></div>
-                        </div>
-
-                        {/* Right Label (Values + Standard Breakdown) */}
-                        <div className="label-group right">
-                            <div className="connector-line"></div>
-                            <div className="text-content">
-                                <div className="value color-sam">€110M SAM</div>
-                                <div className="subtext">
-                                    🇩🇪 €88M 🇳🇱 €14M 🇧🇪 €8M
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Left Label */}
-                        <div className="label-group left">
-                            <div className="text-content">
-                                <span className="badge bg-sam">SAM</span>
-                                <div className="subtext">€2K–€10K Segment</div>
-                            </div>
-                            <div className="connector-line"></div>
-                        </div>
-                    </div>
-
-                    {/* TAM - Bottom Tier (Standard Market Split) */}
-                    <div className="pyramid-level tam-level">
-                        <div className="pyramid-shape tam-shape">
-                            <div className="segment de" style={{ width: '80%' }}></div>
-                            <div className="segment nl" style={{ width: '13%' }}></div>
-                            <div className="segment be" style={{ width: '7%' }}></div>
-                        </div>
-
-                        {/* Right Label (Values + Standard Breakdown) */}
-                        <div className="label-group right">
-                            <div className="connector-line"></div>
-                            <div className="text-content">
-                                <div className="value color-tam">€315M TAM</div>
-                                <div className="subtext">
-                                    🇩🇪 €251M 🇳🇱 €40M 🇧🇪 €24M
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Left Label */}
-                        <div className="label-group left">
-                            <div className="text-content">
-                                <span className="badge bg-tam">TAM</span>
-                                <div className="subtext">Total Addressable Market</div>
-                            </div>
-                            <div className="connector-line"></div>
-                        </div>
-                    </div>
-
-                </div>
+          {/* SOM - Top Tier (Priority Shift: ~35% NL) */}
+          <div className="pyramid-level som-level">
+            <div className="pyramid-shape som-shape">
+              <div className="segment de" style={{ width: '55%' }}></div>
+              <div className="segment nl" style={{ width: '35%' }}></div>
+              <div className="segment be" style={{ width: '10%' }}></div>
             </div>
 
-            {/* Country Breakdown Cards - Perfectly Aligned */}
-            <div className="breakdown-grid">
-                <div className="country-card">
-                    <div className="flag">🇩🇪</div>
-                    <div className="country-header">GERMANY</div>
-                    <div className="country-value">€251M</div>
-                    <div className="country-meta">80% of TAM</div>
-                    <div className="country-target">SOM Target: 2.0–5.0%</div>
+            {/* Right Label (Values + NL-Heavy Breakdown) */}
+            <div className="label-group right">
+              <div className="connector-line"></div>
+              <div className="text-content">
+                <div className="value color-som">€2.7–6.4M SOM</div>
+                <div className="subtext">
+                  🇩🇪 €1.5–3.5M 🇳🇱 €0.9–2.2M 🇧🇪 €0.3–0.7M
                 </div>
-                <div className="country-card highlight-border">
-                    <div className="flag">🇳🇱</div>
-                    <div className="country-header">NETHERLANDS</div>
-                    <div className="country-value">€40M</div>
-                    <div className="country-meta">13% of TAM</div>
-                    <div className="country-target highlight-text">SOM Target: 5.0–10.0%</div>
-                </div>
-                <div className="country-card">
-                    <div className="flag">🇧🇪</div>
-                    <div className="country-header">BELGIUM</div>
-                    <div className="country-value">€24M</div>
-                    <div className="country-meta">7% of TAM</div>
-                    <div className="country-target">SOM Target: 3.0–7.0%</div>
-                </div>
+              </div>
             </div>
 
-            {/* Country Legend */}
-            <div className="country-legend">
-                <div className="legend-item"><span className="dot de"></span> Germany (80%)</div>
-                <div className="legend-item"><span className="dot nl"></span> Netherlands (13%)</div>
-                <div className="legend-item"><span className="dot be"></span> Belgium (7%)</div>
+            {/* Left Label */}
+            <div className="label-group left">
+              <div className="text-content">
+                <span className="badge bg-som">SOM</span>
+                <div className="subtext">Obtainable Market</div>
+              </div>
+              <div className="connector-line"></div>
+            </div>
+          </div>
+
+          {/* SAM - Middle Tier (Standard Market Split) */}
+          <div className="pyramid-level sam-level">
+            <div className="pyramid-shape sam-shape">
+              <div className="segment de" style={{ width: '80%' }}></div>
+              <div className="segment nl" style={{ width: '13%' }}></div>
+              <div className="segment be" style={{ width: '7%' }}></div>
             </div>
 
-            <style jsx>{`
+            {/* Right Label (Values + Standard Breakdown) */}
+            <div className="label-group right">
+              <div className="connector-line"></div>
+              <div className="text-content">
+                <div className="value color-sam">€110M SAM</div>
+                <div className="subtext">
+                  🇩🇪 €88M 🇳🇱 €14M 🇧🇪 €8M
+                </div>
+              </div>
+            </div>
+
+            {/* Left Label */}
+            <div className="label-group left">
+              <div className="text-content">
+                <span className="badge bg-sam">SAM</span>
+                <div className="subtext">€2K–€10K Segment</div>
+              </div>
+              <div className="connector-line"></div>
+            </div>
+          </div>
+
+          {/* TAM - Bottom Tier (Standard Market Split) */}
+          <div className="pyramid-level tam-level">
+            <div className="pyramid-shape tam-shape">
+              <div className="segment de" style={{ width: '80%' }}></div>
+              <div className="segment nl" style={{ width: '13%' }}></div>
+              <div className="segment be" style={{ width: '7%' }}></div>
+            </div>
+
+            {/* Right Label (Values + Standard Breakdown) */}
+            <div className="label-group right">
+              <div className="connector-line"></div>
+              <div className="text-content">
+                <div className="value color-tam">€315M TAM</div>
+                <div className="subtext">
+                  🇩🇪 €251M 🇳🇱 €40M 🇧🇪 €24M
+                </div>
+              </div>
+            </div>
+
+            {/* Left Label */}
+            <div className="label-group left">
+              <div className="text-content">
+                <span className="badge bg-tam">TAM</span>
+                <div className="subtext">Total Addressable Market</div>
+              </div>
+              <div className="connector-line"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      {/* Country Breakdown Cards - Perfectly Aligned */}
+      <div className="breakdown-grid">
+        <div className="country-card">
+          <div className="flag">🇩🇪</div>
+          <div className="country-header">GERMANY</div>
+          <div className="country-value">€251M</div>
+          <div className="country-meta">80% of TAM</div>
+          <div className="country-target">SOM Target: 2.0–5.0%</div>
+        </div>
+        <div className="country-card highlight-border">
+          <div className="flag">🇳🇱</div>
+          <div className="country-header">NETHERLANDS</div>
+          <div className="country-value">€40M</div>
+          <div className="country-meta">13% of TAM</div>
+          <div className="country-target highlight-text">SOM Target: 5.0–10.0%</div>
+        </div>
+        <div className="country-card">
+          <div className="flag">🇧🇪</div>
+          <div className="country-header">BELGIUM</div>
+          <div className="country-value">€24M</div>
+          <div className="country-meta">7% of TAM</div>
+          <div className="country-target">SOM Target: 3.0–7.0%</div>
+        </div>
+      </div>
+
+      {/* Country Legend */}
+      <div className="country-legend">
+        <div className="legend-item"><span className="dot de"></span> Germany (80%)</div>
+        <div className="legend-item"><span className="dot nl"></span> Netherlands (13%)</div>
+        <div className="legend-item"><span className="dot be"></span> Belgium (7%)</div>
+      </div>
+
+      <style jsx>{`
         .pyramid-container {
           background: white;
           padding: var(--space-6) 0;
@@ -210,9 +210,9 @@ export default function MarketSizingPyramid() {
           clip-path: polygon(25% 0%, 75% 0%, 100% 100%, 0% 100%);
           z-index: 3;
         }
-        .som-shape .de { background-color: #10B981; } 
-        .som-shape .nl { background-color: #34D399; } 
-        .som-shape .be { background-color: #6EE7B7; } 
+        .som-shape .de { background-color: #4A5D23; } 
+        .som-shape .nl { background-color: #6B8A44; } 
+        .som-shape .be { background-color: #8CA06E; } 
 
         .sam-shape {
           height: 100px;
@@ -221,9 +221,9 @@ export default function MarketSizingPyramid() {
           margin-top: -1px;
           z-index: 2;
         }
-        .sam-shape .de { background-color: #3B82F6; } 
-        .sam-shape .nl { background-color: #60A5FA; } 
-        .sam-shape .be { background-color: #93C5FD; } 
+        .sam-shape .de { background-color: #C8B696; } 
+        .sam-shape .nl { background-color: #D4C8A0; } 
+        .sam-shape .be { background-color: #E6DDBF; } 
 
         .tam-shape {
           height: 115px;
@@ -232,9 +232,9 @@ export default function MarketSizingPyramid() {
           margin-top: -1px;
           z-index: 1;
         }
-        .tam-shape .de { background-color: #334155; } 
-        .tam-shape .nl { background-color: #475569; } 
-        .tam-shape .be { background-color: #64748B; } 
+        .tam-shape .de { background-color: #4D4D4D; } 
+        .tam-shape .nl { background-color: #6B7280; } 
+        .tam-shape .be { background-color: #9CA3AF; } 
 
         /* Perfectly Centered Label Positioning */
         .label-group {
@@ -325,8 +325,8 @@ export default function MarketSizingPyramid() {
         }
 
         .highlight-border {
-          border: 1.5px solid #10B981;
-          background-color: #F0FDF4;
+          border: 1.5px solid #4A5D23;
+          background-color: #FAF9F6;
         }
 
         .flag { font-size: 20px; margin-bottom: 6px; }
@@ -341,7 +341,7 @@ export default function MarketSizingPyramid() {
           border-top: 1px solid var(--color-neutral-200);
           margin-top: var(--space-1);
         }
-        .highlight-text { color: #059669; font-weight: 700; }
+        .highlight-text { color: #4A5D23; font-weight: 700; }
 
         /* Country Legend */
         .country-legend {
@@ -356,19 +356,19 @@ export default function MarketSizingPyramid() {
 
         .legend-item { display: flex; align-items: center; gap: 8px; }
         .dot { width: 9px; height: 9px; border-radius: 2px; }
-        .dot.de { background-color: #334155; } 
-        .dot.nl { background-color: #475569; }
-        .dot.be { background-color: #64748B; }
+        .dot.de { background-color: #4D4D4D; } 
+        .dot.nl { background-color: #6B7280; }
+        .dot.be { background-color: #9CA3AF; }
 
         /* Helper Colors */
-        .color-som { color: #059669; }
-        .color-sam { color: #2563EB; }
-        .color-tam { color: #334155; }
+        .color-som { color: #4A5D23; }
+        .color-sam { color: #C8B696; }
+        .color-tam { color: #4D4D4D; }
 
-        .bg-som { background-color: #10B981; }
-        .bg-sam { background-color: #3B82F6; }
-        .bg-tam { background-color: #334155; }
+        .bg-som { background-color: #4A5D23; }
+        .bg-sam { background-color: #C8B696; }
+        .bg-tam { background-color: #4D4D4D; }
       `}</style>
-        </div>
-    );
+    </div>
+  );
 }

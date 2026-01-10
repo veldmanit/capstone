@@ -172,9 +172,9 @@ const PortersFiveForces = () => {
                     font-weight: 800;
                 }
 
-                .rating-medium { color: var(--color-primary-main); }
-                .rating-high { color: var(--color-accent-main); }
-                .rivalry-box .rating-medium { color: #5eead4; }
+                .rating-medium { color: #4A5D23; } /* Olive */
+                .rating-high { color: #A69475; }  /* Dark Beige */
+                .rivalry-box .rating-medium { color: #E6DDBF; } /* Sandstone */
 
                 .node-text {
                     font-size: 10px;
