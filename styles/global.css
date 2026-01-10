@@ -1,0 +1,225 @@
+/* ============================================
+   GLOBAL STYLES & PRINT SETUP
+   Fieldsman Premium Report
+   ============================================ */
+
+@import './variables.css';
+
+/* =============== RESET & BASE =============== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    /* Base for rem calculations */
+}
+
+body {
+    font-family: var(--font-body);
+    font-size: var(--font-size-body);
+    line-height: var(--line-height-normal);
+    color: var(--color-text-primary);
+    background: var(--color-background);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* =============== TYPOGRAPHY BASE =============== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-display);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-tight);
+    color: var(--color-text-primary);
+}
+
+h1 {
+    font-size: var(--font-size-h1);
+    letter-spacing: var(--letter-spacing-tight);
+}
+
+h2 {
+    font-size: var(--font-size-h2);
+    letter-spacing: var(--letter-spacing-tight);
+}
+
+h3 {
+    font-size: var(--font-size-h3);
+    font-weight: var(--font-weight-semibold);
+}
+
+p {
+    margin-bottom: var(--space-4);
+}
+
+strong,
+b {
+    font-weight: var(--font-weight-bold);
+}
+
+/* =============== PRINT MEDIA QUERIES =============== */
+@media print {
+
+    /* Page setup */
+    @page {
+        size: A4 portrait;
+        margin: var(--page-margin);
+
+        /* Header/Footer margins */
+        @top-center {
+            content: '';
+        }
+
+        @bottom-center {
+            content: counter(page);
+        }
+    }
+
+    /* First page (cover) - no margins */
+    @page: first {
+        margin: 0;
+    }
+
+    /* Left/right pages for print binding */
+    @page: left {
+        margin-left: var(--page-margin-inner);
+        margin-right: var(--page-margin-outer);
+    }
+
+    @page: right {
+        margin-left: var(--page-margin-outer);
+        margin-right: var(--page-margin-inner);
+    }
+
+    /* Global print settings */
+    * {
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+    }
+
+    html,
+    body {
+        width: var(--page-width);
+        height: var(--page-height);
+    }
+
+    /* Page break controls */
+    h1,
+    h2,
+    h3 {
+        page-break-after: avoid;
+        break-after: avoid;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    img,
+    svg,
+    figure,
+    table {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    /* Orphans and widows */
+    p {
+        orphans: 3;
+        widows: 3;
+    }
+
+    /* Hide screen-only elements */
+    .screen-only {
+        display: none !important;
+    }
+
+    /* Force page breaks */
+    .page-break-before {
+        page-break-before: always;
+        break-before: page;
+    }
+
+    .page-break-after {
+        page-break-after: always;
+        break-after: page;
+    }
+
+    .avoid-break {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+}
+
+/* =============== SCREEN PREVIEW MODE =============== */
+@media screen {
+
+    /* Simulate pages for preview */
+    body {
+        background: var(--color-neutral-100);
+        padding: var(--space-8);
+    }
+
+    .page {
+        width: var(--page-width);
+        min-height: var(--page-height);
+        background: white;
+        margin: 0 auto var(--space-6);
+        box-shadow: var(--shadow-lg);
+        padding: var(--page-margin);
+    }
+
+    .page:first-of-type {
+        padding: 0;
+        /* Cover page - full bleed */
+    }
+}
+
+/* =============== UTILITY CLASSES =============== */
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.font-display {
+    font-family: var(--font-display);
+}
+
+.font-body {
+    font-family: var(--font-body);
+}
+
+.uppercase {
+    text-transform: uppercase;
+    letter-spacing: var(--letter-spacing-wide);
+}
+
+.text-primary {
+    color: var(--color-primary);
+}
+
+.text-accent {
+    color: var(--color-accent);
+}
+
+.text-secondary {
+    color: var(--color-text-secondary);
+}
+
+.bg-subtle {
+    background-color: var(--color-background-subtle);
+}

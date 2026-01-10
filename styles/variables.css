@@ -1,0 +1,159 @@
+/* ============================================
+   FIELDSMAN PREMIUM REPORT - DESIGN SYSTEM
+   CSS Variables & Design Tokens
+   ============================================ */
+
+:root {
+  /* =============== TYPOGRAPHY =============== */
+  /* Font Families */
+  --font-display: 'Work Sans', system-ui, -apple-system, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Type Scale - Premium Report Hierarchy */
+  --font-size-display: 52px;
+  /* Cover titles */
+  --font-size-h1: 36px;
+  /* Section headers */
+  --font-size-h2: 24px;
+  /* Page titles */
+  --font-size-h3: 16px;
+  /* Subsection headers */
+  --font-size-body: 10.5px;
+  /* Main text */
+  --font-size-small: 9px;
+  /* Captions, labels */
+  --font-size-tiny: 7.5px;
+  /* Fine print, notes */
+
+  /* Font Weights */
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Line Heights */
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.7;
+
+  /* Letter Spacing */
+  --letter-spacing-tight: -0.02em;
+  --letter-spacing-normal: 0;
+  --letter-spacing-wide: 0.05em;
+  --letter-spacing-wider: 0.1em;
+
+  /* =============== COLORS =============== */
+  /* Primary Palette - Deep Navy/Charcoal */
+  --color-primary: #1E3A5F;
+  --color-primary-dark: #152B47;
+  --color-primary-light: #2F4F6F;
+
+  --color-secondary: #2F4F4F;
+  --color-secondary-dark: #1F3F3F;
+
+  /* Accent - Steel Blue (sophisticated, premium) */
+  --color-accent: #3B82F6;
+  --color-accent-dark: #2563EB;
+  --color-accent-light: #60A5FA;
+
+  /* Neutrals - Grayscale */
+  --color-neutral-50: #F8FAFC;
+  --color-neutral-100: #F1F5F9;
+  --color-neutral-200: #E2E8F0;
+  --color-neutral-300: #CBD5E1;
+  --color-neutral-400: #94A3B8;
+  --color-neutral-500: #64748B;
+  --color-neutral-600: #475569;
+  --color-neutral-700: #334155;
+  --color-neutral-800: #1E293B;
+  --color-neutral-900: #0F172A;
+
+  /* Semantic Colors */
+  --color-text-primary: var(--color-neutral-900);
+  --color-text-secondary: var(--color-neutral-600);
+  --color-text-tertiary: var(--color-neutral-500);
+  --color-background: #FFFFFF;
+  --color-background-subtle: var(--color-neutral-50);
+
+  /* Chart Colors */
+  --color-chart-1: #3B82F6;
+  --color-chart-2: #10B981;
+  --color-chart-3: #F59E0B;
+  --color-chart-4: #EF4444;
+  --color-chart-5: #8B5CF6;
+  --color-chart-6: #EC4899;
+
+  /* =============== SPACING =============== */
+  /* 4mm baseline grid */
+  --space-1: 4px;
+  /* 1 unit (4mm) */
+  --space-2: 8px;
+  /* 2 units */
+  --space-3: 12px;
+  /* 3 units */
+  --space-4: 16px;
+  /* 4 units */
+  --space-5: 20px;
+  /* 5 units */
+  --space-6: 24px;
+  /* 6 units */
+  --space-8: 32px;
+  /* 8 units */
+  --space-10: 40px;
+  /* 10 units */
+  --space-12: 48px;
+  /* 12 units */
+  --space-16: 64px;
+  /* 16 units */
+  --space-20: 80px;
+  /* 20 units */
+  --space-24: 96px;
+  /* 24 units */
+
+  /* =============== GRID SYSTEM =============== */
+  --grid-columns: 12;
+  --grid-gutter: 4mm;
+  /* 15.12px at 96dpi */
+  --grid-margin: 20mm;
+  /* 75.59px at 96dpi */
+
+  /* =============== PAGE SETTINGS =============== */
+  /* A4 Portrait: 210mm × 297mm */
+  --page-width: 210mm;
+  --page-height: 297mm;
+  --page-margin: 20mm;
+  --page-margin-inner: 22mm;
+  --page-margin-outer: 18mm;
+  --page-bleed: 3mm;
+
+  /* =============== BORDERS & RADIUS =============== */
+  --border-width-thin: 1px;
+  --border-width-medium: 2px;
+  --border-width-thick: 4px;
+
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  --border-radius-full: 9999px;
+
+  /* =============== SHADOWS =============== */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+
+  /* =============== TRANSITIONS =============== */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow: 350ms ease;
+}
+
+/* =============== PRINT-SPECIFIC OVERRIDES =============== */
+@media print {
+  :root {
+    /* Optimize for print output */
+    --color-background: #FFFFFF;
+    --shadow-sm: none;
+    --shadow-md: none;
+    --shadow-lg: none;
+  }
+}
