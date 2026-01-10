@@ -44,12 +44,12 @@ export function usePageNumber() {
 }
 
 // Hook to get and consume a page number (for pages that should be numbered)
-export function useNextPageNumber(): number {
+export function useNextPageNumber(enabled: boolean = true): number | null {
     const { getNextPageNumber } = usePageNumber();
     const pageNumberRef = useRef<number | null>(null);
 
-    // Only get the page number once per component instance
-    if (pageNumberRef.current === null) {
+    // Only get the page number once per component instance, and only if enabled
+    if (enabled && pageNumberRef.current === null) {
         pageNumberRef.current = getNextPageNumber();
     }
 

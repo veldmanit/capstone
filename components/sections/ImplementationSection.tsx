@@ -54,7 +54,7 @@ export default function ImplementationSection() {
                     <div style={{ marginBottom: 'var(--space-6)' }}>
                         <h3 style={{ fontSize: '11px', fontWeight: 800, color: 'var(--color-primary)', marginBottom: 'var(--space-2)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>5.1.2 The Offering: One Base, Three Tiers</h3>
                         <p style={{ fontSize: '9.5px', color: 'var(--color-neutral-600)', marginBottom: 'var(--space-4)' }}>
-                            One modular system serves three distinct segments. Customers move up the value pyramid by adding options, not by changing the core product structure. <span style={{ fontStyle: 'italic' }}>(See Appendix A for Modular Architecture)</span>
+                            One modular system serves three distinct segments. Customers move up the value pyramid by adding options, not by changing the core product structure. <span style={{ fontStyle: 'italic' }}>(See Appendix F for Modular Architecture)</span>
                         </p>
 
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
@@ -160,10 +160,10 @@ export default function ImplementationSection() {
                         <p style={{ fontSize: '9px', fontWeight: 700, color: 'var(--color-neutral-600)', textAlign: 'center', marginTop: 'var(--space-4)' }}>Proudly Simple. Built for Life.</p>
                     </div>
                 </div>
-            </PageWrapper>
+            </PageWrapper >
 
             {/* 5.2 GTM Intro + Layer 1 */}
-            <PageWrapper sectionLabel="SECTION 5: IMPLEMENTATION">
+            < PageWrapper sectionLabel="SECTION 5: IMPLEMENTATION" >
                 <div>
                     <h2 style={{ marginBottom: 'var(--space-2)' }}>5.2 Go-to-Market: Building a Scalable Commercial Engine</h2>
                     <TextBlock style={{ marginBottom: 'var(--space-2)' }}>
@@ -188,10 +188,10 @@ export default function ImplementationSection() {
                         <CommercialArchitecture />
                     </div>
                 </div>
-            </PageWrapper>
+            </PageWrapper >
 
             {/* 5.3 Production Transformation (Was 5.1) */}
-            <PageWrapper sectionLabel="SECTION 5: IMPLEMENTATION">
+            < PageWrapper sectionLabel="SECTION 5: IMPLEMENTATION" >
                 <div style={{ marginBottom: 'var(--space-8)' }}>
                     <h2 style={{ marginBottom: 'var(--space-4)' }}>5.3 Production Transformation: Controlling the Bottleneck</h2>
 
@@ -235,15 +235,16 @@ export default function ImplementationSection() {
                         <ProductionSolution />
                     </div>
                 </div>
-            </PageWrapper>
+            </PageWrapper >
 
             {/* 
         PAGE 3: 5.4 Expansion
       */}
-            <PageWrapper sectionLabel="SECTION 5: IMPLEMENTATION">
+            < PageWrapper sectionLabel="SECTION 5: IMPLEMENTATION" >
 
                 {/* 5.4 Organization Plan */}
-                <div style={{ marginBottom: 'var(--space-8)' }}>
+                < div style={{ marginBottom: 'var(--space-8)' }
+                }>
                     <h2 style={{ marginBottom: 'var(--space-4)' }}>5.4 Organization Plan: Leading the Scale-Up</h2>
 
                     <TextBlock style={{ marginBottom: 'var(--space-6)' }}>
@@ -258,10 +259,10 @@ export default function ImplementationSection() {
                     </div>
 
 
-                </div>
+                </div >
 
                 {/* 5.5 Geographic Expansion (Was 5.4) */}
-                <div style={{ borderTop: '1px solid #E2E8F0', paddingTop: 'var(--space-6)', marginBottom: 'var(--space-6)' }}>
+                < div style={{ borderTop: '1px solid #E2E8F0', paddingTop: 'var(--space-6)', marginBottom: 'var(--space-6)' }}>
                     <h2 style={{ marginBottom: 'var(--space-4)' }}>5.5 Geographic Expansion: Capability-Gated Sequencing</h2>
                     <p style={{ fontSize: '10px', color: '#64748b', marginBottom: 'var(--space-4)' }}>Expansion follows operational readiness, not calendar ambition. Each market entry is gated by demonstrated capability in the current footprint.</p>
 
@@ -311,7 +312,7 @@ export default function ImplementationSection() {
                 </div >
 
                 {/* Key Takeaways */}
-                <div style={{ borderTop: '2px solid var(--color-neutral-200)', paddingTop: 'var(--space-3)', marginTop: 'auto' }}>
+                < div style={{ borderTop: '2px solid var(--color-neutral-200)', paddingTop: 'var(--space-3)', marginTop: 'auto' }}>
                     <h3 style={{ fontSize: '11px', fontWeight: 800, color: 'var(--color-neutral-600)', marginBottom: 'var(--space-2)', letterSpacing: '0.05em' }}>5.6 KEY IMPLEMENTATION TAKEAWAYS</h3>
                     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-x-4) var(--space-y-3)' }}>
                         <div style={{ display: 'flex', gap: '8px' }}>
@@ -339,8 +340,8 @@ export default function ImplementationSection() {
                             </p>
                         </div>
                     </div>
-                </div>
-            </PageWrapper>
+                </div >
+            </PageWrapper >
         </>
     );
 }

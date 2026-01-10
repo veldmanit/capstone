@@ -7,6 +7,7 @@ import MarketSizingPyramid from '@/components/charts/MarketSizingPyramid';
 import ProudHostEmpathyMap from '@/components/charts/ProudHostEmpathyMap';
 import ValueCurve from '@/components/charts/ValueCurve';
 import PortersFiveForces from '@/components/charts/PortersFiveForces';
+import PestleSummaryVisual from '@/components/charts/PestleSummaryVisual';
 
 export default function ExternalAnalysisSection() {
     return (
@@ -41,6 +42,9 @@ export default function ExternalAnalysisSection() {
 
                 <div style={{ borderTop: '1px solid var(--color-neutral-300)', paddingTop: 'var(--space-8)' }}>
                     <h2 style={{ marginBottom: 'var(--space-6)' }}>2.2 A €315M Opportunity Across Three Markets</h2>
+                    <p style={{ fontSize: '10px', color: 'var(--color-neutral-600)', marginBottom: 'var(--space-2)' }}>
+                        For a detailed breakdown of the bottom-up market sizing methodology, see <strong>Appendix B</strong>.
+                    </p>
 
                     {/* Replaced KPI Blocks with MarketSizingPyramid */}
                     <MarketSizingPyramid />
@@ -70,44 +74,78 @@ export default function ExternalAnalysisSection() {
                     </p>
                 </div>
 
-                <div className="grid-container">
+                <div className="grid-container" style={{ gap: '12px' }}>
                     {/* Item 1 */}
-                    <div className="col-6" style={{ marginBottom: 'var(--space-6)' }}>
-                        <div style={{ background: 'var(--color-neutral-100)', padding: 'var(--space-4)', borderRadius: 'var(--border-radius-sm)', height: '100%' }}>
-                            <h3 style={{ fontSize: '16px', color: 'var(--color-primary)', marginBottom: 'var(--space-2)' }}>1. Outdoor living as an extension of the home</h3>
-                            <p style={{ fontSize: '14px' }}>
+                    <div className="col-6" style={{ marginBottom: '0' }}>
+                        <div style={{ background: 'var(--color-neutral-100)', padding: 'var(--space-3)', borderRadius: 'var(--border-radius-sm)', height: '100%' }}>
+                            <h3 style={{ fontSize: '13px', color: 'var(--color-primary)', marginBottom: '4px', fontWeight: 700 }}>1. Outdoor living as an extension of the home</h3>
+                            <p style={{ fontSize: '11px', lineHeight: '1.4' }}>
                                 Households increasingly invest in gardens and terraces as "second living rooms." Outdoor kitchens combine functional, aesthetic, and social value, making them attractive lifestyle purchases beyond pure cooking utility. The COVID-19 pandemic accelerated this trend, and consumer behavior has not reverted.
                             </p>
                         </div>
                     </div>
                     {/* Item 2 */}
-                    <div className="col-6" style={{ marginBottom: 'var(--space-6)' }}>
-                        <div style={{ background: 'var(--color-neutral-100)', padding: 'var(--space-4)', borderRadius: 'var(--border-radius-sm)', height: '100%' }}>
-                            <h3 style={{ fontSize: '16px', color: 'var(--color-primary)', marginBottom: 'var(--space-2)' }}>2. Premiumization and kamado culture</h3>
-                            <p style={{ fontSize: '14px' }}>
+                    <div className="col-6" style={{ marginBottom: '0' }}>
+                        <div style={{ background: 'var(--color-neutral-100)', padding: 'var(--space-3)', borderRadius: 'var(--border-radius-sm)', height: '100%' }}>
+                            <h3 style={{ fontSize: '13px', color: 'var(--color-primary)', marginBottom: '4px', fontWeight: 700 }}>2. Premiumization and kamado culture</h3>
+                            <p style={{ fontSize: '11px', lineHeight: '1.4' }}>
                                 Kamado grills represent approximately 5–10% of barbecue ownership across NL/BE/DE, corresponding to approximately 0.3–0.5M Dutch households, 0.2–0.3M Belgian households, and ~2.0M German households. Kamado category growth is estimated at 5–8% annually, faster than the broader European BBQ market at 4–5%. Kamado owners are a natural feeder segment for outdoor kitchen purchases: they have already invested in premium outdoor cooking and seek a proper setting for their equipment.
                             </p>
                         </div>
                     </div>
                     {/* Item 3 */}
                     <div className="col-6">
-                        <div style={{ background: 'var(--color-neutral-100)', padding: 'var(--space-4)', borderRadius: 'var(--border-radius-sm)', height: '100%' }}>
-                            <h3 style={{ fontSize: '16px', color: 'var(--color-primary)', marginBottom: 'var(--space-2)' }}>3. Experience-driven consumption</h3>
-                            <p style={{ fontSize: '14px' }}>
+                        <div style={{ background: 'var(--color-neutral-100)', padding: 'var(--space-3)', borderRadius: 'var(--border-radius-sm)', height: '100%' }}>
+                            <h3 style={{ fontSize: '13px', color: 'var(--color-primary)', marginBottom: '4px', fontWeight: 700 }}>3. Experience-driven consumption</h3>
+                            <p style={{ fontSize: '11px', lineHeight: '1.4' }}>
                                 Outdoor kitchens function as social infrastructure. For many households, the purchase is motivated by hosting, lifestyle pride, and status signaling. Customer feedback consistently highlights the "wow effect" and pride of ownership as central to perceived value. This emotional dimension supports premium pricing and brand differentiation.
                             </p>
                         </div>
                     </div>
                     {/* Item 4 */}
                     <div className="col-6">
-                        <div style={{ background: 'var(--color-neutral-100)', padding: 'var(--space-4)', borderRadius: 'var(--border-radius-sm)', height: '100%' }}>
-                            <h3 style={{ fontSize: '16px', color: 'var(--color-primary)', marginBottom: 'var(--space-2)' }}>4. A polarized market structure</h3>
-                            <p style={{ fontSize: '14px' }}>
+                        <div style={{ background: 'var(--color-neutral-100)', padding: 'var(--space-3)', borderRadius: 'var(--border-radius-sm)', height: '100%' }}>
+                            <h3 style={{ fontSize: '13px', color: 'var(--color-primary)', marginBottom: '4px', fontWeight: 700 }}>4. A polarized market structure</h3>
+                            <p style={{ fontSize: '11px', lineHeight: '1.4' }}>
                                 The market is polarized between low-budget DIY solutions and premium bespoke kitchens priced at €15,000–€50,000+. This price gap, the "Missing Middle," creates a structural opportunity for mid-premium brands offering high-quality design and durability at accessible pricing. Customers in this segment are underserved: they want more than cheap carts but cannot justify luxury prices for seasonal use.
                             </p>
                         </div>
                     </div>
                 </div>
+
+                {/* Market Dynamics: Seasonality & CLV */}
+                <div style={{
+                    display: 'flex',
+                    gap: 'var(--space-6)',
+                    background: 'var(--color-neutral-50)',
+                    border: '1px solid var(--color-neutral-200)',
+                    padding: 'var(--space-4)',
+                    borderRadius: 'var(--border-radius-sm)',
+                    marginBottom: 'var(--space-6)',
+                    marginTop: 'var(--space-6)'
+                }}>
+                    <div style={{ flex: 1 }}>
+                        <h4 style={{ fontSize: '11px', fontWeight: 800, color: 'var(--color-neutral-500)', textTransform: 'uppercase', marginBottom: '4px' }}>Purchase Cycle: Seasonal High-Immediacy</h4>
+                        <p style={{ fontSize: '11px', lineHeight: '1.4', color: 'var(--color-neutral-800)' }}>
+                            Demand is strongly seasonal, peaking in Spring/Summer (April–July). During this window, "Time to Enjoy" is the primary conversion driver. Lead times &gt;4 weeks kill conversion as customers want to use the product immediately. Fieldsman's stock-based model captures this urgency better than bespoke make-to-order competitors.
+                        </p>
+                    </div>
+                    <div style={{ width: '1px', background: 'var(--color-neutral-200)' }}></div>
+                    <div style={{ flex: 1 }}>
+                        <h4 style={{ fontSize: '11px', fontWeight: 800, color: 'var(--color-neutral-500)', textTransform: 'uppercase', marginBottom: '4px' }}>Lifetime Value: One-Off + Upgrades</h4>
+                        <p style={{ fontSize: '11px', lineHeight: '1.4', color: 'var(--color-neutral-800)' }}>
+                            The core unit is typically a one-time high-ticket investment (10-15 year lifespan). However, the modular system unlocks secondary CLV through module additions (e.g., adding a fridge or bar later) and accessory upgrades, extending value beyond the initial transaction.
+                        </p>
+                    </div>
+                </div>
+
+                {/* PESTLE Summary Visual */}
+                <TextBlock style={{ marginTop: 'var(--space-6)', marginBottom: 'var(--space-2)' }}>
+                    <p style={{ fontSize: '11px', color: 'var(--color-neutral-700)' }}>
+                        To validate the macro-environment for expansion, a comprehensive PESTLE analysis was conducted. The visual below summarizes the key strategic drivers, while the full detailed analysis is available in <strong>Appendix A</strong>.
+                    </p>
+                </TextBlock>
+                <PestleSummaryVisual />
             </PageWrapper>
 
             {/* 
@@ -115,6 +153,11 @@ export default function ExternalAnalysisSection() {
       */}
             <PageWrapper sectionLabel="SECTION 2: EXTERNAL ANALYSIS">
                 <h2 style={{ marginBottom: 'var(--space-4)' }}>2.4 What Customers Want: Design, Durability, and the "Wow Effect"</h2>
+                <div style={{ marginBottom: 'var(--space-4)' }}>
+                    <p style={{ fontSize: '10px', color: 'var(--color-neutral-600)' }}>
+                        Detailed persona profiles and empathy maps are available in <strong>Appendix C</strong>.
+                    </p>
+                </div>
                 <TextBlock columns={2}>
                     <p style={{ marginBottom: 'var(--space-3)' }}>
                         Fieldsman's core customer is "The Proud Host": aged 35–60, upper-middle income but value-conscious, owning a home with garden or terrace, typically a family or hosting-centric couple. Their budget sits in the €3K–€8K mid-premium comfort zone. They want something premium, but not a crazy luxury spend. Their job-to-be-done is clear: create a garden centerpiece that makes hosting effortless and earns compliments.
@@ -139,6 +182,9 @@ export default function ExternalAnalysisSection() {
 
             <PageWrapper sectionLabel="SECTION 2: EXTERNAL ANALYSIS">
                 <h2 style={{ marginBottom: 'var(--space-4)' }}>2.5 A Fragmented Market Without a Scaled Leader</h2>
+                <p style={{ fontSize: '10px', color: 'var(--color-neutral-600)', marginBottom: 'var(--space-4)' }}>
+                    For a comprehensive feature-by-feature competitor audit, see <strong>Appendix D</strong>.
+                </p>
                 <TextBlock style={{ marginBottom: 'var(--space-4)' }}>
                     <p>
                         The competitive landscape is fragmented and structurally polarized into five segments spanning from low budget to luxury. This polarization creates a clear gap, the "Missing Middle", where Fieldsman's modular strategy delivers unique value by combining premium quality with operational efficiency.

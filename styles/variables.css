@@ -126,14 +126,14 @@
   --grid-columns: 12;
   --grid-gutter: 4mm;
   /* 15.12px at 96dpi */
-  --grid-margin: 20mm;
+  --grid-margin: 12mm;
   /* 75.59px at 96dpi */
 
   /* =============== PAGE SETTINGS =============== */
   /* A4 Portrait: 210mm × 297mm */
   --page-width: 210mm;
   --page-height: 297mm;
-  --page-margin: 20mm;
+  --page-margin: 12mm;
   --page-margin-inner: 22mm;
   --page-margin-outer: 18mm;
   --page-bleed: 3mm;

@@ -2,15 +2,15 @@
 
 import React from 'react';
 
-interface FooterProps {
-  pageNumber: number;
-}
-
-export default function Footer({ pageNumber }: FooterProps) {
+/**
+ * Footer component
+ * - Displays page number using CSS counters.
+ */
+export default function Footer() {
   return (
     <footer className="report-footer">
       <div className="footer-content">
-        <div className="page-number">{pageNumber}</div>
+        <div className="page-number"></div>
       </div>
 
       <style jsx>{`
@@ -29,7 +29,8 @@ export default function Footer({ pageNumber }: FooterProps) {
           align-items: center;
         }
         
-        .page-number {
+        .page-number::after {
+          content: counter(page-count);
           font-family: var(--font-body);
           font-size: var(--font-size-small);
           font-weight: var(--font-weight-medium);

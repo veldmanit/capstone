@@ -134,6 +134,11 @@ export default function StrategicOptionsSection() {
             {/* PAGE 2: The Recommended Path Deep Dive */}
             <PageWrapper sectionLabel="SECTION 4: STRATEGIC OPTIONS">
                 <h2 style={{ marginBottom: 'var(--space-4)' }}>4.2 Recommended Strategy: Brand-Led Scale-Up</h2>
+                <div style={{ marginBottom: 'var(--space-4)' }}>
+                    <p style={{ fontSize: '10px', color: 'var(--color-neutral-600)' }}>
+                        Visualized in detail in the <strong>Business Model Canvas (Appendix E)</strong>.
+                    </p>
+                </div>
 
                 {/* Strategic Intent - Standardized Style */}
                 <div style={{ marginBottom: 'var(--space-6)' }}>
@@ -194,7 +199,7 @@ export default function StrategicOptionsSection() {
                 {/* Final Rationale Block */}
                 <div style={{ padding: 'var(--space-4)', background: '#F1F5F9', borderRadius: '4px', marginBottom: 'var(--space-4)' }}>
                     <p style={{ fontSize: '9.5px', color: '#475569', margin: 0, lineHeight: '1.5' }}>
-                        <strong style={{ color: '#1e293b' }}>Conclusion:</strong> By choosing Option 1, Fieldsman avoids the "complexity trap" of premature M&A and the "control trap" of master franchising. This path ensures the company remains the master of its own data and brand, which are the foundations for the AI-driven operational efficiencies planned in Appendix C.
+                        <strong style={{ color: '#1e293b' }}>Conclusion:</strong> By choosing Option 1, Fieldsman avoids the "complexity trap" of premature M&A and the "control trap" of master franchising. This path ensures the company remains the master of its own data and brand, which are the foundations for the AI-driven operational efficiencies planned in Section 5 (Implementation).
                     </p>
                 </div>
 

@@ -3,7 +3,6 @@
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
-import { useNextPageNumber } from '@/contexts/PageNumberContext';
 import '@/styles/variables.css';
 import '@/styles/global.css';
 import '@/styles/grid.css';
@@ -23,18 +22,16 @@ export default function PageWrapper({
   className = '',
   noPadding = false,
 }: PageWrapperProps) {
-  // Automatically get the next page number
-  const pageNumber = useNextPageNumber();
 
   return (
-    <div className={`page ${className}`}>
+    <div className={`page ${className} ${showPageNumber ? 'numbered-page' : ''}`}>
       {!noPadding && sectionLabel && <Header sectionLabel={sectionLabel} />}
 
       <div className={noPadding ? '' : 'page-content'}>
         {children}
       </div>
 
-      {!noPadding && showPageNumber && <Footer pageNumber={pageNumber} />}
+      {!noPadding && showPageNumber && <Footer />}
 
       <style jsx>{`
         .page {
@@ -43,6 +40,10 @@ export default function PageWrapper({
           background: white;
           position: relative;
           page-break-after: always;
+        }
+
+        .numbered-page {
+          counter-increment: page-count;
         }
         
         .page-content {

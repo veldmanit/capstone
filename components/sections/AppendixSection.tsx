@@ -4,14 +4,48 @@ import React from 'react';
 import PageWrapper from '@/components/layout/PageWrapper';
 import TextBlock from '@/components/content/TextBlock';
 import FieldsmanModules from '@/components/charts/FieldsmanModules';
+import PestleAnalysis from '@/components/sections/PestleAnalysis';
+import MarketSizingMethodology from '@/components/sections/MarketSizingMethodology';
+import CustomerPersonas from '@/components/sections/CustomerPersonas';
+import CompetitorAnalysis from '@/components/sections/CompetitorAnalysis';
+import BusinessModelCanvas from '@/components/sections/BusinessModelCanvas';
 
 export default function AppendixSection() {
     return (
         <React.Fragment>
-            {/* APPENDIX A: Modular Architecture */}
             <PageWrapper sectionLabel="APPENDIX">
+
+                {/* APPENDIX A: PESTLE Analysis */}
+                <PestleAnalysis />
+
+                <div style={{ height: '2px', background: 'var(--color-neutral-200)', margin: 'var(--space-8) 0' }}></div>
+
+                {/* APPENDIX B: Market Sizing */}
+                <MarketSizingMethodology />
+
+                <div style={{ height: '2px', background: 'var(--color-neutral-200)', margin: 'var(--space-8) 0' }}></div>
+
+                {/* APPENDIX C: Customer Personas */}
                 <div style={{ marginBottom: 'var(--space-8)' }}>
-                    <h2 style={{ marginBottom: 'var(--space-4)' }}>Appendix A: Modular Product Architecture</h2>
+                    <h2 style={{ marginBottom: 'var(--space-4)' }}>Appendix C: Customer Research & Personas</h2>
+                </div>
+                <CustomerPersonas />
+
+                <div style={{ height: '2px', background: 'var(--color-neutral-200)', margin: 'var(--space-8) 0' }}></div>
+
+                {/* APPENDIX D: Competitor Analysis */}
+                <CompetitorAnalysis />
+
+                <div style={{ height: '2px', background: 'var(--color-neutral-200)', margin: 'var(--space-8) 0' }}></div>
+
+                {/* APPENDIX E: Business Model Canvas */}
+                <BusinessModelCanvas />
+
+                <div style={{ height: '2px', background: 'var(--color-neutral-200)', margin: 'var(--space-8) 0' }}></div>
+
+                {/* APPENDIX F: Modular Architecture */}
+                <div style={{ marginBottom: 'var(--space-8)' }}>
+                    <h2 style={{ marginBottom: 'var(--space-4)' }}>Appendix F: Modular Product Architecture</h2>
                     <h3 style={{ fontSize: '18px', color: 'var(--color-neutral-600)', marginBottom: 'var(--space-6)' }}>Customization Without Complexity</h3>
 
                     <TextBlock columns={2}>
@@ -83,7 +117,8 @@ export default function AppendixSection() {
                     {/* Decorative element */}
                     <div style={{ position: 'absolute', right: '-20px', top: '-20px', width: '150px', height: '150px', background: 'var(--color-primary)', opacity: 0.1, borderRadius: '50%' }} />
                 </div>
+
             </PageWrapper>
-        </React.Fragment>
+        </React.Fragment >
     );
 }
