@@ -5,7 +5,8 @@ import PageWrapper from '@/components/layout/PageWrapper';
 import TextBlock from '@/components/content/TextBlock';
 import BottleneckVisual from '@/components/charts/BottleneckVisual';
 import CustomerJourney from '@/components/charts/CustomerJourney';
-import CommercialArchitecture from '@/components/charts/CommercialArchitecture'; // Added this import
+import CommercialArchitecture from '@/components/charts/CommercialArchitecture';
+import ProductionSolution from '@/components/charts/ProductionSolution'; // Added this import
 
 export default function ImplementationSection() {
     return (
@@ -192,48 +193,29 @@ export default function ImplementationSection() {
                 <div style={{ marginBottom: 'var(--space-8)' }}>
                     <h2 style={{ marginBottom: 'var(--space-4)' }}>5.3 Production Transformation: Controlling the Bottleneck</h2>
 
-                    {/* Visual Constraint */}
-                    <div style={{ marginBottom: 'var(--space-6)' }}>
-                        <BottleneckVisual />
-                    </div>
-
-                    <TextBlock columns={2}>
-                        <div>
-                            <h4 style={{ fontSize: '11px', fontWeight: 800, color: '#1e293b', marginBottom: '6px', textTransform: 'uppercase' }}>The Strategic Logic</h4>
-                            <p style={{ fontSize: '10px', color: '#475569', lineHeight: '1.5', margin: 0 }}>
-                                Fieldsman's growth is currently constrained by production, not demand. The transformation reverses current logic: <strong>outsource what is standardized, control what is customized.</strong>
-                                <br /><br />
+                    {/* Strategic Logic Text (Full Width) */}
+                    <TextBlock style={{ marginBottom: 'var(--space-6)' }}>
+                        <h4 style={{ fontSize: '11px', fontWeight: 800, color: '#1e293b', marginBottom: '6px', textTransform: 'uppercase' }}>The Strategic Logic</h4>
+                        <p style={{ fontSize: '10px', color: '#475569', lineHeight: '1.5', marginBottom: '16px' }}>
+                            Fieldsman's growth is currently constrained by production, not demand. The transformation reverses current logic: <strong>outsource what is standardized, control what is customized.</strong> This hybrid approach breaks the "Capacity Trap" by decoupling volume from fixed payroll.
+                        </p>
+                        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: 'var(--space-4)' }}>
+                            <div>
                                 <strong>Steel Frames (Commodity):</strong> Standardized, repeatable components are mass-produced in China. This converts fixed skilled labor into variable unit cost and removes the throughput ceiling.
-                                <br /><br />
-                                <strong>Countertops (Differentiation):</strong> Bespoke per kitchen. Vertical integration of cutting capabilities becomes a competitive advantage, reducing cost from <strong>€900 to €100</strong> per kitchen and slashing lead times from <strong>8 weeks to 2 weeks</strong>.
-                                <br /><br />
-                                <strong>Assembly (Flexibility):</strong> Standardized final assembly scales with temporary labor during peak season, maintaining flexibility without fixed payroll risk.
-                            </p>
-                        </div>
-                        <div>
-                            <h4 style={{ fontSize: '11px', fontWeight: 800, color: '#1e293b', marginBottom: '6px', textTransform: 'uppercase' }}>Transformation Outcome</h4>
-                            <div style={{ background: '#F0FDF4', border: '1px solid #BBF7D0', borderRadius: '4px', padding: '12px' }}>
-                                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
-                                    <div>
-                                        <div style={{ fontSize: '8px', color: '#166534', fontWeight: 700, textTransform: 'uppercase' }}>Capacity</div>
-                                        <div style={{ fontSize: '12px', color: '#15803d', fontWeight: 800 }}>50 → 5,000 / yr</div>
-                                    </div>
-                                    <div>
-                                        <div style={{ fontSize: '8px', color: '#166534', fontWeight: 700, textTransform: 'uppercase' }}>Countertop Cost</div>
-                                        <div style={{ fontSize: '12px', color: '#15803d', fontWeight: 800 }}>€900 → €100</div>
-                                    </div>
-                                    <div>
-                                        <div style={{ fontSize: '8px', color: '#166534', fontWeight: 700, textTransform: 'uppercase' }}>Lead Time</div>
-                                        <div style={{ fontSize: '12px', color: '#15803d', fontWeight: 800 }}>8 wks → 2 wks</div>
-                                    </div>
-                                    <div>
-                                        <div style={{ fontSize: '8px', color: '#166534', fontWeight: 700, textTransform: 'uppercase' }}>Payroll Risk</div>
-                                        <div style={{ fontSize: '12px', color: '#15803d', fontWeight: 800 }}>Minimal (Flex)</div>
-                                    </div>
-                                </div>
+                            </div>
+                            <div>
+                                <strong>Countertops (Differentiation):</strong> Bespoke per kitchen. Vertical integration of cutting capabilities becomes a competitive advantage, reducing cost from <strong>€900 to €100</strong> and lead times from <strong>8 weeks to 2 weeks</strong>.
+                            </div>
+                            <div>
+                                <strong>Flex Assembly Line (Quality):</strong> Centralizing final assembly in the NL hub allows for 100% quality control before dispatch. The line scales with temporary labor during peak season, maintaining flexibility without fixed payroll risk.
                             </div>
                         </div>
                     </TextBlock>
+
+                    {/* New Full-Width Solution Visual */}
+                    <div style={{ marginBottom: 'var(--space-4)' }}>
+                        <ProductionSolution />
+                    </div>
                 </div>
             </PageWrapper>
 
