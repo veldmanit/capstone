@@ -53,15 +53,15 @@ export default function InternalAnalysisSection() {
                                         <div style={{ fontSize: '8px', fontWeight: 700 }}>OPS</div>
                                         <div style={{ fontSize: '7px', opacity: 0.8 }}>€0.6k</div>
                                     </div>
-                                    <div style={{ width: '9%', background: '#475569', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', color: 'white', borderRight: '1px solid rgba(255,255,255,0.1)' }}>
+                                    <div style={{ width: '9%', background: 'var(--color-neutral-600)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', color: 'white', borderRight: '1px solid rgba(255,255,255,0.1)' }}>
                                         <div style={{ fontSize: '8px', fontWeight: 700 }}>MKTG</div>
                                         <div style={{ fontSize: '7px', opacity: 0.8 }}>€0.8k</div>
                                     </div>
-                                    <div style={{ width: '22%', background: '#16a34a', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', color: 'white', borderRight: '1px solid rgba(255,255,255,0.2)' }}>
+                                    <div style={{ width: '22%', background: 'var(--color-primary)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', color: 'white', borderRight: '1px solid rgba(255,255,255,0.2)' }}>
                                         <div style={{ fontSize: '9px', fontWeight: 700 }}>PROFIT</div>
                                         <div style={{ fontSize: '7px', opacity: 0.8 }}>€1.9k</div>
                                     </div>
-                                    <div style={{ width: '41%', background: '#e2e8f0', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', color: '#475569', borderLeft: '1px solid white' }}>
+                                    <div style={{ width: '41%', background: 'var(--color-neutral-200)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', color: 'var(--color-neutral-600)', borderLeft: '1px solid white' }}>
                                         <div style={{ fontSize: '9px', fontWeight: 700 }}>RETAIL MARGIN (40%)</div>
                                         <div style={{ fontSize: '8px', color: '#64748b' }}>~€3.4k</div>
                                     </div>
@@ -73,7 +73,7 @@ export default function InternalAnalysisSection() {
 
                             {/* Fieldsman D2C Bar */}
                             <div style={{ position: 'relative' }}>
-                                <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '8px', fontSize: '11px', fontWeight: 600, color: 'var(--color-primary-main)' }}>
+                                <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '8px', fontSize: '11px', fontWeight: 600, color: 'var(--color-primary)' }}>
                                     <span>Fieldsman D2C Model</span>
                                     <span>Target Price: ~€5,000</span>
                                 </div>
@@ -99,12 +99,12 @@ export default function InternalAnalysisSection() {
                                             <div style={{ fontSize: '8px', opacity: 0.8 }}>€0.6k</div>
                                         </div>
                                         {/* MKTG €0.7k / €5k = 14% */}
-                                        <div style={{ width: '20%', background: '#475569', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', color: 'white', borderRight: '1px solid rgba(255,255,255,0.1)' }}>
+                                        <div style={{ width: '20%', background: 'var(--color-neutral-600)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', color: 'white', borderRight: '1px solid rgba(255,255,255,0.1)' }}>
                                             <div style={{ fontSize: '9px', fontWeight: 700 }}>MKTG</div>
                                             <div style={{ fontSize: '8px', opacity: 0.8 }}>€1.0k</div>
                                         </div>
                                         {/* PROFIT €1.9k / €5k = 38% */}
-                                        <div style={{ width: '32%', background: '#16a34a', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', color: 'white' }}>
+                                        <div style={{ width: '32%', background: 'var(--color-primary)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', color: 'white' }}>
                                             <div style={{ fontSize: '9px', fontWeight: 700 }}>PROFIT</div>
                                             <div style={{ fontSize: '9px', opacity: 0.9 }}>€1.6k (32%)</div>
                                         </div>
@@ -118,9 +118,9 @@ export default function InternalAnalysisSection() {
                                         alignItems: 'center',
                                         justifyContent: 'center',
                                         borderRadius: '4px',
-                                        border: '1px dashed #16a34a',
-                                        background: 'repeating-linear-gradient(-45deg, #f0fdf4, #f0fdf4 4px, white 4px, white 8px)',
-                                        color: '#15803d',
+                                        border: '1px dashed var(--color-primary)',
+                                        background: 'repeating-linear-gradient(-45deg, rgba(74, 93, 35, 0.08), rgba(74, 93, 35, 0.08) 4px, white 4px, white 8px)',
+                                        color: 'var(--color-primary)',
                                         fontSize: '10px',
                                         fontWeight: 700
                                     }}>
@@ -153,14 +153,14 @@ export default function InternalAnalysisSection() {
                     {/* ORGANOGRAM */}
                     <OrganizationalStructure />
 
-                    <h3 style={{ fontSize: '13px', marginTop: 'var(--space-8)', marginBottom: 'var(--space-6)', color: 'var(--color-primary-main)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Current Performance Snapshot</h3>
+                    <h3 style={{ fontSize: '13px', marginTop: 'var(--space-8)', marginBottom: 'var(--space-6)', color: 'var(--color-primary)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Current Performance Snapshot</h3>
                     <div className="grid-container" style={{ gap: 'var(--space-6)', marginBottom: 'var(--space-8)' }}>
                         <div className="col-4">
                             <KPIBlock
                                 value="40%"
                                 label="Profit Margin"
                                 context="~€80k Profit on €200k Net Rev"
-                                accentColor="#2563eb"
+                                accentColor="var(--color-primary)"
                             />
                         </div>
                         <div className="col-4">
@@ -168,7 +168,7 @@ export default function InternalAnalysisSection() {
                                 value="<€100"
                                 label="CAC"
                                 context="Customer Acquisition Cost"
-                                accentColor="#0ea5e9"
+                                accentColor="var(--color-secondary)"
                             />
                         </div>
                         <div className="col-4">
@@ -176,7 +176,7 @@ export default function InternalAnalysisSection() {
                                 value="40x"
                                 label="ROAS"
                                 context="Return on Ad Spend"
-                                accentColor="#475569"
+                                accentColor="var(--color-primary)"
                             />
                         </div>
                     </div>
@@ -259,34 +259,34 @@ export default function InternalAnalysisSection() {
                         <tbody>
                             <tr style={{ borderBottom: '1px solid #F1F5F9' }}>
                                 <td style={{ padding: '3px 8px', fontWeight: 600 }}>Modular Product Architecture</td>
-                                <td style={{ textAlign: 'center', color: '#16a34a', fontWeight: 800 }}>✓</td>
-                                <td style={{ textAlign: 'center', color: '#16a34a', fontWeight: 800 }}>✓</td>
-                                <td style={{ textAlign: 'center', color: '#dc2626', fontWeight: 800 }}>✗</td>
-                                <td style={{ textAlign: 'center', color: '#16a34a', fontWeight: 800 }}>✓</td>
+                                <td style={{ textAlign: 'center', color: 'var(--color-primary)', fontWeight: 800 }}>✓</td>
+                                <td style={{ textAlign: 'center', color: 'var(--color-primary)', fontWeight: 800 }}>✓</td>
+                                <td style={{ textAlign: 'center', color: 'var(--color-neutral-600)', fontWeight: 800 }}>✗</td>
+                                <td style={{ textAlign: 'center', color: 'var(--color-primary)', fontWeight: 800 }}>✓</td>
                                 <td style={{ padding: '3px 8px' }}><strong>Temporary Advantage:</strong> Replicable by industrial players.</td>
                             </tr>
                             <tr style={{ borderBottom: '1px solid #F1F5F9' }}>
                                 <td style={{ padding: '3px 8px', fontWeight: 600 }}>D2C Model + Configurator</td>
-                                <td style={{ textAlign: 'center', color: '#16a34a', fontWeight: 800 }}>✓</td>
-                                <td style={{ textAlign: 'center', color: '#16a34a', fontWeight: 800 }}>✓</td>
-                                <td style={{ textAlign: 'center', color: '#dc2626', fontWeight: 800 }}>✗</td>
-                                <td style={{ textAlign: 'center', color: '#16a34a', fontWeight: 800 }}>✓</td>
+                                <td style={{ textAlign: 'center', color: 'var(--color-primary)', fontWeight: 800 }}>✓</td>
+                                <td style={{ textAlign: 'center', color: 'var(--color-primary)', fontWeight: 800 }}>✓</td>
+                                <td style={{ textAlign: 'center', color: 'var(--color-neutral-600)', fontWeight: 800 }}>✗</td>
+                                <td style={{ textAlign: 'center', color: 'var(--color-primary)', fontWeight: 800 }}>✓</td>
                                 <td style={{ padding: '3px 8px' }}><strong>Temporary Advantage:</strong> Software is a commodity.</td>
                             </tr>
                             <tr style={{ borderBottom: '1px solid #F1F5F9' }}>
                                 <td style={{ padding: '3px 8px', fontWeight: 600 }}>Brand Proposition</td>
-                                <td style={{ textAlign: 'center', color: '#16a34a', fontWeight: 800 }}>✓</td>
-                                <td style={{ textAlign: 'center', color: '#94a3b8', fontWeight: 800 }}>○</td>
-                                <td style={{ textAlign: 'center', color: '#94a3b8', fontWeight: 800 }}>○</td>
-                                <td style={{ textAlign: 'center', color: '#94a3b8', fontWeight: 800 }}>○</td>
+                                <td style={{ textAlign: 'center', color: 'var(--color-primary)', fontWeight: 800 }}>✓</td>
+                                <td style={{ textAlign: 'center', color: 'var(--color-neutral-500)', fontWeight: 800 }}>○</td>
+                                <td style={{ textAlign: 'center', color: 'var(--color-neutral-500)', fontWeight: 800 }}>○</td>
+                                <td style={{ textAlign: 'center', color: 'var(--color-neutral-500)', fontWeight: 800 }}>○</td>
                                 <td style={{ padding: '3px 8px' }}><strong>Competitive Parity:</strong> Needs scale to become defensible.</td>
                             </tr>
                             <tr style={{ borderBottom: '1px solid #F1F5F9' }}>
                                 <td style={{ padding: '3px 8px', fontWeight: 600 }}>Founder Expertise</td>
-                                <td style={{ textAlign: 'center', color: '#16a34a', fontWeight: 800 }}>✓</td>
-                                <td style={{ textAlign: 'center', color: '#16a34a', fontWeight: 800 }}>✓</td>
-                                <td style={{ textAlign: 'center', color: '#16a34a', fontWeight: 800 }}>✓</td>
-                                <td style={{ textAlign: 'center', color: '#dc2626', fontWeight: 800 }}>✗</td>
+                                <td style={{ textAlign: 'center', color: 'var(--color-primary)', fontWeight: 800 }}>✓</td>
+                                <td style={{ textAlign: 'center', color: 'var(--color-primary)', fontWeight: 800 }}>✓</td>
+                                <td style={{ textAlign: 'center', color: 'var(--color-primary)', fontWeight: 800 }}>✓</td>
+                                <td style={{ textAlign: 'center', color: 'var(--color-neutral-600)', fontWeight: 800 }}>✗</td>
                                 <td style={{ padding: '3px 8px' }}><strong>Unused Advantage:</strong> Bottlenecked by manual capacity.</td>
                             </tr>
                         </tbody>
@@ -304,44 +304,44 @@ export default function InternalAnalysisSection() {
                     <h3 style={{ fontSize: '11px', fontWeight: 800, color: 'var(--color-neutral-600)', marginBottom: 'var(--space-2)', letterSpacing: '0.05em' }}>SWOT STRATEGIC MATRIX</h3>
                     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-3)' }}>
                         {/* Strengths */}
-                        <div style={{ background: '#F0FDF4', padding: 'var(--space-3)', border: '1px solid #BBF7D0', borderTop: '4px solid #16a34a', borderRadius: '4px', boxShadow: '0 1px 3px rgba(0,0,0,0.05)' }}>
-                            <h4 style={{ fontSize: '10px', fontWeight: 800, color: '#166534', marginBottom: '4px', display: 'flex', alignItems: 'center', gap: '6px' }}>
-                                <span style={{ color: '#16a34a', fontSize: '12px' }}>↑</span> STRENGTHS
+                        <div style={{ background: 'var(--color-primary-100)', padding: 'var(--space-3)', border: '1px solid var(--color-primary-200)', borderTop: '4px solid var(--color-primary)', borderRadius: '4px', boxShadow: '0 1px 3px rgba(0,0,0,0.05)' }}>
+                            <h4 style={{ fontSize: '10px', fontWeight: 800, color: 'var(--color-primary-700)', marginBottom: '4px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                                <span style={{ color: 'var(--color-primary)', fontSize: '12px' }}>↑</span> STRENGTHS
                             </h4>
-                            <ul style={{ fontSize: '9px', color: '#14532D', paddingLeft: '12px', margin: 0, lineHeight: '1.4' }}>
+                            <ul style={{ fontSize: '9px', color: 'var(--color-primary-800)', paddingLeft: '12px', margin: 0, lineHeight: '1.4' }}>
                                 <li style={{ marginBottom: '2px' }}><strong>Lean Model:</strong> High D2C margins (~40%) vs industry.</li>
                                 <li style={{ marginBottom: '2px' }}><strong>Agility:</strong> Fast iteration cycles.</li>
                                 <li><strong>Proprietary Configurator:</strong> High conversion tool.</li>
                             </ul>
                         </div>
                         {/* Weaknesses */}
-                        <div style={{ background: '#FEF2F2', padding: 'var(--space-3)', border: '1px solid #FECACA', borderTop: '4px solid #dc2626', borderRadius: '4px', boxShadow: '0 1px 3px rgba(0,0,0,0.05)' }}>
-                            <h4 style={{ fontSize: '10px', fontWeight: 800, color: '#991B1B', marginBottom: '4px', display: 'flex', alignItems: 'center', gap: '6px' }}>
-                                <span style={{ color: '#dc2626', fontSize: '12px' }}>↓</span> WEAKNESSES
+                        <div style={{ background: 'var(--color-neutral-100)', padding: 'var(--space-3)', border: '1px solid var(--color-neutral-200)', borderTop: '4px solid var(--color-neutral-600)', borderRadius: '4px', boxShadow: '0 1px 3px rgba(0,0,0,0.05)' }}>
+                            <h4 style={{ fontSize: '10px', fontWeight: 800, color: 'var(--color-neutral-700)', marginBottom: '4px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                                <span style={{ color: 'var(--color-neutral-600)', fontSize: '12px' }}>↓</span> WEAKNESSES
                             </h4>
-                            <ul style={{ fontSize: '9px', color: '#7F1D1D', paddingLeft: '12px', margin: 0, lineHeight: '1.4' }}>
+                            <ul style={{ fontSize: '9px', color: 'var(--color-neutral-800)', paddingLeft: '12px', margin: 0, lineHeight: '1.4' }}>
                                 <li style={{ marginBottom: '2px' }}><strong>Zero Brand Equity:</strong> Purely paid-traffic dependent.</li>
                                 <li style={{ marginBottom: '2px' }}><strong>Fragility:</strong> Founder-dependency & manual process.</li>
                                 <li><strong>Capital:</strong> Self-funded limits speed vs VC/Industrial.</li>
                             </ul>
                         </div>
                         {/* Opportunities */}
-                        <div style={{ background: '#F0F9FF', padding: 'var(--space-3)', border: '1px solid #BAE6FD', borderTop: '4px solid #2563eb', borderRadius: '4px', boxShadow: '0 1px 3px rgba(0,0,0,0.05)' }}>
-                            <h4 style={{ fontSize: '10px', fontWeight: 800, color: '#0369A1', marginBottom: '4px', display: 'flex', alignItems: 'center', gap: '6px' }}>
-                                <span style={{ color: '#2563eb', fontSize: '12px' }}>⊕</span> OPPORTUNITIES
+                        <div style={{ background: 'var(--color-secondary-100)', padding: 'var(--space-3)', border: '1px solid var(--color-secondary-200)', borderTop: '4px solid var(--color-secondary)', borderRadius: '4px', boxShadow: '0 1px 3px rgba(0,0,0,0.05)' }}>
+                            <h4 style={{ fontSize: '10px', fontWeight: 800, color: 'var(--color-secondary-700)', marginBottom: '4px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                                <span style={{ color: 'var(--color-secondary)', fontSize: '12px' }}>⊕</span> OPPORTUNITIES
                             </h4>
-                            <ul style={{ fontSize: '9px', color: '#075985', paddingLeft: '12px', margin: 0, lineHeight: '1.4' }}>
+                            <ul style={{ fontSize: '9px', color: 'var(--color-secondary-800)', paddingLeft: '12px', margin: 0, lineHeight: '1.4' }}>
                                 <li style={{ marginBottom: '2px' }}><strong>"The Missing Middle":</strong> Structural gap in €3-8k segment.</li>
                                 <li style={{ marginBottom: '2px' }}><strong>Industrialization:</strong> Robotization to break manual cap.</li>
                                 <li><strong>Germany:</strong> 10x market size with high modular fit.</li>
                             </ul>
                         </div>
                         {/* Threats */}
-                        <div style={{ background: '#FFFBEB', padding: 'var(--space-3)', border: '1px solid #FDE68A', borderTop: '4px solid #ca8a04', borderRadius: '4px', boxShadow: '0 1px 3px rgba(0,0,0,0.05)' }}>
-                            <h4 style={{ fontSize: '10px', fontWeight: 800, color: '#B45309', marginBottom: '4px', display: 'flex', alignItems: 'center', gap: '6px' }}>
-                                <span style={{ color: '#ca8a04', fontSize: '12px' }}>⚠</span> THREATS
+                        <div style={{ background: 'var(--color-neutral-100-yellow)', padding: 'var(--space-3)', border: '1px solid var(--color-neutral-200-yellow)', borderTop: '4px solid var(--color-neutral-600-yellow)', borderRadius: '4px', boxShadow: '0 1px 3px rgba(0,0,0,0.05)' }}>
+                            <h4 style={{ fontSize: '10px', fontWeight: 800, color: 'var(--color-neutral-700-yellow)', marginBottom: '4px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                                <span style={{ color: 'var(--color-neutral-600-yellow)', fontSize: '12px' }}>⚠</span> THREATS
                             </h4>
-                            <ul style={{ fontSize: '9px', color: '#92400E', paddingLeft: '12px', margin: 0, lineHeight: '1.4' }}>
+                            <ul style={{ fontSize: '9px', color: 'var(--color-neutral-800-yellow)', paddingLeft: '12px', margin: 0, lineHeight: '1.4' }}>
                                 <li style={{ marginBottom: '2px' }}><strong>Industrial Copycats:</strong> Low barrier to entry for big players.</li>
                                 <li style={{ marginBottom: '2px' }}><strong>Rising CAC:</strong> Dependence on Meta/Google ad costs.</li>
                                 <li><strong>Supply Chain:</strong> Steel price volatility & import delays.</li>
@@ -358,30 +358,30 @@ export default function InternalAnalysisSection() {
 
                 {/* Key Takeaways - Premium Styling */}
                 <div style={{ borderTop: '2px solid #E2E8F0', paddingTop: 'var(--space-3)', marginTop: 'var(--space-2)' }}>
-                    <h3 style={{ fontSize: '11px', fontWeight: 800, color: 'var(--color-neutral-600)', marginBottom: 'var(--space-2)', letterSpacing: '0.05em' }}>3.4 KEY INTERNAL TAKEAWAYS</h3>
+                    <h3 style={{ fontSize: '11px', fontWeight: 800, color: 'var(--color-neutral-600)', marginBottom: 'var(--space-2)', letterSpacing: '0.05em' }}>4.5 KEY INTERNAL TAKEAWAYS</h3>
                     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-x-4) var(--space-y-3)' }}>
                         <div style={{ display: 'flex', gap: '8px' }}>
-                            <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary-main)', color: 'white', borderRadius: '50%', fontSize: '9px', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>1</div>
+                            <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary)', color: 'white', borderRadius: '50%', fontSize: '9px', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>1</div>
                             <p style={{ fontSize: '9.5px', color: 'var(--color-neutral-700)', lineHeight: '1.4', margin: 0 }}>
-                                <strong style={{ color: '#0f172a' }}>Proven Fit:</strong> Demand is massive but constrained by internal throughput, not market interest.
+                                <strong style={{ color: 'var(--color-neutral-900)' }}>Proven Fit:</strong> Demand is massive but constrained by internal throughput, not market interest.
                             </p>
                         </div>
                         <div style={{ display: 'flex', gap: '8px' }}>
-                            <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary-main)', color: 'white', borderRadius: '50%', fontSize: '9px', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>2</div>
+                            <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary)', color: 'white', borderRadius: '50%', fontSize: '9px', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>2</div>
                             <p style={{ fontSize: '9.5px', color: 'var(--color-neutral-700)', lineHeight: '1.4', margin: 0 }}>
-                                <strong style={{ color: '#0f172a' }}>The Moat:</strong> Modular architecture decouples customization from complexity—key for scaling.
+                                <strong style={{ color: 'var(--color-neutral-900)' }}>The Moat:</strong> Modular architecture decouples customization from complexity—key for scaling.
                             </p>
                         </div>
                         <div style={{ display: 'flex', gap: '8px' }}>
-                            <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary-main)', color: 'white', borderRadius: '50%', fontSize: '9px', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>3</div>
+                            <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary)', color: 'white', borderRadius: '50%', fontSize: '9px', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>3</div>
                             <p style={{ fontSize: '9.5px', color: 'var(--color-neutral-700)', lineHeight: '1.4', margin: 0 }}>
-                                <strong style={{ color: '#0f172a' }}>Shift Required:</strong> Moving from founder-manual logic to system-logic is the only way to scale.
+                                <strong style={{ color: 'var(--color-neutral-900)' }}>Shift Required:</strong> Moving from founder-manual logic to system-logic is the only way to scale.
                             </p>
                         </div>
                         <div style={{ display: 'flex', gap: '8px' }}>
-                            <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary-main)', color: 'white', borderRadius: '50%', fontSize: '9px', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>4</div>
+                            <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary)', color: 'white', borderRadius: '50%', fontSize: '9px', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>4</div>
                             <p style={{ fontSize: '9.5px', color: 'var(--color-neutral-700)', lineHeight: '1.4', margin: 0 }}>
-                                <strong style={{ color: '#0f172a' }}>Protect Margins:</strong> The ~40% D2C margin is the financial engine and must be defended.
+                                <strong style={{ color: 'var(--color-neutral-900)' }}>Protect Margins:</strong> The ~40% D2C margin is the financial engine and must be defended.
                             </p>
                         </div>
                     </div>

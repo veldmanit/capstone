@@ -3,6 +3,10 @@
 import React from 'react';
 import { PageNumberProvider } from '@/contexts/PageNumberContext';
 import CoverPage from '@/components/pages/CoverPage';
+import AcknowledgementPage from '@/components/pages/AcknowledgementPage';
+import AboutAuthorPage from '@/components/pages/AboutAuthorPage';
+import GlossaryPage from '@/components/pages/GlossaryPage';
+import ExecutiveSummaryPage from '@/components/pages/ExecutiveSummaryPage';
 import SectionDivider from '@/components/pages/SectionDivider';
 import TableOfContents from '@/components/pages/TableOfContents';
 import PageWrapper from '@/components/layout/PageWrapper';
@@ -35,6 +39,18 @@ export default function ReportPage() {
           author="Raymon H. Veldman | EMBA Sep 2024"
           date="2026"
         />
+
+        {/* Acknowledgement Page - No page number */}
+        <AcknowledgementPage />
+
+        {/* About Author Page - No page number */}
+        <AboutAuthorPage />
+
+        {/* Glossary Page - No page number */}
+        <GlossaryPage />
+
+        {/* Executive Summary Page - No page number */}
+        <ExecutiveSummaryPage />
 
         {/* Table of Contents */}
         <PageWrapper sectionLabel="CONTENTS">
@@ -81,7 +97,7 @@ export default function ReportPage() {
           sectionNumber={5}
           title="Implementation"
           subtitle="Transforming Fieldsman for Scale"
-          accentColor="var(--color-primary-main)"
+          accentColor="var(--color-primary)"
         />
         <ImplementationSection />
 

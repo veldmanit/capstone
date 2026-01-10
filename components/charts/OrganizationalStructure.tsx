@@ -71,7 +71,7 @@ export default function OrganizationalStructure() {
                     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '130px' }}>
                         <div style={{ ...cardStyle, width: '100%', minHeight: '80px', display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '8px' }}>
                             <div style={nameStyle}>Raymon Veldman</div>
-                            <div style={{ ...roleStyle, color: 'var(--color-primary-main)', fontWeight: 600, marginBottom: '2px' }}>CEO/CFO</div>
+                            <div style={{ ...roleStyle, color: 'var(--color-primary)', fontWeight: 600, marginBottom: '2px' }}>CEO/CFO</div>
                             <div style={{ fontSize: '8px', color: '#64748b', lineHeight: '1.2' }}>Strategy, Sales, Finance, IT</div>
                         </div>
                         {/* Stem with 1/3 Label */}
@@ -85,7 +85,7 @@ export default function OrganizationalStructure() {
                     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '130px' }}>
                         <div style={{ ...cardStyle, width: '100%', minHeight: '80px', display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '8px' }}>
                             <div style={nameStyle}>Herald Veldman</div>
-                            <div style={{ ...roleStyle, color: 'var(--color-primary-main)', fontWeight: 600, marginBottom: '2px' }}>Head of Ops</div>
+                            <div style={{ ...roleStyle, color: 'var(--color-primary)', fontWeight: 600, marginBottom: '2px' }}>Head of Ops</div>
                             <div style={{ fontSize: '8px', color: '#64748b', lineHeight: '1.2' }}>Assembly, Delivery, Service</div>
                         </div>
                         {/* Stem with 1/3 Label */}
@@ -99,7 +99,7 @@ export default function OrganizationalStructure() {
                     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '130px' }}>
                         <div style={{ ...cardStyle, width: '100%', minHeight: '80px', display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '8px' }}>
                             <div style={nameStyle}>Jurrian Veldman</div>
-                            <div style={{ ...roleStyle, color: 'var(--color-primary-main)', fontWeight: 600, marginBottom: '2px' }}>COO</div>
+                            <div style={{ ...roleStyle, color: 'var(--color-primary)', fontWeight: 600, marginBottom: '2px' }}>COO</div>
                             <div style={{ fontSize: '8px', color: '#64748b', lineHeight: '1.2' }}>Product Design, Supply Chain</div>
                         </div>
                         {/* Stem with 1/3 Label */}
@@ -163,7 +163,7 @@ export default function OrganizationalStructure() {
                         </div>
                     </div>
 
-                    {/* Welding */}
+                    {/* Production */}
                     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', margin: '0 6px', width: '130px' }}>
                         <div style={{ width: '1px', height: '10px', background: '#cbd5e1', marginTop: '-10px' }}></div> {/* Stem Up */}
                         <div style={{ ...cardStyle, width: '100%', background: 'white' }}>

@@ -12,8 +12,7 @@ export default function IntroductionSection() {
         Contains: Main Intro + 1.1 Company Background + 1.2 Scaling Dilemma
       */}
             <PageWrapper sectionLabel="SECTION 1: INTRODUCTION">
-                {/* Main Intro Text */}
-                <div style={{ marginBottom: 'var(--space-8)', fontSize: '18px', fontWeight: 500, color: 'var(--color-primary-main)' }}>
+                <div style={{ marginBottom: 'var(--space-8)', fontSize: '18px', fontWeight: 500, color: 'var(--color-primary)' }}>
                     <p>
                         Fieldsman has a problem most startups would envy: it stops advertising every May, not because demand weakens, but because it cannot produce enough kitchens to meet it. This capstone addresses how to solve that constraint and scale the company into a European market leader.
                     </p>
@@ -77,17 +76,17 @@ export default function IntroductionSection() {
                         </h2>
 
                         <div style={{
-                            background: 'var(--color-primary-background)',
+                            background: 'var(--color-neutral-50)',
                             padding: 'var(--space-6)',
                             borderRadius: 'var(--border-radius-md)',
-                            borderLeft: '4px solid var(--color-primary-main)',
+                            borderLeft: '4px solid var(--color-primary)',
                             marginBottom: 'var(--space-6)'
                         }}>
                             {/* Highlight the key strategic question */}
                             <p style={{ marginBottom: 'var(--space-2)' }}>
                                 This capstone addresses a single strategic question:
                             </p>
-                            <p style={{ fontWeight: 700, fontSize: '16px', color: 'var(--color-primary-main)' }}>
+                            <p style={{ fontWeight: 700, fontSize: '16px', color: 'var(--color-primary)' }}>
                                 What go-to-market and production model will allow Fieldsman to scale nationally and expand internationally within five years, while preserving its brand equity and operational control?
                             </p>
                         </div>

@@ -160,7 +160,7 @@ const CustomerJourney: React.FC = () => {
                                         x={cx}
                                         y={point.type === 'digital' ? cy - 12 : cy + 22}
                                         textAnchor="middle"
-                                        fill="#475569"
+                                        fill="var(--color-neutral-600)"
                                         fontSize="9"
                                         fontWeight="700"
                                     >

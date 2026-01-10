@@ -11,7 +11,7 @@ const CommercialArchitecture = () => {
             boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)'
         }}>
             <div style={{ textAlign: 'center', marginBottom: '20px' }}>
-                <h3 style={{ fontSize: '14px', fontWeight: 800, textTransform: 'uppercase', color: '#0f172a', letterSpacing: '0.05em' }}>The Fieldsman Commercial Engine</h3>
+                <h3 style={{ fontSize: '14px', fontWeight: 800, textTransform: 'uppercase', color: 'var(--color-neutral-900)', letterSpacing: '0.05em' }}>The Fieldsman Commercial Engine</h3>
                 <p style={{ fontSize: '10px', color: '#64748b', marginTop: '4px' }}>A unified system translating awareness into high-value sales.</p>
             </div>
 
@@ -93,7 +93,7 @@ interface MetricCardProps {
 
 const MetricCard: React.FC<MetricCardProps> = ({ title, target, text, color, bg = 'white' }) => (
     <div style={{ background: bg, padding: '8px', borderRadius: '4px', border: '1px solid rgba(0,0,0,0.05)' }}>
-        <div style={{ fontSize: '9px', fontWeight: 800, color: '#0f172a', marginBottom: '2px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }} title={title}>{title}</div>
+        <div style={{ fontSize: '9px', fontWeight: 800, color: 'var(--color-neutral-900)', marginBottom: '2px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }} title={title}>{title}</div>
         <div style={{ fontSize: '8px', fontWeight: 700, color: color, marginBottom: '4px' }}>{target}</div>
         <p style={{ fontSize: '7.5px', color: '#64748b', margin: 0, lineHeight: '1.2' }}>{text}</p>
     </div>
@@ -108,7 +108,7 @@ interface FeatureBlockProps {
 
 const FeatureBlock: React.FC<FeatureBlockProps> = ({ title, text, outcome, color }) => (
     <div style={{ display: 'flex', flexDirection: 'column', padding: '8px', background: 'white', borderRadius: '4px', border: '1px solid rgba(0,0,0,0.05)' }}>
-        <div style={{ fontSize: '10px', fontWeight: 800, color: '#0f172a', marginBottom: '4px' }}>{title}</div>
+        <div style={{ fontSize: '10px', fontWeight: 800, color: 'var(--color-neutral-900)', marginBottom: '4px' }}>{title}</div>
         <p style={{ fontSize: '9px', color: '#64748b', lineHeight: '1.3', flexGrow: 1, marginBottom: '4px' }}>{text}</p>
         <div style={{ fontSize: '8.5px', fontWeight: 700, color: color }}>{outcome}</div>
     </div>

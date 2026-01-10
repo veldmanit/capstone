@@ -37,7 +37,7 @@ export default function KPIBlock({
       <style jsx>{`
         .kpi-block {
           padding: var(--space-6);
-          background: #f8fafc;
+          background: var(--color-neutral-50);
           border: 1px solid var(--color-neutral-200);
           border-left: 4px solid ${accentColor};
           display: flex;
@@ -91,11 +91,11 @@ export default function KPIBlock({
         }
         
         .kpi-change.positive {
-          color: #16a34a;
+          color: var(--color-primary);
         }
         
         .kpi-change.negative {
-          color: #dc2626;
+          color: var(--color-neutral-600);
         }
       `}</style>
     </div>

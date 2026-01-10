@@ -221,7 +221,7 @@ const ValueCurve = () => {
                 }
 
                 .legend-label.highlight {
-                    color: #166534;
+                    color: var(--color-primary);
                     font-weight: 700;
                 }
 
@@ -268,7 +268,7 @@ const ValueCurve = () => {
                 }
 
                 .row-highlight {
-                    background-color: #f0fdf4;
+                    background-color: rgba(74, 93, 35, 0.08);
                 }
 
                 .segment-cell {
@@ -288,7 +288,7 @@ const ValueCurve = () => {
                 }
 
                 .row-highlight .segment-name {
-                    color: #166534;
+                    color: var(--color-primary);
                 }
 
                 .brand-cell {
@@ -297,7 +297,7 @@ const ValueCurve = () => {
                 }
 
                 .row-highlight .brand-cell {
-                    color: #166534;
+                    color: var(--color-primary);
                 }
 
                 .insight-box {
@@ -310,7 +310,7 @@ const ValueCurve = () => {
                 .insight-header {
                     font-size: 9px;
                     font-weight: 800;
-                    color: #166534;
+                    color: var(--color-primary);
                     text-transform: uppercase;
                     letter-spacing: 0.05em;
                     margin-bottom: var(--space-1);
