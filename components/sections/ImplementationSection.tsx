@@ -18,7 +18,7 @@ export default function ImplementationSection() {
       */}
             <PageWrapper sectionLabel="SECTION 5: IMPLEMENTATION">
                 <TextBlock style={{ marginBottom: 'var(--space-6)' }}>
-                    <p>This chapter defines the strategic transformations required to scale Fieldsman from <strong>50 to 3,000 kitchens per year</strong>. The implementation starts with the defining value proposition and brand positioning, flows into the commercial growth engine, and concludes with the operational transformation and expansion roadmap.</p>
+                    <p>This chapter defines the strategic transformations required to scale Fieldsman from <strong>50 to 2,000+ kitchens per year</strong>. The implementation starts with the defining value proposition and brand positioning, flows into the commercial growth engine, and concludes with the operational transformation and expansion roadmap.</p>
                 </TextBlock>
 
                 {/* 5.1 Value Proposition, Offering & Brand */}
@@ -167,7 +167,7 @@ export default function ImplementationSection() {
                 <div>
                     <h2 style={{ marginBottom: 'var(--space-2)' }}>5.2 Go-to-Market: Building a Scalable Commercial Engine</h2>
                     <TextBlock style={{ marginBottom: 'var(--space-2)' }}>
-                        <p style={{ lineHeight: '1.3' }}>Scaling from €200K to €22–35M requires a fundamental transformation of how Fieldsman generates demand. The current founder-driven sales model cannot scale. The new commercial engine is built on a unified strategic framework, beginning with a deep understanding of the customer's path to purchase.</p>
+                        <p style={{ lineHeight: '1.3' }}>Scaling from €170K to €10.6M requires a fundamental transformation of how Fieldsman generates demand. The current founder-driven sales model cannot scale. The new commercial engine is built on a unified strategic framework, beginning with a deep understanding of the customer's path to purchase.</p>
                     </TextBlock>
 
 
@@ -301,7 +301,7 @@ export default function ImplementationSection() {
                             <h3 style={{ marginTop: '16px', fontSize: '12px', fontWeight: 800, color: 'var(--color-primary)' }}>Germany</h3>
                             <div style={{ fontSize: '9px', fontWeight: 700, color: 'var(--color-secondary)', marginBottom: '8px' }}>ANCHOR MARKET FOR SCALE</div>
                             <p style={{ fontSize: '9px', color: 'var(--color-neutral-800)', lineHeight: '1.4', marginBottom: '8px' }}>
-                                The strategic prize (€88M SAM, 80% of opportunity). Requires full localization (language, preferences) and serves as the volume engine.
+                                The strategic prize (€189M SAM, 63% of opportunity). Requires full localization (language, preferences) and serves as the volume engine.
                             </p>
                             <div style={{ borderTop: '1px solid var(--color-primary-light, #C0B283)', paddingTop: '6px', fontSize: '8.5px', color: 'var(--color-neutral-800)' }}>
                                 <strong>Entry Gate:</strong> BE profitable, Production capacity 600+.<br />

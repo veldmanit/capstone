@@ -34,9 +34,9 @@ export default function MarketSizingPyramid() {
             <div className="label-group right">
               <div className="connector-line"></div>
               <div className="text-content">
-                <div className="value color-som">€2.7–6.4M SOM</div>
+                <div className="value color-som">€10.6M SOM</div>
                 <div className="subtext">
-                  🇩🇪 €1.5–3.5M 🇳🇱 €0.9–2.2M 🇧🇪 €0.3–0.7M
+                  🇩🇪 €3.8M 🇳🇱 €6.1M 🇧🇪 €0.7M
                 </div>
               </div>
             </div>
@@ -63,9 +63,9 @@ export default function MarketSizingPyramid() {
             <div className="label-group right">
               <div className="connector-line"></div>
               <div className="text-content">
-                <div className="value color-sam">€110M SAM</div>
+                <div className="value color-sam">€301M SAM</div>
                 <div className="subtext">
-                  🇩🇪 €88M 🇳🇱 €14M 🇧🇪 €8M
+                  🇩🇪 €189M 🇳🇱 €77M 🇧🇪 €36M
                 </div>
               </div>
             </div>
@@ -92,9 +92,9 @@ export default function MarketSizingPyramid() {
             <div className="label-group right">
               <div className="connector-line"></div>
               <div className="text-content">
-                <div className="value color-tam">€315M TAM</div>
+                <div className="value color-tam">€754M TAM</div>
                 <div className="subtext">
-                  🇩🇪 €251M 🇳🇱 €40M 🇧🇪 €24M
+                  🇩🇪 €541M 🇳🇱 €139M 🇧🇪 €74M
                 </div>
               </div>
             </div>
@@ -117,31 +117,31 @@ export default function MarketSizingPyramid() {
         <div className="country-card">
           <div className="flag">🇩🇪</div>
           <div className="country-header">GERMANY</div>
-          <div className="country-value">€251M</div>
-          <div className="country-meta">80% of TAM</div>
-          <div className="country-target">SOM Target: 2.0–5.0%</div>
+          <div className="country-value">€541M</div>
+          <div className="country-meta">72% of TAM</div>
+          <div className="country-target">SOM Target: 2.0%</div>
         </div>
         <div className="country-card highlight-border">
           <div className="flag">🇳🇱</div>
           <div className="country-header">NETHERLANDS</div>
-          <div className="country-value">€40M</div>
-          <div className="country-meta">13% of TAM</div>
-          <div className="country-target highlight-text">SOM Target: 5.0–10.0%</div>
+          <div className="country-value">€139M</div>
+          <div className="country-meta">18% of TAM</div>
+          <div className="country-target highlight-text">SOM Target: 8.0%</div>
         </div>
         <div className="country-card">
           <div className="flag">🇧🇪</div>
           <div className="country-header">BELGIUM</div>
-          <div className="country-value">€24M</div>
-          <div className="country-meta">7% of TAM</div>
-          <div className="country-target">SOM Target: 3.0–7.0%</div>
+          <div className="country-value">€74M</div>
+          <div className="country-meta">10% of TAM</div>
+          <div className="country-target">SOM Target: 2.0%</div>
         </div>
       </div>
 
       {/* Country Legend */}
       <div className="country-legend">
-        <div className="legend-item"><span className="dot de"></span> Germany (80%)</div>
-        <div className="legend-item"><span className="dot nl"></span> Netherlands (13%)</div>
-        <div className="legend-item"><span className="dot be"></span> Belgium (7%)</div>
+        <div className="legend-item"><span className="dot de"></span> Germany (72%)</div>
+        <div className="legend-item"><span className="dot nl"></span> Netherlands (18%)</div>
+        <div className="legend-item"><span className="dot be"></span> Belgium (10%)</div>
       </div>
 
       <style jsx>{`

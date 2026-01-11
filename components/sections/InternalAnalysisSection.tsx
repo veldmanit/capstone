@@ -157,9 +157,9 @@ export default function InternalAnalysisSection() {
                     <div className="grid-container" style={{ gap: 'var(--space-6)', marginBottom: 'var(--space-8)' }}>
                         <div className="col-4">
                             <KPIBlock
-                                value="40%"
-                                label="Profit Margin"
-                                context="~€80k Profit on €200k Net Rev"
+                                value="48%"
+                                label="EBITDA Margin"
+                                context="~€83K EBITDA on €170K Rev"
                                 accentColor="var(--color-primary)"
                             />
                         </div>
@@ -183,7 +183,7 @@ export default function InternalAnalysisSection() {
 
                     <TextBlock>
                         <p style={{ fontSize: '11px', lineHeight: '1.6', color: 'var(--color-neutral-700)', marginBottom: 'var(--space-8)' }}>
-                            The company sells approximately 50 kitchens per year with remarkable efficiency. Marketing investment is less than €5,000 annually. This implies a customer acquisition cost under €100 and a return on ad spend exceeding 40x. The demand is clearly there. The constraint has never been commercial; it has always been operational.
+                            The company sells approximately 40 kitchens per year with remarkable efficiency. Marketing investment is approximately €10K annually. This implies a customer acquisition cost around €250 and a return on ad spend of ~17x. The demand is clearly there. The constraint has never been commercial; it has always been operational.
                         </p>
                     </TextBlock>
 

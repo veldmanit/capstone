@@ -74,8 +74,7 @@ export default function AboutAuthorPage() {
           background: white;
           position: relative;
           page-break-after: always;
-          padding: var(--page-margin);
-          padding-top: var(--space-24);
+          padding: calc(var(--page-margin) * 2);
         }
         
         @media screen {

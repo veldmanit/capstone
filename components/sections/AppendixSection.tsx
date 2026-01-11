@@ -8,6 +8,7 @@ import CustomerPersonas from '@/components/sections/CustomerPersonas';
 import CompetitorAnalysis from '@/components/sections/CompetitorAnalysis';
 import BusinessModelCanvas from '@/components/sections/BusinessModelCanvas';
 import ModularArchitecture from '@/components/sections/ModularArchitecture';
+import MarketingAssumptions from '@/components/sections/MarketingAssumptions';
 
 export default function AppendixSection() {
     return (
@@ -17,19 +18,18 @@ export default function AppendixSection() {
                 <PestleAnalysis />
             </PageWrapper>
 
-            {/* APPENDIX B: Market Sizing */}
+            {/* APPENDIX B: Market Sizing (Page 1) */}
             <PageWrapper sectionLabel="APPENDIX">
-                <div style={{ marginBottom: 'var(--space-8)' }}>
-                    <h2 style={{ marginBottom: 'var(--space-4)' }}>Appendix B: Market Sizing Methodology</h2>
-                </div>
-                <MarketSizingMethodology />
+                <MarketSizingMethodology part={1} />
+            </PageWrapper>
+
+            {/* APPENDIX B: Market Sizing (Page 2) */}
+            <PageWrapper sectionLabel="APPENDIX">
+                <MarketSizingMethodology part={2} />
             </PageWrapper>
 
             {/* APPENDIX C: Customer Personas */}
             <PageWrapper sectionLabel="APPENDIX">
-                <div style={{ marginBottom: 'var(--space-8)' }}>
-                    <h2 style={{ marginBottom: 'var(--space-4)' }}>Appendix C: Customer Research & Personas</h2>
-                </div>
                 <CustomerPersonas />
             </PageWrapper>
 
@@ -46,6 +46,11 @@ export default function AppendixSection() {
             {/* APPENDIX F: Modular Architecture */}
             <PageWrapper sectionLabel="APPENDIX">
                 <ModularArchitecture />
+            </PageWrapper>
+
+            {/* APPENDIX G: Marketing Assumptions */}
+            <PageWrapper sectionLabel="APPENDIX">
+                <MarketingAssumptions />
             </PageWrapper>
         </React.Fragment>
     );

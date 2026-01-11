@@ -41,7 +41,7 @@ export default function ExternalAnalysisSection() {
                 </div>
 
                 <div style={{ borderTop: '1px solid var(--color-neutral-300)', paddingTop: 'var(--space-8)' }}>
-                    <h2 style={{ marginBottom: 'var(--space-6)' }}>2.2 A €315M Opportunity Across Three Markets</h2>
+                    <h2 style={{ marginBottom: 'var(--space-6)' }}>2.2 A €754M Opportunity Across Three Markets</h2>
                     <p style={{ fontSize: '10px', color: 'var(--color-neutral-600)', marginBottom: 'var(--space-2)' }}>
                         For a detailed breakdown of the bottom-up market sizing methodology, see <strong>Appendix B</strong>.
                     </p>
@@ -51,13 +51,13 @@ export default function ExternalAnalysisSection() {
 
                     <TextBlock columns={2} style={{ marginTop: 'var(--space-6)' }}>
                         <p style={{ marginBottom: 'var(--space-3)' }}>
-                            Using a bottom-up household adoption model, the Total Addressable Market across the Netherlands, Belgium, and Germany reaches €315M annually, representing approximately 79,000 units. Germany dominates with €251M of the total, making it the anchor market for any European scaling ambition. The Netherlands contributes €40M and Belgium €24M.
+                            Using a bottom-up household adoption model, the Total Addressable Market across the Netherlands, Belgium, and Germany reaches €754M annually, representing approximately 151,000 units. Germany dominates with €541M of the total, making it the anchor market for any European scaling ambition. The Netherlands contributes €139M and Belgium €74M.
                         </p>
                         <p style={{ marginBottom: 'var(--space-3)' }}>
-                            The Serviceable Addressable Market, representing mid-premium modular outdoor kitchens in the €2K–€10K range, accounts for 35% of TAM, or €110M. This is Fieldsman's competitive arena: the "Missing Middle" where customers want premium quality without luxury prices.
+                            The Serviceable Addressable Market, representing mid-premium modular outdoor kitchens in the €2K–€10K range, accounts for 40% of TAM, or €301M. This is Fieldsman's competitive arena: the "Missing Middle" where customers want premium quality without luxury prices.
                         </p>
                         <p>
-                            The Serviceable Obtainable Market by 2030 represents what a single scalable challenger can realistically capture. With target shares of 5–10% in the Netherlands, 3–7% in Belgium, and 2–5% in Germany, this translates to €2.7–6.4M in revenue and 550–1,270 kitchens per year. These volumes align with Fieldsman's production capacity ambition and confirm that Germany is essential for European-scale outcomes.
+                            The Serviceable Obtainable Market by 2030 represents what a single scalable challenger can realistically capture. With target shares of 8% in the Netherlands, 2% in Belgium, and 2% in Germany, this translates to €10.6M in revenue and 2,125 kitchens per year. These volumes align with Fieldsman's production capacity ambition and confirm that Germany is essential for European-scale outcomes.
                         </p>
                     </TextBlock>
                 </div>
@@ -241,7 +241,7 @@ export default function ExternalAnalysisSection() {
                         <div style={{ display: 'flex', gap: '8px' }}>
                             <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary)', color: 'white', borderRadius: '50%', fontSize: '9px', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>1</div>
                             <p style={{ fontSize: '9.5px', color: 'var(--color-neutral-700)', lineHeight: '1.4', margin: 0 }}>
-                                <strong style={{ color: 'var(--color-neutral-900)' }}>The Missing Middle:</strong> A €110M SAM opportunity exists for players bridging the gap between DIY carts and luxury bespoke kitchens.
+                                <strong style={{ color: 'var(--color-neutral-900)' }}>The Missing Middle:</strong> A €301M SAM opportunity exists for players bridging the gap between DIY carts and luxury bespoke kitchens.
                             </p>
                         </div>
                         <div style={{ display: 'flex', gap: '8px' }}>

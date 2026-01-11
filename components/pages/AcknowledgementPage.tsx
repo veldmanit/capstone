@@ -73,8 +73,7 @@ export default function AcknowledgementPage() {
           background: white;
           position: relative;
           page-break-after: always;
-          padding: var(--page-margin);
-          padding-top: var(--space-24); /* Extra top padding for clean look */
+          padding: calc(var(--page-margin) * 2);
         }
         
         @media screen {

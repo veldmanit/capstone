@@ -11,7 +11,7 @@ interface CoverPageProps {
 
 export default function CoverPage({
   title = "Fieldsman",
-  subtitle = "Strategic Growth Plan: From 50 to 3,000 Kitchens",
+  subtitle = "Strategic Growth Plan: From 50 to 2,000+ Kitchens",
   author = "R.H. Veldman",
   date = "2026"
 }: CoverPageProps) {

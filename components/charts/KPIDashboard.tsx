@@ -20,8 +20,8 @@ export default function KPIDashboard() {
       category: 'COMMERCIAL (CUSTOMER)',
       color: '#E76F51',
       metrics: [
-        { kpi: 'Revenue', target2026: '€1.0–1.6M', target2031: '€22–35M' },
-        { kpi: 'Kitchens Sold', target2026: '250–400', target2031: '2,200–3,400' },
+        { kpi: 'Revenue', target2026: '€1.0–1.6M', target2031: '€10.6M' },
+        { kpi: 'Kitchens Sold', target2026: '250–400', target2031: '2,125' },
         { kpi: 'Configurator → Lead', target2026: '20%', target2031: '30%' },
         { kpi: 'Lead → Order', target2026: '25%', target2031: '40%' },
         { kpi: 'CAC', target2026: '€250–300', target2031: '€150–200' },

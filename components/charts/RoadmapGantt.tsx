@@ -72,7 +72,7 @@ export default function RoadmapGantt() {
       items: [
         // Phase 1: 2026 - Foundation
         { name: 'Founders Full-Time', start: 2026.42, end: 2026.42, type: 'milestone' }, // Mid-2026
-        { name: 'Team Building (7 Hires)', start: 2026.17, end: 2026.75, type: 'project' }, // Q1-Q3: All foundation hires
+        { name: 'Team Building (5 Initial Hires)', start: 2026.17, end: 2026.75, type: 'project' }, // Q1-Q3: All foundation hires
         { name: 'Inventory Systems Live', start: 2026.75, end: 2026.75, type: 'milestone' }, // Q3
 
         // Phase 3: 2028-2029 - International expansion

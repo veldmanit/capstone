@@ -4,12 +4,8 @@ import React from 'react';
 
 /**
  * Organizational Chart Component (Future State)
- * Visualizes the target 2026-2027 structure.
- * Hierarchy: Company -> Founders (Horizontal) -> Functional Teams
- * Layout: Centered Vertical Stack. 
- * Updates: 
- * - Merged Founder Responsibilities into the cards.
- * - Removed separate table requirement.
+ * Visualizes the 2030 Target Structure (19 FTE).
+ * Hierarchy: Company -> Founders (C-Suite) -> Functional Teams
  */
 export default function OrganizationalStructureFuture() {
     // Styles
@@ -79,18 +75,6 @@ export default function OrganizationalStructureFuture() {
         background: 'var(--color-secondary)',
         padding: '1px 3px',
         borderRadius: '3px',
-        textTransform: 'uppercase' as const,
-    };
-
-    const flexBadgeStyle = {
-        fontSize: '6px',
-        fontWeight: 700,
-        color: 'white',
-        background: 'var(--color-neutral-500)',
-        padding: '1px 3px',
-        borderRadius: '3px',
-        display: 'inline-block',
-        marginRight: '4px',
         textTransform: 'uppercase' as const,
     };
 
@@ -182,7 +166,7 @@ export default function OrganizationalStructureFuture() {
                 letterSpacing: '0.05em',
                 textAlign: 'left'
             }}>
-                Target Structure (2026–2027): Complete Scale-Up Team
+                Target Structure (2030): Scaled Organization (19 FTE)
             </h3>
 
             {/* CHART CONTAINER */}
@@ -219,13 +203,13 @@ export default function OrganizationalStructureFuture() {
                         <Connector height="12px" />
                         <div style={founderCardStyle}>
                             <div style={{ ...nameStyle, paddingRight: 0 }}>Raymon Veldman</div>
-                            <div style={{ ...roleStyle, color: 'var(--color-primary)', fontWeight: 700 }}>CEO / CFO</div>
+                            <div style={{ ...roleStyle, color: 'var(--color-primary)', fontWeight: 700 }}>CEO (1.0 FTE)</div>
 
                             {/* Consolidated Responsibilities */}
                             <ul style={responsibilityListStyle}>
-                                <li>• Strategy & Funding</li>
-                                <li>• Finance & Admin</li>
-                                <li>• Marketing & IT</li>
+                                <li>• Strategy & Finance</li>
+                                <li>• Commercial Leadership</li>
+                                <li>• Investor Relations</li>
                             </ul>
                         </div>
 
@@ -233,22 +217,22 @@ export default function OrganizationalStructureFuture() {
                             <TreeNode isFirst>
                                 <div style={newHireCardStyle}>
                                     <span style={badgeStyle}>1.0 FTE</span>
-                                    <div style={nameStyle}>Sales & CS Exec</div>
-                                    <div style={roleStyle}>Leads, Partner Mgmt</div>
+                                    <div style={nameStyle}>Sales Lead</div>
+                                    <div style={roleStyle}>Partnerships & B2B</div>
                                 </div>
                             </TreeNode>
                             <TreeNode>
                                 <div style={newHireCardStyle}>
                                     <span style={badgeStyle}>1.0 FTE</span>
-                                    <div style={nameStyle}>Growth Marketer</div>
-                                    <div style={roleStyle}>Content & Campaigns</div>
+                                    <div style={nameStyle}>Marketing Mgr</div>
+                                    <div style={roleStyle}>Growth & Brand</div>
                                 </div>
                             </TreeNode>
                             <TreeNode isLast>
                                 <div style={newHireCardStyle}>
-                                    <span style={badgeStyle}>0.6 FTE</span>
-                                    <div style={nameStyle}>Finance/Admin</div>
-                                    <div style={roleStyle}>Invoicing & Bookkeeping</div>
+                                    <span style={badgeStyle}>3.0 FTE</span>
+                                    <div style={nameStyle}>Customer Success</div>
+                                    <div style={roleStyle}>Support & Service Team</div>
                                 </div>
                             </TreeNode>
                         </TreeContainer>
@@ -259,12 +243,12 @@ export default function OrganizationalStructureFuture() {
                         <Connector height="12px" />
                         <div style={founderCardStyle}>
                             <div style={{ ...nameStyle, paddingRight: 0 }}>Jurrian Veldman</div>
-                            <div style={{ ...roleStyle, color: 'var(--color-primary)', fontWeight: 700 }}>COO</div>
+                            <div style={{ ...roleStyle, color: 'var(--color-primary)', fontWeight: 700 }}>COO (1.0 FTE)</div>
 
                             <ul style={responsibilityListStyle}>
-                                <li>• Product & R&D</li>
-                                <li>• Supply Chain</li>
-                                <li>• Supplier Governance</li>
+                                <li>• Product Vision</li>
+                                <li>• R&D Innovation</li>
+                                <li>• Supply Chain Strategy</li>
                             </ul>
                         </div>
 
@@ -272,15 +256,22 @@ export default function OrganizationalStructureFuture() {
                             <TreeNode isFirst>
                                 <div style={newHireCardStyle}>
                                     <span style={badgeStyle}>1.0 FTE</span>
-                                    <div style={nameStyle}>Purchasing Operator</div>
-                                    <div style={roleStyle}>Supply Chain & Stock</div>
+                                    <div style={nameStyle}>Product Designer</div>
+                                    <div style={roleStyle}>New Models & R&D</div>
+                                </div>
+                            </TreeNode>
+                            <TreeNode>
+                                <div style={newHireCardStyle}>
+                                    <span style={badgeStyle}>2.0 FTE</span>
+                                    <div style={nameStyle}>Procurement</div>
+                                    <div style={roleStyle}>Purchasing & Inventory</div>
                                 </div>
                             </TreeNode>
                             <TreeNode isLast>
                                 <div style={newHireCardStyle}>
-                                    <span style={badgeStyle}>1.0 FTE</span>
-                                    <div style={nameStyle}>Waterjet Operator</div>
-                                    <div style={roleStyle}>Countertop Cutting</div>
+                                    <span style={badgeStyle}>2.0 FTE</span>
+                                    <div style={nameStyle}>Logistics</div>
+                                    <div style={roleStyle}>Warehousing & Planner</div>
                                 </div>
                             </TreeNode>
                         </TreeContainer>
@@ -291,12 +282,12 @@ export default function OrganizationalStructureFuture() {
                         <Connector height="12px" />
                         <div style={founderCardStyle}>
                             <div style={{ ...nameStyle, paddingRight: 0 }}>Herald Veldman</div>
-                            <div style={{ ...roleStyle, color: 'var(--color-primary)', fontWeight: 700 }}>Head of Ops</div>
+                            <div style={{ ...roleStyle, color: 'var(--color-primary)', fontWeight: 700 }}>Head of Ops (1.0 FTE)</div>
 
                             <ul style={responsibilityListStyle}>
-                                <li>• Assembly Lead</li>
-                                <li>• Delivery & Logistics</li>
-                                <li>• Service & Warranty</li>
+                                <li>• Production Mgmt</li>
+                                <li>• Quality Control</li>
+                                <li>• Facility Mgmt</li>
                             </ul>
                         </div>
 
@@ -305,21 +296,17 @@ export default function OrganizationalStructureFuture() {
                                 <div style={newHireCardStyle}>
                                     <span style={badgeStyle}>1.0 FTE</span>
                                     <div style={nameStyle}>Workshop Lead</div>
-                                    <div style={roleStyle}>Quality, Training, Planning</div>
-                                    {/* Nested Flex */}
-                                    <div style={{ marginTop: '4px', borderTop: '1px dashed var(--color-neutral-200)', paddingTop: '3px', display: 'flex', alignItems: 'center' }}>
-                                        <div style={flexBadgeStyle}>SEASONAL</div>
-                                        <div style={{ fontSize: '7px', color: 'var(--color-neutral-600)' }}><strong>Flex:</strong> 3-8 Workers</div>
-                                    </div>
+                                    <div style={roleStyle}>Floor Management</div>
                                 </div>
                             </TreeNode>
-                            <TreeNode isLast>
+                            <TreeNode>
                                 <div style={newHireCardStyle}>
-                                    <span style={badgeStyle}>1.0 FTE</span>
-                                    <div style={nameStyle}>Delivery & Service</div>
-                                    <div style={roleStyle}>Install & Warranty Fixes</div>
+                                    <span style={badgeStyle}>5.0 FTE</span>
+                                    <div style={nameStyle}>Assembly Team</div>
+                                    <div style={roleStyle}>Production Technicians</div>
                                 </div>
                             </TreeNode>
+                            {/* Adding Installation team which might fall under Ops/Service, putting here to balance P&L count if needed or distinct */}
                         </TreeContainer>
                     </div>
 

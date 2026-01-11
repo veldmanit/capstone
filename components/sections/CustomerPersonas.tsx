@@ -1,33 +1,29 @@
 'use client';
 
 import React from 'react';
-import TextBlock from '@/components/content/TextBlock';
 
 export default function CustomerPersonas() {
     return (
         <div style={{ marginBottom: 'var(--space-12)' }}>
-            {/* Header handled by parent */}
-            <h3 style={{ fontSize: '18px', color: 'var(--color-neutral-600)', marginBottom: 'var(--space-6)' }}>M3. Insights & Buying Behavior</h3>
+            <h2 style={{ fontSize: '20px', fontWeight: 800, marginBottom: 'var(--space-4)', color: 'var(--color-neutral-900)' }}>Appendix C: Insights & Buying Behavior</h2>
 
             {/* M3.1 Research Objectives */}
-            <TextBlock>
-                <div style={{ background: 'var(--color-neutral-100)', padding: 'var(--space-4)', borderRadius: 'var(--border-radius-sm)', marginBottom: 'var(--space-6)' }}>
-                    <h4 style={{ fontSize: '14px', fontWeight: 700, marginBottom: 'var(--space-2)' }}>M3.1 Research Objectives</h4>
-                    <p style={{ fontSize: '11px', lineHeight: 1.5, color: 'var(--color-neutral-700)' }}>
-                        The customer research aimed to answer five strategic questions:
-                        (1) What motivates the purchase?
-                        (2) What decision criteria matter most?
-                        (3) What trade-offs are acceptable?
-                        (4) How does the buying journey work?
-                        (5) Which segments are most valuable?
-                    </p>
-                </div>
-            </TextBlock>
+            <div style={{ borderTop: '2px solid var(--color-primary)', paddingTop: '8px', marginBottom: '16px' }}>
+                <h4 style={{ fontSize: '12px', fontWeight: 800, color: 'var(--color-primary)', textTransform: 'uppercase', marginBottom: '4px' }}>M3.1 Research Objectives</h4>
+                <p style={{ fontSize: '10px', lineHeight: 1.5, color: 'var(--color-neutral-700)', margin: 0 }}>
+                    The customer research aimed to answer five strategic questions:
+                    (1) What motivates the purchase?
+                    (2) What decision criteria matter most?
+                    (3) What trade-offs are acceptable?
+                    (4) How does the buying journey work?
+                    (5) Which segments are most valuable?
+                </p>
+            </div>
 
             {/* M3.2 Key Customer Insights */}
-            <div style={{ marginBottom: 'var(--space-8)' }}>
-                <h4 style={{ fontSize: '14px', fontWeight: 700, marginBottom: 'var(--space-3)' }}>M3.2 Key Customer Insights</h4>
-                <div className="table-container">
+            <div style={{ marginBottom: '24px' }}>
+                <h4 style={{ fontSize: '12px', fontWeight: 800, color: 'var(--color-primary)', textTransform: 'uppercase', marginBottom: '8px' }}>M3.2 Key Customer Insights</h4>
+                <div style={{ overflowX: 'hidden' }}>
                     <table className="insights-table">
                         <thead>
                             <tr>
@@ -73,13 +69,13 @@ export default function CustomerPersonas() {
             </div>
 
             {/* M3.3 Customer Personas */}
-            <div>
-                <h4 style={{ fontSize: '14px', fontWeight: 700, marginBottom: 'var(--space-4)' }}>M3.3 Customer Persona Deep Dive</h4>
+            <div style={{ borderTop: '2px solid var(--color-primary)', paddingTop: '8px' }}>
+                <h4 style={{ fontSize: '12px', fontWeight: 800, color: 'var(--color-primary)', textTransform: 'uppercase', marginBottom: '16px' }}>M3.3 Customer Persona Deep Dive</h4>
 
                 <div className="persona-grid">
                     {/* Persona 1: The Proud Host (Core) */}
                     <div className="persona-card core">
-                        <div className="persona-header" style={{ background: 'var(--color-primary)', color: 'white' }}>
+                        <div className="persona-header core-header">
                             <div className="persona-role">CORE TARGET</div>
                             <h5 className="persona-name">The Proud Host</h5>
                             <div className="persona-profile">Age 35–55 • Family • Homeowner</div>
@@ -103,15 +99,17 @@ export default function CustomerPersonas() {
                             </div>
                             <div className="purchase-stat">
                                 <span className="stat-label">Typical Purchase</span>
-                                <span className="stat-value">€4,000 – €8,000</span>
-                                <span className="stat-detail">3–6 modules + Kamado</span>
+                                <div className="stat-row">
+                                    <span className="stat-value">€4k – €8k</span>
+                                    <span className="stat-detail">3–6 modules + Kamado</span>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     {/* Persona 2: The Enthusiast */}
                     <div className="persona-card">
-                        <div className="persona-header" style={{ background: 'var(--color-neutral-800)', color: 'white' }}>
+                        <div className="persona-header neutral-header">
                             <div className="persona-role">TECHNICAL USER</div>
                             <h5 className="persona-name">Cooking Enthusiast</h5>
                             <div className="persona-profile">Age 30–60 • Passionate Cook</div>
@@ -135,15 +133,17 @@ export default function CustomerPersonas() {
                             </div>
                             <div className="purchase-stat">
                                 <span className="stat-label">Typical Purchase</span>
-                                <span className="stat-value">€5,000 – €10,000</span>
-                                <span className="stat-detail">4–8 modules, High Utility</span>
+                                <div className="stat-row">
+                                    <span className="stat-value">€5k – €10k</span>
+                                    <span className="stat-detail">4–8 modules, High Utility</span>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     {/* Persona 3: Design-Driven Couple */}
-                    <div className="persona-card high-value">
-                        <div className="persona-header" style={{ background: 'var(--color-chart-3)', color: 'white' }}>
+                    <div className="persona-card">
+                        <div className="persona-header accent-header">
                             <div className="persona-role">HIGH VALUE</div>
                             <h5 className="persona-name">Design Couple</h5>
                             <div className="persona-profile">Age 40–60 • Design Oriented</div>
@@ -167,8 +167,10 @@ export default function CustomerPersonas() {
                             </div>
                             <div className="purchase-stat">
                                 <span className="stat-label">Typical Purchase</span>
-                                <span className="stat-value">€8,000 – €15,000</span>
-                                <span className="stat-detail">6–10 modules, Premium Finish</span>
+                                <div className="stat-row">
+                                    <span className="stat-value">€8k – €15k</span>
+                                    <span className="stat-detail">6–10 modules, Premium Finish</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -176,28 +178,25 @@ export default function CustomerPersonas() {
             </div>
 
             <style jsx>{`
-                .table-container {
-                    border: 1px solid var(--color-neutral-200);
-                    border-radius: var(--border-radius-sm);
-                    overflow: hidden;
-                }
                 .insights-table {
                     width: 100%;
                     border-collapse: collapse;
-                    font-size: 10px;
+                    font-size: 9.5px;
                 }
                 .insights-table th {
-                    background: var(--color-neutral-100);
-                    padding: 8px;
+                    background: var(--color-neutral-50);
+                    padding: 6px 8px;
                     text-align: left;
                     font-weight: 700;
-                    border-bottom: 2px solid var(--color-neutral-200);
+                    color: var(--color-primary);
+                    border-bottom: 2px solid var(--color-primary);
                 }
                 .insights-table td {
-                    padding: 8px;
+                    padding: 6px 8px;
                     border-bottom: 1px solid var(--color-neutral-100);
                     vertical-align: top;
                     line-height: 1.4;
+                    color: var(--color-neutral-700);
                 }
                 .insight-title {
                     font-weight: 700;
@@ -207,68 +206,70 @@ export default function CustomerPersonas() {
                 .persona-grid {
                     display: grid;
                     grid-template-columns: 1fr 1fr 1fr;
-                    gap: var(--space-4);
+                    gap: 16px;
                 }
 
                 .persona-card {
                     background: white;
                     border: 1px solid var(--color-neutral-200);
-                    border-radius: var(--border-radius-sm);
-                    overflow: hidden;
                     display: flex;
                     flex-direction: column;
                 }
 
                 .persona-card.core {
                     border: 2px solid var(--color-primary);
-                    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
                 }
 
                 .persona-header {
-                    padding: var(--space-4);
+                    padding: 12px;
                     text-align: center;
                 }
 
+                .core-header { background: var(--color-primary); color: white; }
+                .neutral-header { background: var(--color-neutral-800); color: white; }
+                .accent-header { background: var(--color-accent); color: white; }
+
                 .persona-role {
-                    font-size: 9px;
+                    font-size: 8.5px;
                     font-weight: 800;
                     letter-spacing: 0.05em;
                     opacity: 0.9;
-                    margin-bottom: 4px;
+                    margin-bottom: 2px;
                 }
 
                 .persona-name {
-                    font-family: var(--font-display);
-                    font-size: 16px;
-                    font-weight: 700;
-                    margin: 0 0 4px 0;
+                    font-size: 15px;
+                    font-weight: 800;
+                    margin: 0 0 2px 0;
+                    text-transform: uppercase;
                 }
 
                 .persona-profile {
-                    font-size: 10px;
+                    font-size: 9px;
                     opacity: 0.9;
                     font-style: italic;
                 }
 
                 .persona-body {
-                    padding: var(--space-4);
+                    padding: 12px;
                     flex: 1;
                     display: flex;
                     flex-direction: column;
-                    gap: var(--space-3);
+                    gap: 8px;
                 }
 
                 .attribute {
                     display: flex;
                     flex-direction: column;
-                    gap: 2px;
+                    gap: 1px;
                 }
 
                 .label {
                     font-size: 9px;
-                    font-weight: 700;
-                    color: var(--color-neutral-500);
+                    font-weight: 800;
+                    color: var(--color-primary-dark, var(--color-primary));
                     text-transform: uppercase;
+                    letter-spacing: 0.02em;
                 }
 
                 .text {
@@ -279,32 +280,38 @@ export default function CustomerPersonas() {
 
                 .text.quote {
                     font-style: italic;
-                    color: var(--color-neutral-600);
+                    color: var(--color-neutral-500);
                 }
 
                 .purchase-stat {
                     margin-top: auto;
-                    padding-top: var(--space-3);
+                    padding-top: 8px;
                     border-top: 1px dashed var(--color-neutral-200);
                 }
 
                 .stat-label {
                     display: block;
-                    font-size: 9px;
+                    font-size: 8.5px;
+                    font-weight: 800;
                     color: var(--color-neutral-500);
+                    text-transform: uppercase;
                     margin-bottom: 2px;
                 }
 
+                .stat-row {
+                    display: flex;
+                    align-items: baseline;
+                    gap: 8px;
+                }
+
                 .stat-value {
-                    display: block;
-                    font-size: 14px;
-                    font-weight: 700;
+                    font-size: 13px;
+                    font-weight: 800;
                     color: var(--color-neutral-900);
                 }
 
                 .stat-detail {
-                    display: block;
-                    font-size: 10px;
+                    font-size: 9.5px;
                     color: var(--color-neutral-600);
                 }
             `}</style>

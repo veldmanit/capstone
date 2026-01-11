@@ -179,11 +179,11 @@ export default function StrategicOptionsSection() {
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 'var(--space-4)' }}>
                         <div style={{ background: 'var(--color-neutral-50)', color: 'var(--color-primary)', padding: 'var(--space-4)', borderRadius: '4px', textAlign: 'center', border: '1px solid var(--color-neutral-200)' }}>
                             <div style={{ fontSize: '8px', fontWeight: 800, opacity: 0.8, marginBottom: '2px' }}>REVENUE</div>
-                            <div style={{ fontSize: '14px', fontWeight: 800 }}>€22–35M</div>
+                            <div style={{ fontSize: '14px', fontWeight: 800 }}>€10.6M</div>
                         </div>
                         <div style={{ background: 'var(--color-neutral-50)', color: 'var(--color-neutral-700)', padding: 'var(--space-4)', borderRadius: '4px', textAlign: 'center', border: '1px solid var(--color-neutral-200)' }}>
                             <div style={{ fontSize: '8px', fontWeight: 800, opacity: 0.8, marginBottom: '2px' }}>VOLUME</div>
-                            <div style={{ fontSize: '14px', fontWeight: 800 }}>~3k units</div>
+                            <div style={{ fontSize: '14px', fontWeight: 800 }}>2,125 units</div>
                         </div>
                         <div style={{ background: 'var(--color-neutral-50)', color: 'var(--color-neutral-700)', border: '1px solid var(--color-neutral-200)', padding: 'var(--space-4)', borderRadius: '4px', textAlign: 'center' }}>
                             <div style={{ fontSize: '8px', fontWeight: 800, opacity: 0.8, marginBottom: '2px' }}>MARKETS</div>
