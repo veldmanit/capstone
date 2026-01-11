@@ -5,7 +5,7 @@ import React from 'react';
 export default function BusinessModelCanvas() {
     return (
         <div style={{ marginBottom: 'var(--space-8)' }} data-export-as-image="true">
-            <h2 style={{ fontSize: 'var(--font-size-h2)', fontWeight: 800, color: 'var(--color-neutral-900)', marginBottom: 'var(--space-2)' }}>Appendix E: Business Model Canvas</h2>
+            <h2 style={{ fontSize: 'var(--font-size-h2)', fontWeight: 800, color: 'var(--color-primary)', marginBottom: 'var(--space-2)' }}>Appendix E: Business Model Canvas</h2>
             <h3 style={{ fontSize: 'var(--font-size-h3)', fontWeight: 800, color: 'var(--color-neutral-600)', marginBottom: 'var(--space-4)' }}>Strategic Overview (2026+)</h3>
 
             <div className="bmc-container">
@@ -143,14 +143,14 @@ export default function BusinessModelCanvas() {
                 }
 
                 .bmc-block.financial {
-                    background: #f8fafc;
-                    border-color: #e2e8f0;
+                    background: var(--color-neutral-100);
+                    border-color: var(--color-neutral-200);
                     min-height: 80px;
                 }
                 
                 .bmc-block.val-prop {
-                    background: #f0f9ff;
-                    border-color: var(--color-primary-light);
+                    background: var(--color-primary-light);
+                    border-color: var(--color-primary);
                     grid-row: span 2;
                 }
 

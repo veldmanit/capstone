@@ -159,19 +159,6 @@ const ValueCurve = () => {
                 </table>
             </div>
 
-            {/* Strategic Insight Block */}
-            <div className="insight-box">
-                <div className="insight-header">Strategic Positioning Analysis</div>
-                <p className="insight-text">
-                    Fieldsman occupies the <strong>"Missing Middle"</strong> by replacing manual craftsmanship with mass-customization. This allows for high-end design and durability consistency while maintaining an accessible €3K–€8K price point—avoiding the high overhead of luxury showroom models while heavily outperforming budget mass-retailers on quality.
-                </p>
-                <div className="trade-off-grid">
-                    <div className="trade-off"><strong>CUSTOMIZATION:</strong> Curated modules, not bespoke</div>
-                    <div className="trade-off"><strong>PRODUCT RANGE:</strong> High-impact core sets</div>
-                    <div className="trade-off"><strong>SHOWROOMS:</strong> Scaled digital-first coverage</div>
-                    <div className="trade-off"><strong>DELIVERY:</strong> Standardized self-installation</div>
-                </div>
-            </div>
 
             <style jsx>{`
                 .value-curve-container {

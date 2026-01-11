@@ -13,19 +13,19 @@ export default function ProductionSolution() {
     return (
         <div style={{
             width: '100%',
-            background: 'white',
+            background: 'transparent',
             fontFamily: 'var(--font-body)',
-            padding: '20px 0'
+            padding: '8px 0'
         }} data-export-as-image="true">
 
             {/* 1. HEADER & STRATEGY */}
             <div style={{
-                marginBottom: '24px',
+                marginBottom: '16px',
                 textAlign: 'center',
-                borderBottom: '2px solid var(--color-neutral-100)',
-                paddingBottom: '16px',
+                borderBottom: '1px solid var(--color-neutral-100)',
+                paddingBottom: '12px',
                 maxWidth: '600px',
-                margin: '0 auto 24px auto'
+                margin: '0 auto 16px auto'
             }}>
                 <h3 style={{
                     fontSize: '11px',
@@ -33,23 +33,14 @@ export default function ProductionSolution() {
                     color: 'var(--color-neutral-900)',
                     textTransform: 'uppercase',
                     letterSpacing: '0.05em',
-                    marginBottom: '6px'
+                    marginBottom: '0'
                 }}>
                     The Integrated Hub Strategy
                 </h3>
-                <p style={{
-                    fontSize: '10px',
-                    color: 'var(--color-neutral-600)',
-                    maxWidth: '90%',
-                    margin: '0 auto',
-                    lineHeight: '1.5'
-                }}>
-                    We centralize inventory, customization, and countertop cutting in NL to <strong>absorb seasonal demand peaks</strong>, reduce lead time, and increase margin — while sourcing standardized modules globally.
-                </p>
             </div>
 
             {/* MAIN VERTICAL STACK */}
-            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px', maxWidth: '560px', margin: '0 auto' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px', maxWidth: '560px', margin: '0 auto' }}>
 
                 {/* STAGE 1: INBOUND (Top) */}
                 <div style={{ width: '100%', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
@@ -57,11 +48,10 @@ export default function ProductionSolution() {
                     {/* Steel Modules */}
                     <div style={{
                         background: 'white',
-                        padding: '12px',
+                        padding: '8px',
                         border: '1px solid var(--color-neutral-200)',
-                        borderRadius: '8px',
-                        textAlign: 'center',
-                        boxShadow: '0 2px 4px rgba(0,0,0,0.04)'
+                        borderRadius: '4px',
+                        textAlign: 'center'
                     }}>
                         <div style={{ fontSize: '8px', fontWeight: 800, color: 'var(--color-secondary)', marginBottom: '4px', letterSpacing: '0.05em' }}>INBOUND A: STEEL MODULES</div>
                         <div style={{ fontSize: '9px', fontWeight: 800, color: 'var(--color-neutral-800)', marginBottom: '8px' }}>DUAL VENDOR STRATEGY</div>
@@ -74,11 +64,10 @@ export default function ProductionSolution() {
                     {/* Ceramic Slabs */}
                     <div style={{
                         background: 'white',
-                        padding: '12px',
+                        padding: '8px',
                         border: '1px solid var(--color-neutral-200)',
-                        borderRadius: '8px',
-                        textAlign: 'center',
-                        boxShadow: '0 2px 4px rgba(0,0,0,0.04)'
+                        borderRadius: '4px',
+                        textAlign: 'center'
                     }}>
                         <div style={{ fontSize: '8px', fontWeight: 800, color: 'var(--color-secondary)', marginBottom: '4px', letterSpacing: '0.05em' }}>INBOUND B: CERAMIC SLABS</div>
                         <div style={{ fontSize: '9px', fontWeight: 800, color: 'var(--color-neutral-800)', marginBottom: '8px' }}>DUAL VENDOR STRATEGY</div>
@@ -90,7 +79,7 @@ export default function ProductionSolution() {
                 </div>
 
                 {/* Separator Arrow */}
-                <div style={{ height: '16px', display: 'flex', alignItems: 'center', color: 'var(--color-neutral-300)' }}>
+                <div style={{ height: '8px', display: 'flex', alignItems: 'center', color: 'var(--color-neutral-300)' }}>
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                         <path d="M12 5v14M19 12l-7 7-7-7" />
                     </svg>
@@ -102,10 +91,9 @@ export default function ProductionSolution() {
                     background: 'white',
                     border: '1px solid var(--color-primary)',
                     borderTopWidth: '4px',
-                    borderRadius: '8px',
-                    padding: '20px 24px',
-                    position: 'relative',
-                    boxShadow: '0 8px 16px rgba(0, 0, 0, 0.06)'
+                    borderRadius: '4px',
+                    padding: '16px 20px',
+                    position: 'relative'
                 }}>
                     <div style={{
                         position: 'absolute', top: '-10px', left: '50%', transform: 'translateX(-50%)',
@@ -161,7 +149,7 @@ export default function ProductionSolution() {
                 </div>
 
                 {/* Separator Arrow */}
-                <div style={{ height: '16px', display: 'flex', alignItems: 'center', color: 'var(--color-neutral-300)' }}>
+                <div style={{ height: '8px', display: 'flex', alignItems: 'center', color: 'var(--color-neutral-300)' }}>
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                         <path d="M12 5v14M19 12l-7 7-7-7" />
                     </svg>
@@ -172,10 +160,9 @@ export default function ProductionSolution() {
                     width: '100%',
                     background: 'white',
                     border: '1px solid var(--color-secondary)',
-                    borderRadius: '8px',
-                    padding: '12px 16px',
-                    display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '16px',
-                    boxShadow: '0 2px 4px rgba(0,0,0,0.04)'
+                    borderRadius: '4px',
+                    padding: '8px 12px',
+                    display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '16px'
                 }}>
                     <div style={{ width: '28px', height: '28px', background: 'var(--color-neutral-50)', borderRadius: '6px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--color-secondary)' }}>
                         <Icon path="M10 17h4V5H10v12zm4 0h4V9h-4v8zm-8 4v-8h4v8H6z" />
@@ -187,7 +174,7 @@ export default function ProductionSolution() {
                 </div>
 
                 {/* Separator Arrow */}
-                <div style={{ height: '16px', display: 'flex', alignItems: 'center', color: 'var(--color-neutral-300)' }}>
+                <div style={{ height: '8px', display: 'flex', alignItems: 'center', color: 'var(--color-neutral-300)' }}>
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                         <path d="M12 5v14M19 12l-7 7-7-7" />
                     </svg>
@@ -202,10 +189,9 @@ export default function ProductionSolution() {
                         <div style={{
                             background: 'white',
                             border: '1px solid var(--color-neutral-200)',
-                            borderRadius: '8px',
-                            padding: '8px',
-                            display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px',
-                            boxShadow: '0 1px 2px rgba(0,0,0,0.04)'
+                            borderRadius: '4px',
+                            padding: '6px',
+                            display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px'
                         }}>
                             <div style={{ fontSize: '10px' }}>🇳🇱</div>
                             <div style={{ fontSize: '8px', fontWeight: 800, color: 'var(--color-neutral-700)' }}>NETHERLANDS</div>
@@ -215,10 +201,9 @@ export default function ProductionSolution() {
                         <div style={{
                             background: 'white',
                             border: '1px solid var(--color-neutral-200)',
-                            borderRadius: '8px',
-                            padding: '8px',
-                            display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px',
-                            boxShadow: '0 1px 2px rgba(0,0,0,0.04)'
+                            borderRadius: '4px',
+                            padding: '6px',
+                            display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px'
                         }}>
                             <div style={{ fontSize: '10px' }}>🇩🇪</div>
                             <div style={{ fontSize: '8px', fontWeight: 800, color: 'var(--color-neutral-700)' }}>GERMANY</div>
@@ -228,10 +213,9 @@ export default function ProductionSolution() {
                         <div style={{
                             background: 'white',
                             border: '1px solid var(--color-neutral-200)',
-                            borderRadius: '8px',
-                            padding: '8px',
-                            display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px',
-                            boxShadow: '0 1px 2px rgba(0,0,0,0.04)'
+                            borderRadius: '4px',
+                            padding: '6px',
+                            display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px'
                         }}>
                             <div style={{ fontSize: '10px' }}>🇧🇪</div>
                             <div style={{ fontSize: '8px', fontWeight: 800, color: 'var(--color-neutral-700)' }}>BELGIUM</div>

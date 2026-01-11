@@ -20,8 +20,6 @@ export default function TableOfContents({ entries }: TableOfContentsProps) {
     return (
       <div key={index} className={`toc-entry ${levelClass}`}>
         <span className="toc-title">{entry.title}</span>
-        <span className="toc-dots"></span>
-        <span className="toc-page">{entry.pageNumber}</span>
 
         {entry.subsections && entry.subsections.length > 0 && (
           <div className="toc-subsections">
@@ -57,58 +55,43 @@ export default function TableOfContents({ entries }: TableOfContentsProps) {
         .toc-entries {
           display: flex;
           flex-direction: column;
-          gap: var(--space-3);
+          gap: var(--space-4);
           width: 100%;
         }
         
         .toc-entry {
           display: flex;
-          align-items: baseline;
+          flex-direction: column;
           width: 100%;
           position: relative;
         }
         
         .toc-title {
           flex-shrink: 0;
-          background: white; /* Cover dots behind text if needed, though usually side-by-side */
           padding-right: 4px;
         }
         
-        .toc-dots {
-          flex-grow: 1;
-          border-bottom: 2px dotted var(--color-neutral-300);
-          margin: 0 4px;
-          opacity: 0.5;
-        }
-        
-        .toc-page {
-          flex-shrink: 0;
-          font-family: var(--font-body);
-          font-weight: var(--font-weight-bold);
-          text-align: right;
-          padding-left: 4px;
-          min-width: 24px; /* Ensure space for 2 digits */
-        }
-        
         .toc-entry-1 {
-          font-size: var(--font-size-h3);
-          font-weight: var(--font-weight-bold);
-          color: var(--color-text-primary);
-          margin-top: var(--space-4);
+          font-size: 18px;
+          font-weight: 700;
+          color: var(--color-primary);
+          margin-top: var(--space-6);
         }
         
         .toc-entry-2 {
-          font-size: var(--font-size-body);
-          font-weight: var(--font-weight-medium);
-          color: var(--color-text-secondary);
+          font-size: 14px;
+          font-weight: 500;
+          color: var(--color-neutral-800);
           padding-left: var(--space-6);
+          margin-top: var(--space-2);
         }
         
         .toc-entry-3 {
-          font-size: var(--font-size-small);
-          font-weight: var(--font-weight-normal);
-          color: var(--color-text-tertiary);
+          font-size: 12px;
+          font-weight: 400;
+          color: var(--color-neutral-600);
           padding-left: var(--space-12);
+          margin-top: var(--space-1);
         }
 
         .toc-subsections {

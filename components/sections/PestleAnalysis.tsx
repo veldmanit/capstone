@@ -63,7 +63,7 @@ export default function PestleAnalysis() {
 
     return (
         <div className="pestle-analysis">
-            <h2 style={{ fontSize: '20px', fontWeight: 800, marginBottom: 'var(--space-4)', color: 'var(--color-neutral-900)' }}>Appendix A: Strategic PESTLE Analysis</h2>
+            <h2 style={{ fontSize: '20px', fontWeight: 800, marginBottom: 'var(--space-4)', color: 'var(--color-primary)' }}>Appendix A: Strategic PESTLE Analysis</h2>
 
             <p style={{ fontSize: '10px', color: 'var(--color-neutral-700)', marginBottom: '16px', lineHeight: '1.5' }}>
                 The luxury outdoor kitchen market in the Netherlands, Germany, and Belgium represents a sophisticated intersection of architectural innovation and shifting domestic lifestyles. For Fieldsman, operating on a vertically integrated manufacturing platform, the landscape offers significant opportunities tempered by complex regulatory and logistics challenges. This analysis identifies the macro-environmental factors shaping the production-led scaling strategy.

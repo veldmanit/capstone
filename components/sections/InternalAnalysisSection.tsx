@@ -21,19 +21,25 @@ export default function InternalAnalysisSection() {
                 </div>
 
                 <div style={{ borderTop: '1px solid var(--color-neutral-300)', paddingTop: 'var(--space-6)', marginBottom: 'var(--space-8)' }}>
-                    <h2 style={{ marginBottom: 'var(--space-4)' }}>3.1 Internal Capabilities: A Strong Core with Clear Bottlenecks</h2>
+                    <h2 style={{ color: 'var(--color-primary)', marginBottom: 'var(--space-4)' }}>3.1 Internal Capabilities: A Strong Core with Clear Bottlenecks</h2>
                     <TextBlock>
                         <p>
                             To understand Fieldsman's potential for scale, we conducted a resource-based view analysis of its current internal capabilities. This assessment identifies the proprietary assets that can be leveraged for growth and the critical operational constraints that must be resolved.
                         </p>
                     </TextBlock>
                 </div>      {/* NEW VALUE CHAIN VISUAL */}
-                <div style={{ marginTop: 'var(--space-8)', marginBottom: 'var(--space-8)', padding: 'var(--space-5)', background: 'var(--color-neutral-100)', borderRadius: 'var(--border-radius-md)' }}>
+                <div style={{ marginTop: 'var(--space-8)', marginBottom: 'var(--space-8)' }}>
                     <div style={{ marginBottom: 'var(--space-6)' }}>
-                        <h3 style={{ fontSize: 'var(--font-size-h3)', color: 'var(--color-primary)', marginBottom: 'var(--space-2)' }}>The Value Chain: Where Value is Created vs. Lost</h3>
-                        <TextBlock>
-                            <p style={{ marginBottom: 'var(--space-4)' }}>
-                                Fieldsman's current value chain is optimized for flexibility and low fixed costs but is ill-suited for volume. The process relies heavily on manual intervention in the "Make" and "Deliver" phases, creating linear cost scaling rather than economies of scale.
+                        <h3 style={{ fontSize: 'var(--font-size-h3)', color: 'var(--color-primary)', marginBottom: 'var(--space-3)', fontWeight: 700 }}>Current Business Model and Value Chain</h3>
+                        <TextBlock style={{ marginBottom: 'var(--space-6)' }}>
+                            <p style={{ marginBottom: 'var(--space-3)' }}>
+                                Understanding where Fieldsman creates and captures value is essential for identifying both strengths to leverage and constraints to address.
+                            </p>
+                            <p style={{ marginBottom: 'var(--space-3)' }}>
+                                Fieldsman operates a direct-to-consumer model that bypasses traditional retail channels entirely. This structural choice is not merely about cost efficiency but about market viability. The target customer's willingness to pay for modular outdoor kitchens sits between €3,000 and €8,000. A traditional retail model, which typically demands a 40% margin for distributors and retailers, would push the end price above €8,500, pricing Fieldsman out of its target segment entirely.
+                            </p>
+                            <p>
+                                By trading off the retail margin, Fieldsman accepts a lower per-unit potential but unlocks significantly higher volume by fitting precisely within the mid-premium adoption sweet spot. This volume strategy maximizes total profit pool rather than unit margin percentage.
                             </p>
                         </TextBlock>      {/* CHART CONTAINER */}
                         <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-7)' }}>
@@ -45,11 +51,11 @@ export default function InternalAnalysisSection() {
                                     <span>Typical Retail Price: €8,500</span>
                                 </div>
                                 <div style={{ height: '36px', display: 'flex', width: '100%', borderRadius: '4px', overflow: 'hidden' }}>
-                                    <div style={{ width: '21%', background: '#1e293b', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', color: 'white', borderRight: '1px solid rgba(255,255,255,0.1)' }}>
+                                    <div style={{ width: '21%', background: 'var(--color-neutral-800)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', color: 'white', borderRight: '1px solid rgba(255,255,255,0.1)' }}>
                                         <div style={{ fontSize: '9px', fontWeight: 700 }}>COGS</div>
                                         <div style={{ fontSize: '7px', opacity: 0.8 }}>€1.8k</div>
                                     </div>
-                                    <div style={{ width: '7%', background: '#64748b', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', color: 'white', borderRight: '1:px solid rgba(255,255,255,0.1)' }}>
+                                    <div style={{ width: '7%', background: 'var(--color-neutral-500)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', color: 'white', borderRight: '1:px solid rgba(255,255,255,0.1)' }}>
                                         <div style={{ fontSize: '8px', fontWeight: 700 }}>OPS</div>
                                         <div style={{ fontSize: '7px', opacity: 0.8 }}>€0.6k</div>
                                     </div>
@@ -89,12 +95,12 @@ export default function InternalAnalysisSection() {
                                      */}
                                     <div style={{ width: '59%', display: 'flex', borderRadius: '4px', overflow: 'hidden', boxShadow: '0 1px 2px rgba(0,0,0,0.1)' }}>
                                         {/* COGS €1.8k / €5k = 36% */}
-                                        <div style={{ width: '36%', background: '#1e293b', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', color: 'white', borderRight: '1px solid rgba(255,255,255,0.1)' }}>
+                                        <div style={{ width: '36%', background: 'var(--color-neutral-800)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', color: 'white', borderRight: '1px solid rgba(255,255,255,0.1)' }}>
                                             <div style={{ fontSize: '9px', fontWeight: 700 }}>COGS</div>
                                             <div style={{ fontSize: '8px', opacity: 0.8 }}>€1.8k</div>
                                         </div>
                                         {/* OPS €0.6k / €5k = 12% */}
-                                        <div style={{ width: '12%', background: '#64748b', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', color: 'white', borderRight: '1px solid rgba(255,255,255,0.1)' }}>
+                                        <div style={{ width: '12%', background: 'var(--color-neutral-500)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', color: 'white', borderRight: '1px solid rgba(255,255,255,0.1)' }}>
                                             <div style={{ fontSize: '9px', fontWeight: 700 }}>OPS</div>
                                             <div style={{ fontSize: '8px', opacity: 0.8 }}>€0.6k</div>
                                         </div>
@@ -139,18 +145,16 @@ export default function InternalAnalysisSection() {
                         </div>
                     </div>
 
-                    {/* STRATEGIC CONTEXT: WILLINGNESS TO PAY */}
-                    <div style={{ marginBottom: 'var(--space-8)' }}>
-                        <h4 style={{ fontSize: '11px', fontWeight: 700, color: 'var(--color-neutral-900)', marginBottom: 'var(--space-3)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Strategic Imperative: Meeting Consumer Willingness To Pay</h4>
-                        <p style={{ fontSize: '10px', lineHeight: '1.6', color: 'var(--color-neutral-700)', marginBottom: 'var(--space-3)' }}>
-                            The decision to bypass traditional retail is not just about cost efficiency, but about market viability. Our analysis indicates the target customer's maximum Willingness to Pay for this modular category is approximately €3,000–€8,000.
-                        </p>
-                        <p style={{ fontSize: '10px', lineHeight: '1.6', color: 'var(--color-neutral-700)' }}>
-                            As the visual demonstrates, a traditional retail model demands a ~40% margin, pushing the price to €8,500+—limitng volume. By trading off this retail margin, Fieldsman accepts a lower per-unit potential but unlocks significantly higher volume by fitting precisely within the €5k adoption sweet spot. This "Volume Strategy" maximizes total profit pool rather than unit margin percentage.
-                        </p>
-                    </div>
 
                     {/* ORGANOGRAM */}
+                    <div style={{ marginBottom: 'var(--space-6)' }}>
+                        <h3 style={{ fontSize: 'var(--font-size-h3)', color: 'var(--color-primary)', marginBottom: 'var(--space-3)', fontWeight: 700 }}>Organizational Structure</h3>
+                        <TextBlock>
+                            <p style={{ marginBottom: 'var(--space-4)' }}>
+                                Fieldsman VOF is owned equally by three brothers, each holding a one-third stake and fulfilling a distinct leadership role. The operational team consists of approximately five part-time employees across sales, production, and assembly. This lean structure keeps fixed costs low but creates capacity constraints that limit growth.
+                            </p>
+                        </TextBlock>
+                    </div>
                     <OrganizationalStructure />
 
                     <h3 style={{ fontSize: '13px', marginTop: 'var(--space-8)', marginBottom: 'var(--space-6)', color: 'var(--color-primary)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Current Performance Snapshot</h3>
@@ -165,7 +169,7 @@ export default function InternalAnalysisSection() {
                         </div>
                         <div className="col-4">
                             <KPIBlock
-                                value="<€100"
+                                value="€244"
                                 label="CAC"
                                 context="Customer Acquisition Cost"
                                 accentColor="var(--color-secondary)"
@@ -173,7 +177,7 @@ export default function InternalAnalysisSection() {
                         </div>
                         <div className="col-4">
                             <KPIBlock
-                                value="40x"
+                                value="25.2x"
                                 label="ROAS"
                                 context="Return on Ad Spend"
                                 accentColor="var(--color-primary)"
@@ -181,27 +185,17 @@ export default function InternalAnalysisSection() {
                         </div>
                     </div>
 
-                    <TextBlock>
-                        <p style={{ fontSize: '11px', lineHeight: '1.6', color: 'var(--color-neutral-700)', marginBottom: 'var(--space-8)' }}>
-                            The company sells approximately 40 kitchens per year with remarkable efficiency. Marketing investment is approximately €10K annually. This implies a customer acquisition cost around €250 and a return on ad spend of ~17x. The demand is clearly there. The constraint has never been commercial; it has always been operational.
+                    <TextBlock style={{ marginTop: 'var(--space-8)' }}>
+                        <p style={{ marginBottom: 'var(--space-4)', fontWeight: 600, color: 'var(--color-neutral-900)' }}>
+                            Two characteristics of the current model provide strategic advantages that must be preserved as the company scales.
+                        </p>
+                        <p style={{ marginBottom: 'var(--space-4)' }}>
+                            The direct customer relationship creates a continuous feedback loop. Unlike competitors who rely on dealer reports, Fieldsman owns every customer conversation. This direct access enables rapid iteration of the 3D configurator and product features based on real-time feedback.
+                        </p>
+                        <p>
+                            The D2C model also generates favorable working capital dynamics. The showroom-less model eliminates high fixed rental costs. Customers pay deposits upfront, funding production before costs are incurred. This negative working capital cycle is a crucial engine for self-funded growth.
                         </p>
                     </TextBlock>
-
-                    {/* NEW STRATEGIC IMPLICATIONS */}
-                    <div style={{ marginTop: 'var(--space-6)', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-6)' }}>
-                        <div>
-                            <h4 style={{ fontSize: '11px', fontWeight: 800, color: 'var(--color-neutral-900)', marginBottom: 'var(--space-2)' }}>DIRECT FEEDBACK LOOP</h4>
-                            <p style={{ fontSize: '10.5px', color: 'var(--color-neutral-600)', lineHeight: '1.5' }}>
-                                Unlike competitors who rely on dealer reports, Fieldsman owns the customer relationship. Every conversation is a data point. This "Pulse of the Market" allows for rapid iteration of the 3D configurator and product features based on real-time feedback.
-                            </p>
-                        </div>
-                        <div>
-                            <h4 style={{ fontSize: '11px', fontWeight: 800, color: 'var(--color-neutral-900)', marginBottom: 'var(--space-2)' }}>CASH EFFICIENCY</h4>
-                            <p style={{ fontSize: '10.5px', color: 'var(--color-neutral-600)', lineHeight: '1.5' }}>
-                                The showroom-less model eliminates high fixed rental costs. Furthermore, the D2C model operates on negative working capital: customers pay deposits upfront, funding production before costs are incurred. This is a crucial engine for self-funded growth.
-                            </p>
-                        </div>
-                    </div>
 
 
                 </div>
@@ -209,45 +203,43 @@ export default function InternalAnalysisSection() {
 
             {/* PAGE 2: 3.2 The Bottleneck: Capacity Over Commercials */}
             <PageWrapper sectionLabel="SECTION 3: INTERNAL ANALYSIS">
-                <h2 style={{ marginBottom: 'var(--space-4)' }}>3.2 The Bottleneck: Why Growth Stops in May</h2>
+                <h2 style={{ color: 'var(--color-primary)', marginBottom: 'var(--space-4)' }}>3.2 The Bottleneck: Why Growth Stops in May</h2>
                 <TextBlock style={{ marginBottom: 'var(--space-8)' }}>
                     <p style={{ marginBottom: 'var(--space-4)' }}>
-                        Fieldsman’s current production constraint is not the modular product design itself, but the structural setup of the organization: production capacity is limited because the team operates largely part-time, with a small number of skilled people who carry multiple roles. This makes output highly dependent on a few individuals and prevents rapid scaling when demand peaks in spring and summer. The business simply does not have the fixed workforce or continuous operating rhythm required to increase throughput materially.
+                        Fieldsman's production constraint is not the product itself but how the organization is structured. As the visual illustrates, potential demand peaks sharply from March through July while maximum capacity remains flat. This creates a growth gap where demand goes unfulfilled and marketing must be halted to protect lead times and quality.
+                    </p>
+                    <p style={{ marginBottom: 'var(--space-4)', fontWeight: 600, color: 'var(--color-neutral-900)' }}>
+                        Three interconnected factors create this capacity trap.
                     </p>
                     <p style={{ marginBottom: 'var(--space-4)' }}>
-                        While the detailed modular architecture (see <strong>Appendix F</strong>) theoretically allows for pre-season stock building to smooth demand, this would require massive inventory investment at the start of the year. Given the high cost of components, this creates prohibitive working capital pressure and storage costs, making "building to stock" a financially risky strategy for a bootstrapped company.
+                        <strong style={{ color: 'var(--color-neutral-900)' }}>Internally,</strong> the business depends on part-time skilled workers carrying multiple roles. Output is highly dependent on a few individuals, making it impossible to scale rapidly when seasonal demand peaks. The team simply lacks the dedicated workforce and operating rhythm to increase throughput materially.
                     </p>
                     <p style={{ marginBottom: 'var(--space-4)' }}>
-                        At the same time, scaling production fully in-house is structurally inefficient due to strong seasonality. Outdoor kitchen demand drops significantly in winter, which would create overcapacity and idle skilled labor if Fieldsman invested in a larger permanent internal team and equipment. Temporary labor is not a practical solution because the work requires craftsmanship, quality control, and product knowledge that cannot be learned quickly.
+                        <strong style={{ color: 'var(--color-neutral-900)' }}>Seasonally,</strong> scaling in-house production is structurally inefficient. Investing in a larger permanent team and equipment would create overcapacity and idle labor during winter when demand drops. The modular architecture (see <strong>Appendix F</strong>) theoretically allows for pre-season stock building to smooth this curve, but the working capital requirements are prohibitive for a bootstrapped company. Temporary labor is not practical because the work requires craftsmanship and product knowledge that cannot be learned quickly.
                     </p>
-                    <p>
-                        Adding to this complexity is the supply chain for ceramic countertops. Currently outsourced to local suppliers, this component introduces severe unpredictability, with lead times frequently exceeding 8 weeks during high season. This external bottleneck effectively caps total output regardless of internal improvements, as finished frames cannot be shipped without their tops.
+                    <p style={{ marginBottom: 'var(--space-4)' }}>
+                        <strong style={{ color: 'var(--color-neutral-900)' }}>From a supply chain perspective,</strong> ceramic countertops create an external ceiling. Currently outsourced to local suppliers, this component introduces severe unpredictability with lead times frequently exceeding 8 weeks during peak season. Finished frames cannot ship without their tops, meaning supplier delays directly halt customer deliveries regardless of internal improvements.
+                    </p>
+                    <p style={{ fontWeight: 600, color: 'var(--color-primary)' }}>
+                        To scale from 50 to 2,000+ kitchens per year, Fieldsman must transform its production system from fixed manual labor to a scalable hybrid model.
                     </p>
                 </TextBlock>
 
                 <div style={{ marginTop: 'var(--space-8)', marginBottom: 'var(--space-8)' }}>
                     <BottleneckVisual />
                 </div>
-
-                <div style={{ marginTop: 'var(--space-8)' }}>
-                    <TextBlock>
-                        <p>
-                            <strong>Implication:</strong> To scale from 50 to 5,000 kitchens per year, Fieldsman must transform its production system. The goal is to move from fixed manual labor to a scalable hybrid model: outsourced steel (flexibility) and in-house robotic countertop cutting (cost & speed control).
-                        </p>
-                    </TextBlock>
-                </div>
             </PageWrapper >
 
             {/* PAGE 3: Consolidated Strategic Summary (VRIO, SWOT, Takeaways) */}
             <PageWrapper sectionLabel="SECTION 3: INTERNAL ANALYSIS">
-                <h2 style={{ marginBottom: 'var(--space-4)' }}>3.3 Strategic Synthesis: Capabilities & Risks</h2>
+                <h2 style={{ color: 'var(--color-primary)', marginBottom: 'var(--space-4)' }}>3.3 Strategic Synthesis: Capabilities & Risks</h2>
 
                 {/* VRIO Table - Compact */}
                 <div style={{ marginBottom: 'var(--space-6)' }}>
-                    <h3 style={{ fontSize: 'var(--font-size-h3)', color: 'var(--color-primary)', marginBottom: 'var(--space-2)' }}>SWOT Analysis: Strategic Position</h3>
+                    <h3 style={{ fontSize: 'var(--font-size-h3)', color: 'var(--color-primary)', marginBottom: 'var(--space-2)', fontWeight: 700 }}>VRIO Analysis: Defensibility of Core Capabilities</h3>
                     <TextBlock>
                         <p>
-                            The breakdown of Strengths, Weaknesses, Opportunities, and Threats highlights that Fieldsman's primary constraints are internal (operational), while the external environment is highly favorable.
+                            This assessment evaluates whether Fieldsman's key resources provide a sustainable competitive advantage or are vulnerable to imitation by larger industrial players.
                         </p>
                     </TextBlock>
                 </div>
@@ -305,48 +297,54 @@ export default function InternalAnalysisSection() {
                 </div>
 
                 {/* SWOT Grid - Premium Styling */}
-                <div style={{ marginBottom: 'var(--space-6)' }}>
-                    <h3 style={{ fontSize: '11px', fontWeight: 800, color: 'var(--color-neutral-600)', marginBottom: 'var(--space-2)', letterSpacing: '0.05em' }}>SWOT STRATEGIC MATRIX</h3>
+                <div style={{ marginTop: 'var(--space-8)', marginBottom: 'var(--space-6)' }}>
+                    <h3 style={{ fontSize: 'var(--font-size-h3)', color: 'var(--color-primary)', marginBottom: 'var(--space-2)', fontWeight: 700 }}>SWOT Analysis: Strategic Position</h3>
+                    <TextBlock>
+                        <p style={{ marginBottom: 'var(--space-4)' }}>
+                            The breakdown of Strengths, Weaknesses, Opportunities, and Threats highlights that Fieldsman's primary constraints are internal (operational), while the external environment remains highly favorable for a modular challenger.
+                        </p>
+                    </TextBlock>
+                    <h3 style={{ fontSize: '11px', fontWeight: 800, color: 'var(--color-neutral-600)', marginBottom: 'var(--space-2)', letterSpacing: '0.05em', textTransform: 'uppercase' }}>Strategic Matrix</h3>
                     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-3)' }}>
                         {/* Strengths */}
-                        <div style={{ background: 'var(--color-primary-100)', padding: 'var(--space-3)', border: '1px solid var(--color-primary-200)', borderTop: '4px solid var(--color-primary)', borderRadius: '4px', boxShadow: '0 1px 3px rgba(0,0,0,0.05)' }}>
-                            <h4 style={{ fontSize: '10px', fontWeight: 800, color: 'var(--color-primary-700)', marginBottom: '4px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                        <div style={{ background: 'var(--color-neutral-50)', padding: 'var(--space-3)', border: '1px solid var(--color-neutral-200)', borderTop: '4px solid var(--color-primary)', borderRadius: '4px', boxShadow: '0 1px 3px rgba(0,0,0,0.05)' }}>
+                            <h4 style={{ fontSize: '10px', fontWeight: 800, color: 'var(--color-primary)', marginBottom: '4px', display: 'flex', alignItems: 'center', gap: '6px' }}>
                                 <span style={{ color: 'var(--color-primary)', fontSize: '12px' }}>↑</span> STRENGTHS
                             </h4>
-                            <ul style={{ fontSize: '9px', color: 'var(--color-primary-800)', paddingLeft: '12px', margin: 0, lineHeight: '1.4' }}>
+                            <ul style={{ fontSize: '9px', color: 'var(--color-neutral-700)', paddingLeft: '12px', margin: 0, lineHeight: '1.4' }}>
                                 <li style={{ marginBottom: '2px' }}><strong>Lean Model:</strong> High D2C margins (~40%) vs industry.</li>
                                 <li style={{ marginBottom: '2px' }}><strong>Agility:</strong> Fast iteration cycles.</li>
                                 <li><strong>Proprietary Configurator:</strong> High conversion tool.</li>
                             </ul>
                         </div>
                         {/* Weaknesses */}
-                        <div style={{ background: 'var(--color-neutral-100)', padding: 'var(--space-3)', border: '1px solid var(--color-neutral-200)', borderTop: '4px solid var(--color-neutral-600)', borderRadius: '4px', boxShadow: '0 1px 3px rgba(0,0,0,0.05)' }}>
-                            <h4 style={{ fontSize: '10px', fontWeight: 800, color: 'var(--color-neutral-700)', marginBottom: '4px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                        <div style={{ background: 'var(--color-neutral-50)', padding: 'var(--space-3)', border: '1px solid var(--color-neutral-200)', borderTop: '4px solid var(--color-neutral-600)', borderRadius: '4px', boxShadow: '0 1px 3px rgba(0,0,0,0.05)' }}>
+                            <h4 style={{ fontSize: '10px', fontWeight: 800, color: 'var(--color-neutral-600)', marginBottom: '4px', display: 'flex', alignItems: 'center', gap: '6px' }}>
                                 <span style={{ color: 'var(--color-neutral-600)', fontSize: '12px' }}>↓</span> WEAKNESSES
                             </h4>
-                            <ul style={{ fontSize: '9px', color: 'var(--color-neutral-800)', paddingLeft: '12px', margin: 0, lineHeight: '1.4' }}>
+                            <ul style={{ fontSize: '9px', color: 'var(--color-neutral-700)', paddingLeft: '12px', margin: 0, lineHeight: '1.4' }}>
                                 <li style={{ marginBottom: '2px' }}><strong>Zero Brand Equity:</strong> Purely paid-traffic dependent.</li>
                                 <li style={{ marginBottom: '2px' }}><strong>Fragility:</strong> Founder-dependency & manual process.</li>
                                 <li><strong>Capital:</strong> Self-funded limits speed vs VC/Industrial.</li>
                             </ul>
                         </div>
                         {/* Opportunities */}
-                        <div style={{ background: 'var(--color-secondary-100)', padding: 'var(--space-3)', border: '1px solid var(--color-secondary-200)', borderTop: '4px solid var(--color-secondary)', borderRadius: '4px', boxShadow: '0 1px 3px rgba(0,0,0,0.05)' }}>
-                            <h4 style={{ fontSize: '10px', fontWeight: 800, color: 'var(--color-secondary-700)', marginBottom: '4px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                        <div style={{ background: 'var(--color-neutral-50)', padding: 'var(--space-3)', border: '1px solid var(--color-neutral-200)', borderTop: '4px solid var(--color-secondary)', borderRadius: '4px', boxShadow: '0 1px 3px rgba(0,0,0,0.05)' }}>
+                            <h4 style={{ fontSize: '10px', fontWeight: 800, color: 'var(--color-secondary)', marginBottom: '4px', display: 'flex', alignItems: 'center', gap: '6px' }}>
                                 <span style={{ color: 'var(--color-secondary)', fontSize: '12px' }}>⊕</span> OPPORTUNITIES
                             </h4>
-                            <ul style={{ fontSize: '9px', color: 'var(--color-secondary-800)', paddingLeft: '12px', margin: 0, lineHeight: '1.4' }}>
+                            <ul style={{ fontSize: '9px', color: 'var(--color-neutral-700)', paddingLeft: '12px', margin: 0, lineHeight: '1.4' }}>
                                 <li style={{ marginBottom: '2px' }}><strong>"The Missing Middle":</strong> Structural gap in €3-8k segment.</li>
                                 <li style={{ marginBottom: '2px' }}><strong>Industrialization:</strong> Robotization to break manual cap.</li>
                                 <li><strong>Germany:</strong> 10x market size with high modular fit.</li>
                             </ul>
                         </div>
                         {/* Threats */}
-                        <div style={{ background: 'var(--color-neutral-100-yellow)', padding: 'var(--space-3)', border: '1px solid var(--color-neutral-200-yellow)', borderTop: '4px solid var(--color-neutral-600-yellow)', borderRadius: '4px', boxShadow: '0 1px 3px rgba(0,0,0,0.05)' }}>
-                            <h4 style={{ fontSize: '10px', fontWeight: 800, color: 'var(--color-neutral-700-yellow)', marginBottom: '4px', display: 'flex', alignItems: 'center', gap: '6px' }}>
-                                <span style={{ color: 'var(--color-neutral-600-yellow)', fontSize: '12px' }}>⚠</span> THREATS
+                        <div style={{ background: 'var(--color-neutral-50)', padding: 'var(--space-3)', border: '1px solid var(--color-neutral-200)', borderTop: '4px solid var(--color-neutral-400)', borderRadius: '4px', boxShadow: '0 1px 3px rgba(0,0,0,0.05)' }}>
+                            <h4 style={{ fontSize: '10px', fontWeight: 800, color: 'var(--color-neutral-600)', marginBottom: '4px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                                <span style={{ color: 'var(--color-neutral-600)', fontSize: '12px' }}>⚠</span> THREATS
                             </h4>
-                            <ul style={{ fontSize: '9px', color: 'var(--color-neutral-800-yellow)', paddingLeft: '12px', margin: 0, lineHeight: '1.4' }}>
+                            <ul style={{ fontSize: '9px', color: 'var(--color-neutral-700)', paddingLeft: '12px', margin: 0, lineHeight: '1.4' }}>
                                 <li style={{ marginBottom: '2px' }}><strong>Industrial Copycats:</strong> Low barrier to entry for big players.</li>
                                 <li style={{ marginBottom: '2px' }}><strong>Rising CAC:</strong> Dependence on Meta/Google ad costs.</li>
                                 <li><strong>Supply Chain:</strong> Steel price volatility & import delays.</li>
@@ -368,25 +366,25 @@ export default function InternalAnalysisSection() {
                         <div style={{ display: 'flex', gap: '8px' }}>
                             <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary)', color: 'white', borderRadius: '50%', fontSize: 'var(--font-size-small)', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>1</div>
                             <p style={{ fontSize: 'var(--font-size-small)', color: 'var(--color-neutral-700)', lineHeight: '1.4', margin: 0 }}>
-                                <strong style={{ color: 'var(--color-neutral-900)' }}>Proven Traction:</strong> Consistent organic sales of 40 units/year with minimal marketing confirms strong product-market fit.
+                                <strong style={{ color: 'var(--color-neutral-900)' }}>High-Performance Unit Economics:</strong> The 48% EBITDA margin and negative working capital cycle provide a powerful self-funding engine, but the model is currently trapped in a manual, small-scale cycle.
                             </p>
                         </div>
                         <div style={{ display: 'flex', gap: '8px' }}>
                             <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary)', color: 'white', borderRadius: '50%', fontSize: 'var(--font-size-small)', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>2</div>
                             <p style={{ fontSize: 'var(--font-size-small)', color: 'var(--color-neutral-700)', lineHeight: '1.4', margin: 0 }}>
-                                <strong style={{ color: 'var(--color-neutral-900)' }}>Operational Ceiling:</strong> Current production model caps growth; supply chain cannot support &gt;50 units without re-engineering.
+                                <strong style={{ color: 'var(--color-neutral-900)' }}>The Seasonal "Capacity Trap":</strong> Output is capped by a flat capacity curve facing sharp seasonal peaks. Scaling to 2,000+ units requires breaking the dependency on founder-led manual craftsmanship.
                             </p>
                         </div>
                         <div style={{ display: 'flex', gap: '8px' }}>
                             <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary)', color: 'white', borderRadius: '50%', fontSize: 'var(--font-size-small)', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>3</div>
                             <p style={{ fontSize: 'var(--font-size-small)', color: 'var(--color-neutral-700)', lineHeight: '1.4', margin: 0 }}>
-                                <strong style={{ color: 'var(--color-neutral-900)' }}>Margin Strength:</strong> 48% EBITDA margin at small scale provides a healthy buffer for funding growth investments.
+                                <strong style={{ color: 'var(--color-neutral-900)' }}>External Supply Chain Ceiling:</strong> Reliance on local ceramic suppliers creates a hard bottleneck (8-week lead times) that caps total output regardless of internal operational improvements.
                             </p>
                         </div>
                         <div style={{ display: 'flex', gap: '8px' }}>
                             <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary)', color: 'white', borderRadius: '50%', fontSize: 'var(--font-size-small)', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>4</div>
                             <p style={{ fontSize: 'var(--font-size-small)', color: 'var(--color-neutral-700)', lineHeight: '1.4', margin: 0 }}>
-                                <strong style={{ color: 'var(--color-neutral-900)' }}>Founder Constraint:</strong> Part-time leadership is the primary non-technical bottleneck; transition to full-time is mandatory.
+                                <strong style={{ color: 'var(--color-neutral-900)' }}>A Narrow Strategic Window:</strong> Modular and D2C advantages are logical, not technological. Fieldsman must industrialize its "machine" and build brand equity before industrial incumbents replicate the model.
                             </p>
                         </div>
                     </div>

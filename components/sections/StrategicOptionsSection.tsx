@@ -3,13 +3,14 @@
 import React from 'react';
 import PageWrapper from '@/components/layout/PageWrapper';
 import TextBlock from '@/components/content/TextBlock';
+import StrategicRoadmap from '@/components/charts/StrategicRoadmap';
 
 export default function StrategicOptionsSection() {
     return (
         <>
             {/* PAGE 1: Strategic Evaluation (The 3 Paths) */}
             <PageWrapper sectionLabel="SECTION 4: STRATEGIC OPTIONS">
-                <h2 style={{ marginBottom: 'var(--space-6)' }}>4.1 Strategic Evaluation: Three Paths Forward</h2>
+                <h2 style={{ color: 'var(--color-primary)', marginBottom: 'var(--space-6)' }}>4.1 Strategic Evaluation: Three Paths Forward</h2>
                 <div style={{ marginBottom: 'var(--space-6)' }}>
                     <TextBlock>
                         <p style={{ fontSize: 'var(--font-size-body)' }}>
@@ -31,11 +32,11 @@ export default function StrategicOptionsSection() {
                                 </th>
                                 <th style={{ textAlign: 'left', padding: 'var(--space-2)', width: '28.33%', color: 'var(--color-neutral-600)', fontWeight: 700, borderBottom: '2px solid var(--color-neutral-200)', borderTop: '4px solid var(--color-neutral-400)', borderLeft: '1px solid var(--color-neutral-200)' }}>
                                     OPTION 2<br></br> M&A ROLL-UP
-                                    <div style={{ fontSize: 'var(--font-size-tiny)', fontWeight: 600, color: 'var(--color-neutral-500)', marginTop: '2px', textTransform: 'uppercase' }}>Resource Consolidation</div>
+                                    <div style={{ fontSize: 'var(--font-size-tiny)', fontWeight: 600, color: 'var(--color-neutral-500)', marginTop: '2px', textTransform: 'uppercase' }}>Market Consolidation</div>
                                 </th>
-                                <th style={{ textAlign: 'left', padding: 'var(--space-2)', width: '28.33%', color: 'var(--color-neutral-600)', fontWeight: 700, borderBottom: '2px solid var(--color-neutral-200)', borderTop: '4px solid var(--color-neutral-400)', borderLeft: '1px solid var(--color-neutral-200)' }}>
-                                    OPTION 3<br></br> PARTNER / JV
-                                    <div style={{ fontSize: 'var(--font-size-tiny)', fontWeight: 600, color: 'var(--color-neutral-500)', marginTop: '2px', textTransform: 'uppercase' }}>Profit Equation Shift</div>
+                                <th style={{ textAlign: 'left', padding: 'var(--space-2)', width: '28.33%', color: 'var(--color-neutral-600)', fontWeight: 700, borderBottom: '2px solid var(--color-neutral-200)', borderTop: '4px solid var(--color-neutral-400)', borderLeft: '1px solid var(--color-neutral-200)', borderRight: '1px solid var(--color-neutral-200)' }}>
+                                    OPTION 3<br></br> OPERATIONAL JV
+                                    <div style={{ fontSize: 'var(--font-size-tiny)', fontWeight: 600, color: 'var(--color-neutral-500)', marginTop: '2px', textTransform: 'uppercase' }}>Shared Infrastructure</div>
                                 </th>
                             </tr>
                         </thead>
@@ -54,16 +55,16 @@ export default function StrategicOptionsSection() {
                                 </td>
                                 <td style={{ padding: 'var(--space-2)', color: 'var(--color-neutral-600)', borderBottom: '1px solid var(--color-neutral-200)', borderLeft: '1px solid var(--color-neutral-200)', verticalAlign: 'top', lineHeight: '1.4' }}>
                                     <ul style={{ margin: 0, paddingLeft: '12px', listStyleType: 'square' }}>
-                                        <li><strong>Acquire Resources:</strong> Bypass capacity bottlenecks by purchasing established German manufacturers.</li>
-                                        <li><strong>Horizontal Integration:</strong> Consolidate competitors under the Fieldsman umbrella to capture market share.</li>
-                                        <li><strong>CapEx Heavy:</strong> Growth via significant capital injection and asset absorption.</li>
+                                        <li><strong>Acquire Competitors:</strong> Purchase local installers/retailers (NL/BE) to consolidate market share and customer bases.</li>
+                                        <li><strong>Absorb Capabilities:</strong> Integrate showroom networks, customer relationships, and installation teams.</li>
+                                        <li><strong>Rapid Scale:</strong> Accelerate market penetration via inorganic growth and brand consolidation.</li>
                                     </ul>
                                 </td>
-                                <td style={{ padding: 'var(--space-2)', color: 'var(--color-neutral-600)', borderBottom: '1px solid var(--color-neutral-200)', borderLeft: '1px solid var(--color-neutral-200)', verticalAlign: 'top', lineHeight: '1.4' }}>
+                                <td style={{ padding: 'var(--space-2)', color: 'var(--color-neutral-600)', borderBottom: '1px solid var(--color-neutral-200)', borderLeft: '1px solid var(--color-neutral-200)', borderRight: '1px solid var(--color-neutral-200)', verticalAlign: 'top', lineHeight: '1.4' }}>
                                     <ul style={{ margin: 0, paddingLeft: '12px', listStyleType: 'square' }}>
-                                        <li><strong>Externalize Execution:</strong> Shift GTM and CAPEX burden to Master Franchise partners.</li>
-                                        <li><strong>Revenue Model Flip:</strong> Transition from Margin-based to Royalty/Licensing-based revenue.</li>
-                                        <li><strong>Platform Play:</strong> Fieldsman becomes a product IP & brand licensor.</li>
+                                        <li><strong>Shared Operations:</strong> Form JVs with regional players for countertop production, logistics hubs, and assembly facilities.</li>
+                                        <li><strong>Cost Pooling:</strong> Achieve economies of scale via shared infrastructure while maintaining brand independence.</li>
+                                        <li><strong>Asset-Light Growth:</strong> Expand capacity without full capital burden through co-investment model.</li>
                                     </ul>
                                 </td>
                             </tr>
@@ -78,7 +79,7 @@ export default function StrategicOptionsSection() {
                                     <td style={{ textAlign: 'center', color: crit === 'Suitability' ? 'var(--color-secondary)' : 'var(--color-neutral-400)', fontWeight: crit === 'Suitability' ? 600 : 700, borderLeft: '1px solid var(--color-neutral-200)' }}>
                                         {crit === 'Suitability' ? '○ MEDIUM' : '✗ LOW-MED'}
                                     </td>
-                                    <td style={{ textAlign: 'center', color: crit === 'Acceptability' || crit === 'Ops Control' ? 'var(--color-neutral-400)' : 'var(--color-secondary)', fontWeight: 600, borderLeft: '1px solid var(--color-neutral-200)' }}>
+                                    <td style={{ textAlign: 'center', color: crit === 'Acceptability' || crit === 'Ops Control' ? 'var(--color-neutral-400)' : 'var(--color-secondary)', fontWeight: 600, borderLeft: '1px solid var(--color-neutral-200)', borderRight: '1px solid var(--color-neutral-200)' }}>
                                         {crit === 'Acceptability' || crit === 'Ops Control' ? '✗ LOW' : '○ MEDIUM'}
                                     </td>
                                 </tr>
@@ -89,33 +90,33 @@ export default function StrategicOptionsSection() {
                                 <td style={{ padding: 'var(--space-2)', fontWeight: 800, color: 'var(--color-neutral-900)', background: 'var(--color-neutral-50)' }}>DECISION</td>
                                 <td style={{ textAlign: 'center', background: 'var(--color-primary)', borderLeft: '1px solid var(--color-neutral-200)', color: 'white', fontWeight: 800, fontSize: 'var(--font-size-body)' }}>GO</td>
                                 <td style={{ textAlign: 'center', background: 'var(--color-neutral-100)', borderLeft: '1px solid var(--color-neutral-200)', color: 'var(--color-neutral-500)', fontWeight: 700, fontSize: 'var(--font-size-small)' }}>NO-GO</td>
-                                <td style={{ textAlign: 'center', background: 'var(--color-neutral-100)', borderLeft: '1px solid var(--color-neutral-200)', color: 'var(--color-neutral-500)', fontWeight: 700, fontSize: 'var(--font-size-small)' }}>NO-GO</td>
+                                <td style={{ textAlign: 'center', background: 'var(--color-neutral-100)', borderLeft: '1px solid var(--color-neutral-200)', borderRight: '1px solid var(--color-neutral-200)', color: 'var(--color-neutral-500)', fontWeight: 700, fontSize: 'var(--font-size-small)' }}>NO-GO</td>
                             </tr>
 
                             {/* ROW 4: RATIONALE & BARRIERS */}
                             <tr>
-                                <td style={{ padding: 'var(--space-2)', fontWeight: 700, color: 'var(--color-neutral-900)', background: 'var(--color-neutral-50)', verticalAlign: 'top' }}>
-                                    RATIONALE<br />& BARRIERS
+                                <td style={{ padding: 'var(--space-2)', fontWeight: 700, color: 'var(--color-neutral-900)', background: 'var(--color-neutral-50)', verticalAlign: 'top', borderBottom: '1px solid var(--color-neutral-200)' }}>
+                                    RATIONALE<br />& TIMING
                                 </td>
-                                <td style={{ padding: 'var(--space-2)', color: 'var(--color-primary)', borderLeft: '1px solid var(--color-neutral-200)', verticalAlign: 'top', background: 'rgba(74, 93, 35, 0.08)', lineHeight: '1.4' }}>
+                                <td style={{ padding: 'var(--space-2)', color: 'var(--color-primary)', borderLeft: '1px solid var(--color-neutral-200)', borderBottom: '1px solid var(--color-neutral-200)', verticalAlign: 'top', background: 'rgba(74, 93, 35, 0.08)', lineHeight: '1.4' }}>
                                     <ul style={{ margin: 0, paddingLeft: '12px', listStyleType: 'square' }}>
                                         <li><strong>Value Chain Ownership:</strong> Optimizes cost structure via hybrid model while keeping high-margin D2C capture.</li>
                                         <li><strong>Risk/Reward Balance:</strong> Phased "fail-fast" organic growth minimizes capital exposure.</li>
-                                        <li><strong>Strategic fit:</strong> Best alignment with "Premium Brand" positioning.</li>
+                                        <li><strong>Strategic fit:</strong> Best alignment with "Premium Brand" positioning and current capabilities.</li>
                                     </ul>
                                 </td>
-                                <td style={{ padding: 'var(--space-2)', color: 'var(--color-neutral-600)', borderLeft: '1px solid var(--color-neutral-200)', verticalAlign: 'top', lineHeight: '1.4' }}>
+                                <td style={{ padding: 'var(--space-2)', color: 'var(--color-neutral-600)', borderLeft: '1px solid var(--color-neutral-200)', borderBottom: '1px solid var(--color-neutral-200)', verticalAlign: 'top', lineHeight: '1.4' }}>
                                     <ul style={{ margin: 0, paddingLeft: '12px', listStyleType: 'square' }}>
-                                        <li><strong>Financial Gap:</strong> Current balance sheet cannot support M&A; mandates high-risk external capital.</li>
-                                        <li><strong>Leverage Risk:</strong> External funding dependence compromises long-term stability & control.</li>
-                                        <li><strong>Cultural Risk:</strong> High probability of value destruction during integration.</li>
+                                        <li><strong>Not Now:</strong> Insufficient capital and brand strength to successfully integrate competitors.</li>
+                                        <li><strong>Later:</strong> Reassess post-2030 with €4M+ reserves and proven market leadership in NL/BE.</li>
+                                        <li><strong>Enabler Needed:</strong> Strong brand makes Fieldsman the acquirer, not the acquired.</li>
                                     </ul>
                                 </td>
-                                <td style={{ padding: 'var(--space-2)', color: 'var(--color-neutral-600)', borderLeft: '1px solid var(--color-neutral-200)', verticalAlign: 'top', lineHeight: '1.4' }}>
+                                <td style={{ padding: 'var(--space-2)', color: 'var(--color-neutral-600)', borderLeft: '1px solid var(--color-neutral-200)', borderRight: '1px solid var(--color-neutral-200)', borderBottom: '1px solid var(--color-neutral-200)', verticalAlign: 'top', lineHeight: '1.4' }}>
                                     <ul style={{ margin: 0, paddingLeft: '12px', listStyleType: 'square' }}>
-                                        <li><strong>Margin Cannibalization:</strong> Licensing fees cannot match verticalized D2C margins.</li>
-                                        <li><strong>Feedback Loop Break:</strong> Loss of direct customer data stalls product innovation.</li>
-                                        <li><strong>Brand Dilution:</strong> Lack of control over end-user experience.</li>
+                                        <li><strong>Not Now:</strong> Lack of scale makes JV terms unfavorable; risk of partner dominance.</li>
+                                        <li><strong>Later:</strong> At 2,000+ units, Fieldsman has negotiating power for equitable JV structures.</li>
+                                        <li><strong>Enabler Needed:</strong> Volume enables cost-sharing benefits without sacrificing control.</li>
                                     </ul>
                                 </td>
                             </tr>
@@ -123,17 +124,28 @@ export default function StrategicOptionsSection() {
                     </table>
                 </div>
 
-                {/* Additional context if space permits (Bottom of Page 1) */}
-                <div style={{ marginTop: 'auto', paddingTop: 'var(--space-4)' }}>
-                    <p style={{ fontSize: '8.5px', color: '#64748b', fontStyle: 'italic', textAlign: 'center', margin: 0 }}>
-                        *Options generated via Odyssey 3.14 (3 Pillars, 14 Directions) and filtered for Stage 2 organizational maturity.
-                    </p>
+
+                {/* Transition: Connect NO-GO decision to Phase 2 optionality */}
+                <div style={{ marginTop: 'var(--space-6)', marginBottom: 'var(--space-4)' }}>
+                    <TextBlock>
+                        <p style={{ fontSize: 'var(--font-size-body)', lineHeight: '1.6' }}>
+                            Options 2 (M&A Roll-Up) and 3 (Partner/JV) are marked as NO-GO for the 2026 to 2030 timeframe given Fieldsman's current organizational context. These strategic pathways are not permanently rejected but rather deferred until Option 1 has been successfully executed. The rationale is sequencing: Fieldsman must first build the foundational capabilities, financial strength, and market position that would make M&A or partnerships viable and value-creating rather than value-destroying.
+                        </p>
+                        <p style={{ fontSize: 'var(--font-size-body)', lineHeight: '1.6', marginTop: 'var(--space-3)' }}>
+                            By 2030, if Fieldsman achieves the targeted outcomes of Option 1, the strategic landscape changes fundamentally. With €10M in revenue, 2,000+ units sold annually, an established presence across NL/BE/DE, and €4M in accumulated cash reserves, the company would possess the brand equity, operational excellence, and financial resources necessary to pursue inorganic growth. At that inflection point, Options 2 and 3 would be reassessed as potential accelerators for Phase 2 expansion toward European market leadership.
+                        </p>
+                        <p style={{ fontSize: 'var(--font-size-body)', lineHeight: '1.6', marginTop: 'var(--space-3)' }}>
+                            Section 4.2 presents the detailed implementation roadmap for Option 1 and visualizes this sequenced growth path.
+                        </p>
+                    </TextBlock>
                 </div>
+
+
             </PageWrapper>
 
             {/* PAGE 2: The Recommended Path Deep Dive */}
             <PageWrapper sectionLabel="SECTION 4: STRATEGIC OPTIONS">
-                <h2 style={{ marginBottom: 'var(--space-4)' }}>4.2 Recommended Strategy: Brand-Led Scale-Up</h2>
+                <h2 style={{ color: 'var(--color-primary)', marginBottom: 'var(--space-4)' }}>4.2 Recommended Strategy: Brand-Led Scale-Up</h2>
                 <div style={{ marginBottom: 'var(--space-4)' }}>
                     <p style={{ fontSize: '10px', color: 'var(--color-neutral-600)' }}>
                         Visualized in detail in the Business Model Canvas (Appendix E).
@@ -151,23 +163,23 @@ export default function StrategicOptionsSection() {
                 </div>
 
                 {/* Core Design Choices Grid - Refined */}
-                <div style={{ background: '#F8FAFC', border: '1px solid #E2E8F0', borderRadius: '4px', padding: 'var(--space-5)', marginBottom: 'var(--space-6)' }}>
+                <div style={{ background: 'var(--color-neutral-50)', border: '1px solid var(--color-neutral-200)', borderRadius: '4px', padding: 'var(--space-5)', marginBottom: 'var(--space-6)' }}>
                     <h3 style={{ fontSize: 'var(--font-size-h4)', fontWeight: 800, color: 'var(--color-neutral-800)', marginBottom: 'var(--space-4)', textTransform: 'uppercase' }}>Core Strategy Design Choices</h3>
                     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-5)' }}>
                         <div>
-                            <h4 style={{ fontSize: 'var(--font-size-h4)', fontWeight: 800, color: '#1e293b', marginBottom: '4px', textTransform: 'uppercase' }}>Value Chain Control</h4>
+                            <h4 style={{ fontSize: 'var(--font-size-h4)', fontWeight: 800, color: 'var(--color-neutral-900)', marginBottom: '4px', textTransform: 'uppercase' }}>Value Chain Control</h4>
                             <p style={{ fontSize: 'var(--font-size-small)', color: 'var(--color-neutral-600)', margin: 0, lineHeight: '1.5' }}>Retain 100% of brand, pricing, and customer data ownership. This ensures direct "learning loops" essential for product optimization and high-margin D2C sales.</p>
                         </div>
                         <div>
-                            <h4 style={{ fontSize: '10px', fontWeight: 800, color: '#1e293b', marginBottom: '4px', textTransform: 'uppercase' }}>Production Model</h4>
+                            <h4 style={{ fontSize: '10px', fontWeight: 800, color: 'var(--color-neutral-900)', marginBottom: '4px', textTransform: 'uppercase' }}>Production Model</h4>
                             <p style={{ fontSize: '9.5px', color: 'var(--color-neutral-600)', margin: 0, lineHeight: '1.5' }}><strong>Modular Hybrid:</strong> Standardize components for global outsourcing (scale/cost) while retaining final assembly in NL (quality/speed) to decouple complexity from growth.</p>
                         </div>
                         <div>
-                            <h4 style={{ fontSize: '10px', fontWeight: 800, color: '#1e293b', marginBottom: '4px', textTransform: 'uppercase' }}>Go-To-Market</h4>
+                            <h4 style={{ fontSize: '10px', fontWeight: 800, color: 'var(--color-neutral-900)', marginBottom: '4px', textTransform: 'uppercase' }}>Go-To-Market</h4>
                             <p style={{ fontSize: '9.5px', color: 'var(--color-neutral-600)', margin: 0, lineHeight: '1.5' }}><strong>D2C Phygital:</strong> Focus on configurator-led digital sales supported by a decentralized network of low-CAPEX experience points, bypassing traditional retail margins.</p>
                         </div>
                         <div>
-                            <h4 style={{ fontSize: '10px', fontWeight: 800, color: '#1e293b', marginBottom: '4px', textTransform: 'uppercase' }}>Funding & Control</h4>
+                            <h4 style={{ fontSize: '10px', fontWeight: 800, color: 'var(--color-neutral-900)', marginBottom: '4px', textTransform: 'uppercase' }}>Funding & Control</h4>
                             <p style={{ fontSize: '9.5px', color: 'var(--color-neutral-600)', margin: 0, lineHeight: '1.5' }}><strong>Organic / Minority:</strong> Prioritize majority control to maintain long-term brand integrity and strategic agility during the critical 2026-2030 scale-up phase.</p>
                         </div>
                     </div>
@@ -196,11 +208,25 @@ export default function StrategicOptionsSection() {
                     </div>
                 </div>
 
-                {/* Final Rationale Block */}
-                <div style={{ padding: 'var(--space-4)', background: '#F1F5F9', borderRadius: '4px', marginBottom: 'var(--space-4)' }}>
-                    <p style={{ fontSize: 'var(--font-size-small)', color: '#475569', margin: 0, lineHeight: '1.5' }}>
-                        <strong style={{ color: '#1e293b' }}>Conclusion:</strong> By choosing Option 1, Fieldsman avoids the "complexity trap" of premature M&A and the "control trap" of master franchising. This path ensures the company remains the master of its own data and brand, which are the foundations for the AI-driven operational efficiencies planned in Section 5 (Implementation).
-                    </p>
+
+                {/* Conclusion: Combined with Sequenced Strategy Rationale */}
+                <div style={{ marginTop: 'var(--space-6)', marginBottom: 'var(--space-4)' }}>
+                    <TextBlock>
+                        <p style={{ fontSize: 'var(--font-size-body)', lineHeight: '1.6' }}>
+                            By choosing Option 1, Fieldsman avoids the complexity trap of premature acquisitions and the control trap of unfavorable joint venture terms. This path ensures the company remains the master of its own data, brand, and customer relationships, which are the foundations for the AI-driven operational efficiencies and premium positioning outlined in Section 5.
+                        </p>
+                        <p style={{ fontSize: 'var(--font-size-body)', lineHeight: '1.6', marginTop: 'var(--space-3)' }}>
+                            Options 2 and 3 are not rejected but strategically deferred. By first establishing scale, profitability, and market presence through Option 1, Fieldsman builds the foundation needed to make acquisitions or joint ventures viable and value-creating in a future phase. This foundation includes brand equity, cash reserves, operational excellence, and market leadership across NL/BE/DE.
+                        </p>
+                        <p style={{ fontSize: 'var(--font-size-body)', lineHeight: '1.6', marginTop: 'var(--space-3)' }}>
+                            This sequenced approach minimizes execution risk today while preserving optionality for accelerated inorganic growth once the organic model is proven at scale.
+                        </p>
+                    </TextBlock>
+                </div>
+
+                {/* Strategic Roadmap: Long-term Vision */}
+                <div style={{ marginTop: 'var(--space-6)', marginBottom: 'var(--space-6)' }}>
+                    <StrategicRoadmap />
                 </div>
 
                 {/* Takeaways - Standardized Style */}
@@ -210,13 +236,25 @@ export default function StrategicOptionsSection() {
                         <div style={{ display: 'flex', gap: '8px' }}>
                             <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary)', color: 'white', borderRadius: '50%', fontSize: 'var(--font-size-small)', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>1</div>
                             <p style={{ fontSize: 'var(--font-size-small)', color: 'var(--color-neutral-700)', lineHeight: '1.4', margin: 0 }}>
-                                <strong style={{ color: 'var(--color-neutral-900)' }}>Phased Scale:</strong> Organic growth allows "failing small" before aggressive expansion into Germany.
+                                <strong style={{ color: 'var(--color-neutral-900)' }}>Control the Chain:</strong> Retaining 100% ownership of brand and pricing enables high-margin D2C capture and direct customer feedback loops.
                             </p>
                         </div>
                         <div style={{ display: 'flex', gap: '8px' }}>
                             <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary)', color: 'white', borderRadius: '50%', fontSize: 'var(--font-size-small)', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>2</div>
                             <p style={{ fontSize: 'var(--font-size-small)', color: 'var(--color-neutral-700)', lineHeight: '1.4', margin: 0 }}>
-                                <strong style={{ color: 'var(--color-neutral-900)' }}>Protect the DNA:</strong> Direct customer feedback and D2C margins are the non-negotiables.
+                                <strong style={{ color: 'var(--color-neutral-900)' }}>Modular Hybrid:</strong> Decoupling production from complexity via global component sourcing and NL assembly allows for massive scale without quality compromises.
+                            </p>
+                        </div>
+                        <div style={{ display: 'flex', gap: '8px' }}>
+                            <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary)', color: 'white', borderRadius: '50%', fontSize: 'var(--font-size-small)', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>3</div>
+                            <p style={{ fontSize: 'var(--font-size-small)', color: 'var(--color-neutral-700)', lineHeight: '1.4', margin: 0 }}>
+                                <strong style={{ color: 'var(--color-neutral-900)' }}>Phygital Engine:</strong> Combining digital configurators with asset-light showrooms bypasses heavy retail margins while maintaining the premium experience.
+                            </p>
+                        </div>
+                        <div style={{ display: 'flex', gap: '8px' }}>
+                            <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary)', color: 'white', borderRadius: '50%', fontSize: 'var(--font-size-small)', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>4</div>
+                            <p style={{ fontSize: 'var(--font-size-small)', color: 'var(--color-neutral-700)', lineHeight: '1.4', margin: 0 }}>
+                                <strong style={{ color: 'var(--color-neutral-900)' }}>Strategic Sequencing:</strong> Prioritizing organic growth and majority control today preserves capital and brand integrity for inorganic M&A post-2030.
                             </p>
                         </div>
                     </div>

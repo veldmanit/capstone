@@ -21,7 +21,7 @@ export default function IntroductionSection() {
                 <div className="grid-container">
                     {/* Left Column: 1.1 Company Background */}
                     <div className="col-6">
-                        <h2 style={{ fontSize: 'var(--font-size-h2)', marginBottom: 'var(--space-4)' }}>
+                        <h2 style={{ fontSize: 'var(--font-size-h2)', color: 'var(--color-primary)', marginBottom: 'var(--space-4)' }}>
                             1.1 Company Background: Three Brothers, One Gap in the Market
                         </h2>
                         <TextBlock>
@@ -42,7 +42,7 @@ export default function IntroductionSection() {
 
                     {/* Right Column: 1.2 Scaling Dilemma */}
                     <div className="col-6">
-                        <h2 style={{ fontSize: 'var(--font-size-h2)', marginBottom: 'var(--space-4)' }}>
+                        <h2 style={{ fontSize: 'var(--font-size-h2)', color: 'var(--color-primary)', marginBottom: 'var(--space-4)' }}>
                             1.2 The Scaling Dilemma: Demand Exceeds Capacity
                         </h2>
                         <TextBlock>
@@ -71,7 +71,7 @@ export default function IntroductionSection() {
                 <div className="grid-container">
                     {/* Top Half: 1.3 Strategic Question */}
                     <div className="col-12" style={{ marginBottom: 'var(--space-6)' }}>
-                        <h2 style={{ marginBottom: 'var(--space-4)' }}>
+                        <h2 style={{ color: 'var(--color-primary)', marginBottom: 'var(--space-4)' }}>
                             1.3 Strategic Question and Objectives
                         </h2>
 
@@ -105,7 +105,7 @@ export default function IntroductionSection() {
                     {/* Bottom Half: 1.4 Scope */}
                     <div className="col-12">
                         <div style={{ borderTop: '1px solid var(--color-neutral-300)', paddingTop: 'var(--space-6)' }}>
-                            <h2 style={{ marginBottom: 'var(--space-4)' }}>
+                            <h2 style={{ color: 'var(--color-primary)', marginBottom: 'var(--space-4)' }}>
                                 1.4 Scope and Structure
                             </h2>
                             <TextBlock>

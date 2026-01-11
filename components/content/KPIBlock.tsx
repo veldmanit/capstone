@@ -37,8 +37,8 @@ export default function KPIBlock({
       <style jsx>{`
         .kpi-block {
           padding: var(--space-6);
-          background: var(--color-neutral-50);
-          border: 1px solid var(--color-neutral-200);
+          background: transparent;
+          border: none;
           border-left: 4px solid ${accentColor};
           display: flex;
           flex-direction: column;

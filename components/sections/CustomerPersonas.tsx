@@ -5,7 +5,7 @@ import React from 'react';
 export default function CustomerPersonas() {
     return (
         <div style={{ marginBottom: 'var(--space-12)' }}>
-            <h2 style={{ fontSize: '20px', fontWeight: 800, marginBottom: 'var(--space-4)', color: 'var(--color-neutral-900)' }}>Appendix C: Insights & Buying Behavior</h2>
+            <h2 style={{ fontSize: '20px', fontWeight: 800, marginBottom: 'var(--space-4)', color: 'var(--color-primary)' }}>Appendix C: Insights & Buying Behavior</h2>
 
             {/* M3.1 Research Objectives */}
             <div style={{ borderTop: '2px solid var(--color-primary)', paddingTop: '8px', marginBottom: '16px' }}>
@@ -227,7 +227,7 @@ export default function CustomerPersonas() {
 
                 .core-header { background: var(--color-primary); color: white; }
                 .neutral-header { background: var(--color-neutral-800); color: white; }
-                .accent-header { background: var(--color-accent); color: white; }
+                .accent-header { background: var(--color-primary-light, var(--color-primary)); color: var(--color-primary-dark, white); }
 
                 .persona-role {
                     font-size: var(--font-size-tiny);

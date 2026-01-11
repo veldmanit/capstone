@@ -58,7 +58,7 @@ export default function CompetitorAnalysis() {
 
     return (
         <div style={{ marginBottom: 'var(--space-12)' }}>
-            <h2 style={{ marginBottom: 'var(--space-4)' }}>Appendix D: Competitor Landscape Analysis</h2>
+            <h2 style={{ marginBottom: 'var(--space-4)', color: 'var(--color-primary)' }}>Appendix D: Competitor Landscape Analysis</h2>
             <h3 style={{ fontSize: 'var(--font-size-h3)', color: 'var(--color-neutral-600)', marginBottom: 'var(--space-6)' }}>Competitive Benchmarking Matrix</h3>
 
             <div style={{ overflowX: 'auto', border: '1px solid var(--color-neutral-200)', borderRadius: 'var(--border-radius-sm)' }}>

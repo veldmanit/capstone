@@ -10,16 +10,16 @@ export default function RoadmapGantt() {
   const years = [2026, 2027, 2028, 2029, 2030];
 
   const phases = [
-    { name: 'Phase 1', sub: 'Foundation', start: 2026, end: 2026.99, color: '#153E35' },
-    { name: 'Phase 2', sub: 'Scale NL/BE', start: 2027, end: 2027.99, color: '#8B7355' },
-    { name: 'Phase 3', sub: 'Accelerate DE', start: 2028, end: 2029.99, color: '#5C6B73' },
-    { name: 'Phase 4', sub: 'Lead', start: 2030, end: 2030.99, color: '#264653' },
+    { name: 'Phase 1', sub: 'Foundation', start: 2026, end: 2026.99, color: 'var(--color-primary)' },
+    { name: 'Phase 2', sub: 'Scale NL/BE', start: 2027, end: 2027.99, color: 'var(--color-secondary-dark)' },
+    { name: 'Phase 3', sub: 'Accelerate DE', start: 2028, end: 2029.99, color: 'var(--color-neutral-600)' },
+    { name: 'Phase 4', sub: 'Lead', start: 2030, end: 2030.99, color: 'var(--color-primary-dark)' },
   ];
 
   const workstreams = [
     {
       category: 'PRODUCTION',
-      color: '#2A9D8F',
+      color: 'var(--color-chart-1)',
       items: [
         // Phase 1: 2026
         { name: 'China Supplier Contracts', start: 2026.08, end: 2026.08, type: 'milestone' }, // Q1
@@ -38,7 +38,7 @@ export default function RoadmapGantt() {
     },
     {
       category: 'COMMERCIAL',
-      color: '#E76F51',
+      color: 'var(--color-chart-2)',
       items: [
         // Phase 1: 2026
         { name: 'Marketing Engine (SEO/Social)', start: 2026.25, end: 2026.67, type: 'project' }, // Q2-Q3
@@ -68,16 +68,25 @@ export default function RoadmapGantt() {
     },
     {
       category: 'ORGANIZATION',
-      color: '#F4A261',
+      color: 'var(--color-chart-5)',
       items: [
         // Phase 1: 2026 - Foundation
         { name: 'Founders Full-Time', start: 2026.42, end: 2026.42, type: 'milestone' }, // Mid-2026
-        { name: 'Team Building (5 Initial Hires)', start: 2026.17, end: 2026.75, type: 'project' }, // Q1-Q3: All foundation hires
+        { name: 'Workshop Lead Hire', start: 2026.17, end: 2026.33, type: 'project' }, // Q1
+        { name: 'Marketing Mgr Hire', start: 2026.33, end: 2026.50, type: 'project' }, // Q2
+        { name: 'Customer Success (1st)', start: 2026.50, end: 2026.67, type: 'project' }, // Q2-Q3
         { name: 'Inventory Systems Live', start: 2026.75, end: 2026.75, type: 'milestone' }, // Q3
+
+        // Phase 2: 2027 - Scale NL/BE
+        { name: 'Sales Lead Hire', start: 2027.17, end: 2027.33, type: 'project' }, // Q1
+        { name: 'Procurement (1st)', start: 2027.42, end: 2027.58, type: 'project' }, // Q2
+        { name: 'Team at 8 FTE', start: 2027.83, end: 2027.83, type: 'milestone' }, // Q4
 
         // Phase 3: 2028-2029 - International expansion
         { name: 'DE Country Manager', start: 2028.08, end: 2028.08, type: 'milestone' }, // Q1 '28
         { name: 'BI Dashboard Live', start: 2028.58, end: 2028.58, type: 'milestone' }, // Q3 '28
+        { name: 'Assembly Team Scaled', start: 2029.42, end: 2029.75, type: 'project' }, // Q2-Q3 '29
+        { name: 'Team at 15 FTE', start: 2029.92, end: 2029.92, type: 'milestone' }, // Q4 '29
       ]
     }
   ];

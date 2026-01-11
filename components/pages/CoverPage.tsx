@@ -48,19 +48,14 @@ export default function CoverPage({
         
         .background-shape {
           position: absolute;
-          top: -20%;
-          right: -10%;
-          width: 80%;
-          height: 120%;
-          background: linear-gradient(
-            135deg,
-            var(--color-primary) 0%,
-            var(--color-primary-light) 50%,
-            var(--color-accent) 100%
-          );
-          border-radius: 50%;
-          opacity: 0.3;
-          filter: blur(80px);
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/images/cover-bg.jpg');
+          background-size: cover;
+          background-position: center;
+          z-index: 0;
         }
         
         .content {

@@ -43,6 +43,7 @@ export default function ReportPage() {
         { title: 'D. Competitor Analysis', pageNumber: 39, level: 2 as const },
         { title: 'E. Business Model Canvas', pageNumber: 40, level: 2 as const },
         { title: 'F. Modular Architecture', pageNumber: 41, level: 2 as const },
+        { title: 'G. Marketing Assumptions', pageNumber: 42, level: 2 as const },
       ]
     },
   ];

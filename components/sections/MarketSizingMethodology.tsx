@@ -35,8 +35,8 @@ export default function MarketSizingMethodology({ part }: MarketSizingMethodolog
                         </p>
 
                         <div style={{ margin: 'var(--space-4) 0', fontSize: '12px' }}>
-                            <h4 style={{ fontSize: '12px', fontWeight: '800', color: '#92400E', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: 'var(--space-2)' }}>Critical Caveat</h4>
-                            <p style={{ color: '#78350F' }}>
+                            <h4 style={{ fontSize: '12px', fontWeight: '800', color: 'var(--color-primary)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: 'var(--space-2)' }}>Critical Caveat</h4>
+                            <p style={{ color: 'var(--color-neutral-800)' }}>
                                 The figures presented represent directional estimates rather than precise forecasts.
                                 Market sizing in nascent categories requires multiple assumptions that compound uncertainty. We have
                                 prioritized conservative assumptions at each stage to avoid overestimating addressable market size.
@@ -551,7 +551,7 @@ export default function MarketSizingMethodology({ part }: MarketSizingMethodolog
                 .appendix-title {
                     font-size: var(--font-size-h2);
                     font-weight: 800;
-                    color: var(--color-neutral-900);
+                    color: var(--color-primary);
                     margin-bottom: var(--space-6);
                     padding-bottom: var(--space-2);
                     border-bottom: 3px solid var(--color-primary);

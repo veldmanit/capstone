@@ -7,7 +7,7 @@ import FieldsmanModules from '@/components/charts/FieldsmanModules';
 export default function ModularArchitecture() {
     return (
         <div>
-            <h2 style={{ fontSize: 'var(--font-size-h2)', fontWeight: 800, color: 'var(--color-neutral-900)', marginBottom: 'var(--space-4)' }}>Appendix F: Modular Product Architecture</h2>
+            <h2 style={{ fontSize: 'var(--font-size-h2)', fontWeight: 800, color: 'var(--color-primary)', marginBottom: 'var(--space-4)' }}>Appendix F: Modular Product Architecture</h2>
             <h3 style={{ fontSize: 'var(--font-size-h3)', fontWeight: 800, color: 'var(--color-neutral-600)', marginBottom: 'var(--space-6)' }}>Customization Without Complexity</h3>
 
             <TextBlock columns={2}>

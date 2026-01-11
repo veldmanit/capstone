@@ -27,7 +27,7 @@ export default function ExecutiveSummaryPage() {
 
                 {/* Main Headline */}
                 <h3 style={{
-                    fontSize: 'var(--font-size-h2)',
+                    fontSize: '22px',
                     fontWeight: 800,
                     color: 'var(--color-neutral-900)',
                     marginBottom: 'var(--space-6)',
@@ -39,54 +39,49 @@ export default function ExecutiveSummaryPage() {
                 {/* Text Body */}
                 <div style={{
                     fontSize: 'var(--font-size-body)',
-                    lineHeight: '1.6',
-                    color: 'var(--color-neutral-700)',
+                    lineHeight: '1.5',
+                    color: 'var(--color-neutral-800)',
                     display: 'flex',
                     flexDirection: 'column',
                     gap: 'var(--space-4)'
                 }}>
-                    <p>
-                        The European outdoor kitchen market has a gap. At the bottom: cheap, low-quality carts that deteriorate within seasons. At the top: bespoke luxury kitchens at €15,000–€50,000, out of reach for most households. In between, the "Missing Middle" from €3,000 to €5,000, no scaled player exists. This is a €301M opportunity across the Netherlands, Belgium, and Germany, and Fieldsman is positioned to capture it.
-                    </p>
+                    <div>
+                        <h4 style={{ color: 'var(--color-primary)', fontWeight: 800, textTransform: 'uppercase', fontSize: '12px', marginBottom: 'var(--space-2)' }}>The Opportunity</h4>
+                        <p>
+                            The European outdoor kitchen market is structurally polarized. At the bottom: cheap carts from IKEA and Weber that deteriorate within seasons. At the top: bespoke luxury solutions at €15,000 to €50,000, out of reach for most households. In between sits the "Missing Middle," a €301M opportunity across the Netherlands, Belgium, and Germany where customers want premium design and durability but refuse to pay indoor kitchen prices for seasonal use. Crucially, no scaled player has emerged to serve them. Every competitor operates as a small workshop or regional craftsman, unable to combine quality with volume. This structural gap is Fieldsman's to capture.
+                        </p>
+                    </div>
 
-                    <p>
-                        The market is ready. Outdoor living is growing as homeowners invest in gardens as social spaces. Kamado culture is expanding at 5–8% annually. Customers want premium design and durability but refuse to pay indoor kitchen prices for seasonal use. They will pay €3,000–€5,000 for a kitchen that feels like €15,000, if someone offers it.
-                    </p>
+                    <div>
+                        <h4 style={{ color: 'var(--color-primary)', fontWeight: 800, textTransform: 'uppercase', fontSize: '12px', marginBottom: 'var(--space-2)' }}>Proven Product-Market Fit</h4>
+                        <p>
+                            Fieldsman, founded by three brothers, has already validated this thesis. With minimal marketing spend of approximately €10K, the company generates €170K in revenue at 48% EBITDA margin, achieving a remarkable 25.2x return on ad spend. The business stops advertising each May, not because demand weakens, but because capacity is exhausted. The constraint is operational, not commercial. Customer feedback consistently highlights the emotional "wow effect" and pride of ownership as central to perceived value. If €10K generates €170K, professional marketing at scale unlocks transformational growth.
+                        </p>
+                    </div>
 
-                    <p>
-                        Fieldsman has proven product-market fit, with minimal marketing. The company sells around 40 kitchens annually, generating €170K revenue at 61% gross margin, on approximately €10K in marketing spend. Demand exceeds supply: we stop advertising each May because we cannot fulfill orders, not because demand weakens. The constraint is operational, not commercial. If €10K in marketing generates €170K in revenue, the opportunity to scale through professional marketing is enormous.
-                    </p>
+                    <div>
+                        <h4 style={{ color: 'var(--color-primary)', fontWeight: 800, textTransform: 'uppercase', fontSize: '12px', marginBottom: 'var(--space-2)' }}>The Strategic Solution</h4>
+                        <p>
+                            The recommended strategy is a Brand-Led Scale-Up built on a counterintuitive production logic: outsource what seems core (standardized steel frames to China) while bringing in-house what seems peripheral (countertop cutting via waterjet investment). This "production reversal" addresses the true bottleneck where the supplier market fails, reducing countertop costs from €900 to €100 and lead times from 8 weeks to 2 weeks. A 2-month inventory buffer then enables consistent delivery even during seasonal peaks.
+                        </p>
+                        <p style={{ marginTop: 'var(--space-2)' }}>
+                            Commercially, an AI-powered "phygital" engine drives growth without proportional headcount. A 3D configurator handles configuration and upselling. AI manages lead qualification and 85% of customer service. Partner showrooms provide physical trust at 5 to 15% fees versus traditional retail's 40% margins. A multi-channel marketing engine combining SEO, paid social, influencer partnerships, and systematic review collection builds the brand equity that represents Fieldsman's only truly defensible moat. Geographic expansion follows capability-gated sequencing: prove the model in the Netherlands (2026), enter Belgium and pilot Germany (2027), then accelerate Germany, which at €541M represents 72% of the total addressable market, through 2030.
+                        </p>
+                    </div>
 
-                    <p>
-                        The solution: a transformed operating model built on four pillars.
-                    </p>
+                    <div>
+                        <h4 style={{ color: 'var(--color-primary)', fontWeight: 800, textTransform: 'uppercase', fontSize: '12px', marginBottom: 'var(--space-2)' }}>Financial Outcomes</h4>
+                        <p>
+                            Revenue grows from €170K to €10.6M by 2030. Volume scales from 40 to 2,125 kitchens annually. EBITDA margin reaches 30% as operating leverage builds. The model requires only €100K equity injection in Year 1, achieves breakeven in 2027, and generates €4.0M cumulative cash by 2030. At a 12% WACC, enterprise value reaches €11.3M, representing 113x return on invested equity.
+                        </p>
+                    </div>
 
-                    <ul style={{ paddingLeft: '12px', listStyleType: 'disc', margin: 0, display: 'flex', flexDirection: 'column', gap: '8px' }}>
-                        <li>
-                            <strong>First, production transformation.</strong> Redesign the product into a modular system enabling mass customization. Outsource steel frames to China (scalable, stockable) and invest in waterjet cutting to bring countertop production in-house, addressing the true bottleneck where the supplier market fails on cost (€900 → €100) and lead time (8 weeks → 2 weeks). This unlocks capacity from 40 to 5,000 kitchens per year.
-                        </li>
-                        <li>
-                            <strong>Second, a professional multi-channel marketing engine.</strong> Scaling from €170K to €10.6M requires more than increasing ad spend. It demands a full marketing transformation: SEO to capture high-intent search traffic, paid social campaigns on Instagram and Pinterest where outdoor living inspiration happens, strategic influencer partnerships with kamado and outdoor lifestyle creators, presence at garden and BBQ events, and targeted paid advertising across Meta and Google. Equally important is building brand legitimacy through systematic collection of online reviews and customer testimonials, creating a moat of social proof that competitors cannot easily replicate.
-                        </li>
-                        <li>
-                            <strong>Third, AI-first commercial operations.</strong> Rather than building large sales and service teams, Fieldsman scales through AI-enabled configuration support, lead qualification, and customer service. A 3D configurator drives conversion. Partner showrooms provide physical trust without the 30–40% retail margins that would destroy our price positioning.
-                        </li>
-                        <li>
-                            <strong>Fourth, phased geographic expansion.</strong> Scale the Netherlands in 2026. Enter Belgium and pilot Germany in 2027. Accelerate Germany, the anchor market at €541M TAM, through 2030.
-                        </li>
-                    </ul>
-
-                    <p>
-                        The financial outcome is compelling. Revenue grows from €170K (2025) to €10.6M (2030). Volume scales from 40 to 2,125 kitchens per year. EBITDA margins stabilize at 48% as operating leverage builds.
-                    </p>
-
-                    <p>
-                        Key risks are execution-focused: supplier quality, lead time stability, marketing effectiveness, and founder bandwidth. Mitigations include supplier certification, inventory buffers, dual sourcing from 2028, continuous marketing optimization, and key hires in 2026.
-                    </p>
-
-                    <p style={{ fontWeight: 700, color: 'var(--color-primary)' }}>
-                        Fieldsman can become a European outdoor kitchen champion. Execution, not strategy, is now the determining variable.
-                    </p>
+                    <div>
+                        <h4 style={{ color: 'var(--color-primary)', fontWeight: 800, textTransform: 'uppercase', fontSize: '12px', marginBottom: 'var(--space-2)' }}>The Strategic Imperative</h4>
+                        <p>
+                            Fieldsman's current advantages in modularity and direct-to-consumer structure are temporary. Competitors with sufficient capital, including potential upmarket moves from IKEA or Weber, could eventually replicate them. This creates a strategic window: Fieldsman must aggressively build brand equity and scale before copycats close the gap. The foundations are in place. <strong>Execution, not strategy, is now the determining variable.</strong>
+                        </p>
+                    </div>
                 </div>
 
             </div>

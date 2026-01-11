@@ -43,9 +43,6 @@ export default function OrganizationalStructure() {
 
     return (
         <div style={{
-            background: 'var(--color-neutral-50)',
-            padding: 'var(--space-6)',
-            borderRadius: 'var(--border-radius-md)',
             marginBottom: 'var(--space-8)',
             position: 'relative',
         }} data-export-as-image="true">
@@ -77,7 +74,7 @@ export default function OrganizationalStructure() {
                         {/* Stem with 1/3 Label */}
                         <div style={{ position: 'relative', width: '1px', height: '20px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                             <div style={{ width: '1px', height: '100%', background: '#cbd5e1' }}></div>
-                            <div style={{ position: 'absolute', background: 'var(--color-neutral-50)', color: '#64748b', fontSize: '8px', padding: '0 2px' }}>1/3</div>
+                            <div style={{ position: 'absolute', background: 'white', color: '#64748b', fontSize: '8px', padding: '0 2px' }}>1/3</div>
                         </div>
                     </div>
 
@@ -91,7 +88,7 @@ export default function OrganizationalStructure() {
                         {/* Stem with 1/3 Label */}
                         <div style={{ position: 'relative', width: '1px', height: '20px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                             <div style={{ width: '1px', height: '100%', background: '#cbd5e1' }}></div>
-                            <div style={{ position: 'absolute', background: 'var(--color-neutral-50)', color: '#64748b', fontSize: '8px', padding: '0 2px' }}>1/3</div>
+                            <div style={{ position: 'absolute', background: 'white', color: '#64748b', fontSize: '8px', padding: '0 2px' }}>1/3</div>
                         </div>
                     </div>
 
@@ -105,7 +102,7 @@ export default function OrganizationalStructure() {
                         {/* Stem with 1/3 Label */}
                         <div style={{ position: 'relative', width: '1px', height: '20px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                             <div style={{ width: '1px', height: '100%', background: '#cbd5e1' }}></div>
-                            <div style={{ position: 'absolute', background: 'var(--color-neutral-50)', color: '#64748b', fontSize: '8px', padding: '0 2px' }}>1/3</div>
+                            <div style={{ position: 'absolute', background: 'white', color: '#64748b', fontSize: '8px', padding: '0 2px' }}>1/3</div>
                         </div>
                     </div>
 
