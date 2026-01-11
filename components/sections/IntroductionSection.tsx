@@ -12,7 +12,7 @@ export default function IntroductionSection() {
         Contains: Main Intro + 1.1 Company Background + 1.2 Scaling Dilemma
       */}
             <PageWrapper sectionLabel="SECTION 1: INTRODUCTION">
-                <div style={{ marginBottom: 'var(--space-8)', fontSize: '18px', fontWeight: 500, color: 'var(--color-primary)' }}>
+                <div style={{ marginBottom: 'var(--space-8)', fontSize: '14px', fontWeight: 500, color: 'var(--color-primary)', lineHeight: '1.6' }}>
                     <p>
                         Fieldsman has a problem most startups would envy: it stops advertising every May, not because demand weakens, but because it cannot produce enough kitchens to meet it. This capstone addresses how to solve that constraint and scale the company into a European market leader.
                     </p>
@@ -21,7 +21,7 @@ export default function IntroductionSection() {
                 <div className="grid-container">
                     {/* Left Column: 1.1 Company Background */}
                     <div className="col-6">
-                        <h2 style={{ fontSize: '20px', marginBottom: 'var(--space-4)' }}>
+                        <h2 style={{ fontSize: 'var(--font-size-h2)', marginBottom: 'var(--space-4)' }}>
                             1.1 Company Background: Three Brothers, One Gap in the Market
                         </h2>
                         <TextBlock>
@@ -42,7 +42,7 @@ export default function IntroductionSection() {
 
                     {/* Right Column: 1.2 Scaling Dilemma */}
                     <div className="col-6">
-                        <h2 style={{ fontSize: '20px', marginBottom: 'var(--space-4)' }}>
+                        <h2 style={{ fontSize: 'var(--font-size-h2)', marginBottom: 'var(--space-4)' }}>
                             1.2 The Scaling Dilemma: Demand Exceeds Capacity
                         </h2>
                         <TextBlock>
@@ -70,7 +70,7 @@ export default function IntroductionSection() {
             <PageWrapper sectionLabel="SECTION 1: INTRODUCTION">
                 <div className="grid-container">
                     {/* Top Half: 1.3 Strategic Question */}
-                    <div className="col-12" style={{ marginBottom: 'var(--space-10)' }}>
+                    <div className="col-12" style={{ marginBottom: 'var(--space-6)' }}>
                         <h2 style={{ marginBottom: 'var(--space-4)' }}>
                             1.3 Strategic Question and Objectives
                         </h2>
@@ -86,12 +86,12 @@ export default function IntroductionSection() {
                             <p style={{ marginBottom: 'var(--space-2)' }}>
                                 This capstone addresses a single strategic question:
                             </p>
-                            <p style={{ fontWeight: 700, fontSize: '16px', color: 'var(--color-primary)' }}>
+                            <p style={{ fontWeight: 700, fontSize: '13px', color: 'var(--color-primary)' }}>
                                 What go-to-market and production model will allow Fieldsman to scale nationally and expand internationally within five years, while preserving its brand equity and operational control?
                             </p>
                         </div>
 
-                        <TextBlock columns={2}>
+                        <TextBlock>
                             <p>To answer this question, the report pursues four objectives:</p>
                             <ul style={{ paddingLeft: '20px', marginTop: '10px' }}>
                                 <li style={{ marginBottom: '8px' }}>Assess the market opportunity for a mid-premium outdoor kitchen proposition in the Netherlands, Belgium, and Germany.</li>
@@ -104,11 +104,11 @@ export default function IntroductionSection() {
 
                     {/* Bottom Half: 1.4 Scope */}
                     <div className="col-12">
-                        <div style={{ borderTop: '1px solid var(--color-neutral-300)', paddingTop: 'var(--space-8)' }}>
+                        <div style={{ borderTop: '1px solid var(--color-neutral-300)', paddingTop: 'var(--space-6)' }}>
                             <h2 style={{ marginBottom: 'var(--space-4)' }}>
                                 1.4 Scope and Structure
                             </h2>
-                            <TextBlock columns={2}>
+                            <TextBlock>
                                 <p>
                                     This capstone focuses on the period 2026–2030. The Netherlands is the base market for accelerated scaling; Germany and Belgium are priority markets for international expansion from 2027.
                                 </p>

@@ -5,8 +5,8 @@ import React from 'react';
 export default function BusinessModelCanvas() {
     return (
         <div style={{ marginBottom: 'var(--space-8)' }} data-export-as-image="true">
-            <h2 style={{ marginBottom: 'var(--space-2)' }}>Appendix E: Business Model Canvas</h2>
-            <h3 style={{ fontSize: '14px', color: 'var(--color-neutral-600)', marginBottom: 'var(--space-4)' }}>Strategic Overview (2026+)</h3>
+            <h2 style={{ fontSize: 'var(--font-size-h2)', fontWeight: 800, color: 'var(--color-neutral-900)', marginBottom: 'var(--space-2)' }}>Appendix E: Business Model Canvas</h2>
+            <h3 style={{ fontSize: 'var(--font-size-h3)', fontWeight: 800, color: 'var(--color-neutral-600)', marginBottom: 'var(--space-4)' }}>Strategic Overview (2026+)</h3>
 
             <div className="bmc-container">
                 {/* Top Row: Strategic Drivers */}
@@ -36,7 +36,7 @@ export default function BusinessModelCanvas() {
                 {/* Value Proposition */}
                 <div className="bmc-block val-prop" style={{ gridArea: 'vp' }}>
                     <div className="bmc-header">Value Proposition</div>
-                    <p style={{ fontSize: '9px', fontWeight: 600, marginBottom: '6px', color: 'var(--color-primary-dark)' }}>
+                    <p style={{ fontSize: 'var(--font-size-small)', fontWeight: 600, marginBottom: '6px', color: 'var(--color-primary-dark)' }}>
                         "Design-led, durable outdoor kitchens at fair mid-premium prices."
                     </p>
                     <ul className="bmc-list">
@@ -155,7 +155,7 @@ export default function BusinessModelCanvas() {
                 }
 
                 .bmc-header {
-                    font-size: 10px;
+                    font-size: var(--font-size-h4);
                     font-weight: 800;
                     text-transform: uppercase;
                     color: var(--color-neutral-800);
@@ -170,7 +170,7 @@ export default function BusinessModelCanvas() {
                 }
 
                 .bmc-list li {
-                    font-size: 8px;
+                    font-size: var(--font-size-tiny);
                     color: var(--color-neutral-700);
                     margin-bottom: 3px;
                     line-height: 1.3;

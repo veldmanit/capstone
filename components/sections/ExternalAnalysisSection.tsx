@@ -42,9 +42,7 @@ export default function ExternalAnalysisSection() {
 
                 <div style={{ borderTop: '1px solid var(--color-neutral-300)', paddingTop: 'var(--space-8)' }}>
                     <h2 style={{ marginBottom: 'var(--space-6)' }}>2.2 A €754M Opportunity Across Three Markets</h2>
-                    <p style={{ fontSize: '10px', color: 'var(--color-neutral-600)', marginBottom: 'var(--space-2)' }}>
-                        For a detailed breakdown of the bottom-up market sizing methodology, see <strong>Appendix B</strong>.
-                    </p>
+                    For a detailed breakdown of the bottom-up market sizing methodology, see Appendix B.
 
                     {/* Replaced KPI Blocks with MarketSizingPyramid */}
                     <MarketSizingPyramid />
@@ -67,49 +65,44 @@ export default function ExternalAnalysisSection() {
         PAGE 2: 2.3 Tailwinds 
       */}
             <PageWrapper sectionLabel="SECTION 2: EXTERNAL ANALYSIS">
-                <h2 style={{ marginBottom: 'var(--space-4)' }}>2.3 Four Tailwinds Driving Demand</h2>
+                <h2 style={{ marginBottom: 'var(--space-4)' }}>2.3 Market Tailwinds: Structural Drivers for Category Growth</h2>
                 <div style={{ marginBottom: 'var(--space-4)' }}>
                     <p style={{ fontFamily: 'var(--font-heading)', fontWeight: 500 }}>
                         Four structural trends support category growth and strengthen the scaling thesis:
                     </p>
                 </div>
 
-                <div className="grid-container" style={{ gap: '12px' }}>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-6)' }}>
                     {/* Item 1 */}
-                    <div className="col-6" style={{ marginBottom: '0' }}>
-                        <div style={{ background: 'var(--color-neutral-100)', padding: 'var(--space-3)', borderRadius: 'var(--border-radius-sm)', height: '100%' }}>
-                            <h3 style={{ fontSize: '13px', color: 'var(--color-primary)', marginBottom: '4px', fontWeight: 700 }}>1. Outdoor living as an extension of the home</h3>
-                            <p style={{ fontSize: '11px', lineHeight: '1.4' }}>
-                                Households increasingly invest in gardens and terraces as "second living rooms." Outdoor kitchens combine functional, aesthetic, and social value, making them attractive lifestyle purchases beyond pure cooking utility. The COVID-19 pandemic accelerated this trend, and consumer behavior has not reverted.
-                            </p>
-                        </div>
+                    <div>
+                        <h3 style={{ fontSize: 'var(--font-size-h3)', color: 'var(--color-primary)', marginBottom: '4px', fontWeight: 700 }}>1. Outdoor living as an extension of the home</h3>
+                        <p style={{ fontSize: 'var(--font-size-body)', lineHeight: '1.4' }}>
+                            Households increasingly invest in gardens and terraces as "second living rooms." Outdoor kitchens combine functional, aesthetic, and social value, making them attractive lifestyle purchases beyond pure cooking utility. The COVID-19 pandemic accelerated this trend, and consumer behavior has not reverted.
+                        </p>
                     </div>
+
                     {/* Item 2 */}
-                    <div className="col-6" style={{ marginBottom: '0' }}>
-                        <div style={{ background: 'var(--color-neutral-100)', padding: 'var(--space-3)', borderRadius: 'var(--border-radius-sm)', height: '100%' }}>
-                            <h3 style={{ fontSize: '13px', color: 'var(--color-primary)', marginBottom: '4px', fontWeight: 700 }}>2. Premiumization and kamado culture</h3>
-                            <p style={{ fontSize: '11px', lineHeight: '1.4' }}>
-                                Kamado grills represent approximately 5–10% of barbecue ownership across NL/BE/DE, corresponding to approximately 0.3–0.5M Dutch households, 0.2–0.3M Belgian households, and ~2.0M German households. Kamado category growth is estimated at 5–8% annually, faster than the broader European BBQ market at 4–5%. Kamado owners are a natural feeder segment for outdoor kitchen purchases: they have already invested in premium outdoor cooking and seek a proper setting for their equipment.
-                            </p>
-                        </div>
+                    <div>
+                        <h3 style={{ fontSize: 'var(--font-size-h3)', color: 'var(--color-primary)', marginBottom: '4px', fontWeight: 700 }}>2. Premiumization and kamado culture</h3>
+                        <p style={{ fontSize: 'var(--font-size-body)', lineHeight: '1.4' }}>
+                            Kamado grills represent approximately 5–10% of barbecue ownership across NL/BE/DE, corresponding to approximately 0.3–0.5M Dutch households, 0.2–0.3M Belgian households, and ~2.0M German households. Kamado category growth is estimated at 5–8% annually, faster than the broader European BBQ market at 4–5%. Kamado owners are a natural feeder segment for outdoor kitchen purchases: they have already invested in premium outdoor cooking and seek a proper setting for their equipment.
+                        </p>
                     </div>
+
                     {/* Item 3 */}
-                    <div className="col-6">
-                        <div style={{ background: 'var(--color-neutral-100)', padding: 'var(--space-3)', borderRadius: 'var(--border-radius-sm)', height: '100%' }}>
-                            <h3 style={{ fontSize: '13px', color: 'var(--color-primary)', marginBottom: '4px', fontWeight: 700 }}>3. Experience-driven consumption</h3>
-                            <p style={{ fontSize: '11px', lineHeight: '1.4' }}>
-                                Outdoor kitchens function as social infrastructure. For many households, the purchase is motivated by hosting, lifestyle pride, and status signaling. Customer feedback consistently highlights the "wow effect" and pride of ownership as central to perceived value. This emotional dimension supports premium pricing and brand differentiation.
-                            </p>
-                        </div>
+                    <div>
+                        <h3 style={{ fontSize: 'var(--font-size-h3)', color: 'var(--color-primary)', marginBottom: '4px', fontWeight: 700 }}>3. Experience-driven consumption</h3>
+                        <p style={{ fontSize: 'var(--font-size-body)', lineHeight: '1.4' }}>
+                            Outdoor kitchens function as social infrastructure. For many households, the purchase is motivated by hosting, lifestyle pride, and status signaling. Customer feedback consistently highlights the "wow effect" and pride of ownership as central to perceived value. This emotional dimension supports premium pricing and brand differentiation.
+                        </p>
                     </div>
+
                     {/* Item 4 */}
-                    <div className="col-6">
-                        <div style={{ background: 'var(--color-neutral-100)', padding: 'var(--space-3)', borderRadius: 'var(--border-radius-sm)', height: '100%' }}>
-                            <h3 style={{ fontSize: '13px', color: 'var(--color-primary)', marginBottom: '4px', fontWeight: 700 }}>4. A polarized market structure</h3>
-                            <p style={{ fontSize: '11px', lineHeight: '1.4' }}>
-                                The market is polarized between low-budget DIY solutions and premium bespoke kitchens priced at €15,000–€50,000+. This price gap, the "Missing Middle," creates a structural opportunity for mid-premium brands offering high-quality design and durability at accessible pricing. Customers in this segment are underserved: they want more than cheap carts but cannot justify luxury prices for seasonal use.
-                            </p>
-                        </div>
+                    <div>
+                        <h3 style={{ fontSize: 'var(--font-size-h3)', color: 'var(--color-primary)', marginBottom: '4px', fontWeight: 700 }}>4. A polarized market structure</h3>
+                        <p style={{ fontSize: 'var(--font-size-body)', lineHeight: '1.4' }}>
+                            The market is polarized between low-budget DIY solutions and premium bespoke kitchens priced at €15,000–€50,000+. This price gap, the "Missing Middle," creates a structural opportunity for mid-premium brands offering high-quality design and durability at accessible pricing. Customers in this segment are underserved: they want more than cheap carts but cannot justify luxury prices for seasonal use.
+                        </p>
                     </div>
                 </div>
 
@@ -125,15 +118,15 @@ export default function ExternalAnalysisSection() {
                     marginTop: 'var(--space-6)'
                 }}>
                     <div style={{ flex: 1 }}>
-                        <h4 style={{ fontSize: '11px', fontWeight: 800, color: 'var(--color-neutral-500)', textTransform: 'uppercase', marginBottom: '4px' }}>Purchase Cycle: Seasonal High-Immediacy</h4>
-                        <p style={{ fontSize: '11px', lineHeight: '1.4', color: 'var(--color-neutral-800)' }}>
+                        <h4 style={{ fontSize: 'var(--font-size-h4)', fontWeight: 800, color: 'var(--color-neutral-500)', textTransform: 'uppercase', marginBottom: '4px' }}>Purchase Cycle: Seasonal High-Immediacy</h4>
+                        <p style={{ fontSize: 'var(--font-size-body)', lineHeight: '1.4', color: 'var(--color-neutral-800)' }}>
                             Demand is strongly seasonal, peaking in Spring/Summer (April–July). During this window, "Time to Enjoy" is the primary conversion driver. Lead times &gt;4 weeks kill conversion as customers want to use the product immediately. Fieldsman's stock-based model captures this urgency better than bespoke make-to-order competitors.
                         </p>
                     </div>
                     <div style={{ width: '1px', background: 'var(--color-neutral-200)' }}></div>
                     <div style={{ flex: 1 }}>
-                        <h4 style={{ fontSize: '11px', fontWeight: 800, color: 'var(--color-neutral-500)', textTransform: 'uppercase', marginBottom: '4px' }}>Lifetime Value: One-Off + Upgrades</h4>
-                        <p style={{ fontSize: '11px', lineHeight: '1.4', color: 'var(--color-neutral-800)' }}>
+                        <h4 style={{ fontSize: 'var(--font-size-h4)', fontWeight: 800, color: 'var(--color-neutral-500)', textTransform: 'uppercase', marginBottom: '4px' }}>Lifetime Value: One-Off + Upgrades</h4>
+                        <p style={{ fontSize: 'var(--font-size-body)', lineHeight: '1.4', color: 'var(--color-neutral-800)' }}>
                             The core unit is typically a one-time high-ticket investment (10-15 year lifespan). However, the modular system unlocks secondary CLV through module additions (e.g., adding a fridge or bar later) and accessory upgrades, extending value beyond the initial transaction.
                         </p>
                     </div>
@@ -141,7 +134,7 @@ export default function ExternalAnalysisSection() {
 
                 {/* PESTLE Summary Visual */}
                 <TextBlock style={{ marginTop: 'var(--space-6)', marginBottom: 'var(--space-2)' }}>
-                    <p style={{ fontSize: '11px', color: 'var(--color-neutral-700)' }}>
+                    <p style={{ fontSize: 'var(--font-size-body)', color: 'var(--color-neutral-700)' }}>
                         To validate the macro-environment for expansion, a comprehensive PESTLE analysis was conducted. The visual below summarizes the key strategic drivers, while the full detailed analysis is available in <strong>Appendix A</strong>.
                     </p>
                 </TextBlock>
@@ -154,7 +147,7 @@ export default function ExternalAnalysisSection() {
             <PageWrapper sectionLabel="SECTION 2: EXTERNAL ANALYSIS">
                 <h2 style={{ marginBottom: 'var(--space-4)' }}>2.4 What Customers Want: Design, Durability, and the "Wow Effect"</h2>
                 <div style={{ marginBottom: 'var(--space-4)' }}>
-                    <p style={{ fontSize: '10px', color: 'var(--color-neutral-600)' }}>
+                    <p style={{ fontSize: 'var(--font-size-h4)', color: 'var(--color-neutral-600)' }}>
                         Detailed persona profiles and empathy maps are available in <strong>Appendix C</strong>.
                     </p>
                 </div>
@@ -182,7 +175,7 @@ export default function ExternalAnalysisSection() {
 
             <PageWrapper sectionLabel="SECTION 2: EXTERNAL ANALYSIS">
                 <h2 style={{ marginBottom: 'var(--space-4)' }}>2.5 A Fragmented Market Without a Scaled Leader</h2>
-                <p style={{ fontSize: '10px', color: 'var(--color-neutral-600)', marginBottom: 'var(--space-4)' }}>
+                <p style={{ fontSize: 'var(--font-size-h4)', color: 'var(--color-neutral-600)', marginBottom: 'var(--space-4)' }}>
                     For a comprehensive feature-by-feature competitor audit, see <strong>Appendix D</strong>.
                 </p>
                 <TextBlock style={{ marginBottom: 'var(--space-4)' }}>
@@ -196,27 +189,27 @@ export default function ExternalAnalysisSection() {
 
                 <TextBlock style={{ marginTop: 'var(--space-4)' }}>
                     <div style={{ marginLeft: 'var(--space-4)', marginBottom: 'var(--space-4)' }}>
-                        <p style={{ marginBottom: '6px', fontSize: '11px', lineHeight: '1.4' }}>
+                        <p style={{ marginBottom: '6px', fontSize: 'var(--font-size-body)', lineHeight: '1.4' }}>
                             <strong>The low budget segment (€0–€2K)</strong> includes IKEA, Buitenkeukendeal, Weber, Boretti, and DIY solutions. These players score high on price accessibility but low on design quality, durability, and customization. They anchor customer reference pricing but are not direct competitors to Fieldsman.
                         </p>
-                        <p style={{ marginBottom: '6px', fontSize: '11px', lineHeight: '1.4' }}>
+                        <p style={{ marginBottom: '6px', fontSize: 'var(--font-size-body)', lineHeight: '1.4' }}>
                             <strong>The mid-premium segment (€3K–€8K)</strong> consists of players like MetaalEnzo, regional craftsmen, and small workshops. These players offer design focus and quality materials but suffer from limited production capacity, inconsistent online experience, and longer lead times due to manual production. This is Fieldsman's competitive arena.
                         </p>
-                        <p style={{ marginBottom: '6px', fontSize: '11px', lineHeight: '1.4' }}>
+                        <p style={{ marginBottom: '6px', fontSize: 'var(--font-size-body)', lineHeight: '1.4' }}>
                             <strong>The premium segment (€10K–€20K)</strong> includes established brands such as Roostr, Novara, Life-Steel, Freiluft, OFYR, Otto Wilde, and Flammkraft. They deliver high design quality and durability but operate showroom-heavy models with higher prices and longer lead times.
                         </p>
-                        <p style={{ marginBottom: '6px', fontSize: '11px', lineHeight: '1.4' }}>
+                        <p style={{ marginBottom: '6px', fontSize: 'var(--font-size-body)', lineHeight: '1.4' }}>
                             <strong>The luxury segment (€25K+)</strong> features players like COOXS Concepts, Röshults, and Anker. They offer fully bespoke designs and high-touch consultancy but serve a limited addressable market with extended lead times and premium pricing.
                         </p>
                     </div>
 
                     <div style={{ background: 'var(--color-neutral-100)', padding: 'var(--space-3) var(--space-5) var(--space-5) var(--space-5)', borderRadius: 'var(--border-radius-md)', marginTop: 'var(--space-4)' }}>
-                        <h3 style={{ marginBottom: 'var(--space-2)', fontSize: '13px', color: 'var(--color-primary)' }}>Strategic Differentiation</h3>
+                        <h3 style={{ marginBottom: 'var(--space-2)', fontSize: 'var(--font-size-h3)', color: 'var(--color-primary)' }}>Strategic Differentiation</h3>
                         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-6)' }}>
-                            <p style={{ fontSize: '11px', color: 'var(--color-neutral-700)', lineHeight: '1.4' }}>
+                            <p style={{ fontSize: 'var(--font-size-body)', color: 'var(--color-neutral-700)', lineHeight: '1.4' }}>
                                 Fieldsman's value curve is built on a deliberate strategic choice to compete in the €3K–€8K segment by replacing traditional bespoke craftsmanship with mass-customization through standardized modules. This modular architecture allows Fieldsman to deliver higher design consistency, reliable durability, a superior online configuration and purchase experience, and significantly faster lead times than mid-premium workshops.
                             </p>
-                            <p style={{ fontSize: '11px', color: 'var(--color-neutral-700)', lineHeight: '1.4' }}>
+                            <p style={{ fontSize: 'var(--font-size-body)', color: 'var(--color-neutral-700)', lineHeight: '1.4' }}>
                                 The competitive implication is clear: the mid-premium segment is growing but lacks a dominant scalable European player. Competition is driven by design differentiation, brand trust, and lead-time reliability, not price alone. This creates an opportunity for Fieldsman to become the category leader by scaling operational excellence.
                             </p>
                         </div>
@@ -236,29 +229,29 @@ export default function ExternalAnalysisSection() {
 
                 {/* Key Takeaways - Premium Styling */}
                 <div style={{ borderTop: '2px solid #E2E8F0', paddingTop: 'var(--space-3)', marginTop: 'var(--space-4)' }}>
-                    <h3 style={{ fontSize: '11px', fontWeight: 800, color: 'var(--color-neutral-600)', marginBottom: 'var(--space-2)', letterSpacing: '0.05em' }}>2.7 KEY EXTERNAL TAKEAWAYS</h3>
+                    <h3 style={{ fontSize: 'var(--font-size-h4)', fontWeight: 800, color: 'var(--color-neutral-600)', marginBottom: 'var(--space-2)', letterSpacing: '0.05em' }}>2.7 KEY EXTERNAL TAKEAWAYS</h3>
                     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-x-4) var(--space-y-3)' }}>
                         <div style={{ display: 'flex', gap: '8px' }}>
-                            <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary)', color: 'white', borderRadius: '50%', fontSize: '9px', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>1</div>
-                            <p style={{ fontSize: '9.5px', color: 'var(--color-neutral-700)', lineHeight: '1.4', margin: 0 }}>
+                            <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary)', color: 'white', borderRadius: '50%', fontSize: 'var(--font-size-small)', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>1</div>
+                            <p style={{ fontSize: 'var(--font-size-small)', color: 'var(--color-neutral-700)', lineHeight: '1.4', margin: 0 }}>
                                 <strong style={{ color: 'var(--color-neutral-900)' }}>The Missing Middle:</strong> A €301M SAM opportunity exists for players bridging the gap between DIY carts and luxury bespoke kitchens.
                             </p>
                         </div>
                         <div style={{ display: 'flex', gap: '8px' }}>
-                            <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary)', color: 'white', borderRadius: '50%', fontSize: '9px', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>2</div>
-                            <p style={{ fontSize: '9.5px', color: 'var(--color-neutral-700)', lineHeight: '1.4', margin: 0 }}>
+                            <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary)', color: 'white', borderRadius: '50%', fontSize: 'var(--font-size-small)', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>2</div>
+                            <p style={{ fontSize: 'var(--font-size-small)', color: 'var(--color-neutral-700)', lineHeight: '1.4', margin: 0 }}>
                                 <strong style={{ color: 'var(--color-neutral-900)' }}>Germany is Critical:</strong> expansion is mandatory for scale; the German market represents ~80% of total addressable revenue across prioritization zones.
                             </p>
                         </div>
                         <div style={{ display: 'flex', gap: '8px' }}>
-                            <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary)', color: 'white', borderRadius: '50%', fontSize: '9px', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>3</div>
-                            <p style={{ fontSize: '9.5px', color: 'var(--color-neutral-700)', lineHeight: '1.4', margin: 0 }}>
+                            <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary)', color: 'white', borderRadius: '50%', fontSize: 'var(--font-size-small)', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>3</div>
+                            <p style={{ fontSize: 'var(--font-size-small)', color: 'var(--color-neutral-700)', lineHeight: '1.4', margin: 0 }}>
                                 <strong style={{ color: 'var(--color-neutral-900)' }}>Reassurance First:</strong> "The Proud Host" prioritizes durability and design over price; scaling requires trust-building via "phygital" touchpoints.
                             </p>
                         </div>
                         <div style={{ display: 'flex', gap: '8px' }}>
-                            <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary)', color: 'white', borderRadius: '50%', fontSize: '9px', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>4</div>
-                            <p style={{ fontSize: '9.5px', color: 'var(--color-neutral-700)', lineHeight: '1.4', margin: 0 }}>
+                            <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary)', color: 'white', borderRadius: '50%', fontSize: 'var(--font-size-small)', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>4</div>
+                            <p style={{ fontSize: 'var(--font-size-small)', color: 'var(--color-neutral-700)', lineHeight: '1.4', margin: 0 }}>
                                 <strong style={{ color: 'var(--color-neutral-900)' }}>Window of Opportunity:</strong> Favorable industry structure with moderate supplier power and fragmented competition enables a modular challenger to win.
                             </p>
                         </div>

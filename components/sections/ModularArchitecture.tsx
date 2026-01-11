@@ -7,17 +7,17 @@ import FieldsmanModules from '@/components/charts/FieldsmanModules';
 export default function ModularArchitecture() {
     return (
         <div>
-            <h2 style={{ marginBottom: 'var(--space-4)' }}>Appendix F: Modular Product Architecture</h2>
-            <h3 style={{ fontSize: '18px', color: 'var(--color-neutral-600)', marginBottom: 'var(--space-6)' }}>Customization Without Complexity</h3>
+            <h2 style={{ fontSize: 'var(--font-size-h2)', fontWeight: 800, color: 'var(--color-neutral-900)', marginBottom: 'var(--space-4)' }}>Appendix F: Modular Product Architecture</h2>
+            <h3 style={{ fontSize: 'var(--font-size-h3)', fontWeight: 800, color: 'var(--color-neutral-600)', marginBottom: 'var(--space-6)' }}>Customization Without Complexity</h3>
 
             <TextBlock columns={2}>
                 <p>
                     Fieldsman's core strategic asset is its modular product architecture. The outdoor kitchen is built from standardized modules that can be combined and expanded, allowing customers to design configurations that fit their space and preferences while enabling scalable production.
                 </p>
                 <p>
-                    <strong>The Module System:</strong>
+                    The Module System:
                 </p>
-                <ul style={{ paddingLeft: '20px', marginBottom: '10px', fontSize: '11px', color: 'var(--color-neutral-700)' }}>
+                <ul style={{ paddingLeft: '20px', marginBottom: '10px', fontSize: 'var(--font-size-small)', color: 'var(--color-neutral-700)' }}>
                     <li><strong>Compact Module (49.5 cm):</strong> Storage and compact setups.</li>
                     <li><strong>Ruim Module (63 cm):</strong> Primary workspace building block.</li>
                     <li><strong>Kamado Module (68 cm):</strong> Anchors most configurations.</li>

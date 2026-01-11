@@ -37,11 +37,11 @@ export default function MarketSizingMethodology({ part }: MarketSizingMethodolog
                         <div style={{ margin: 'var(--space-4) 0', fontSize: '12px' }}>
                             <h4 style={{ fontSize: '12px', fontWeight: '800', color: '#92400E', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: 'var(--space-2)' }}>Critical Caveat</h4>
                             <p style={{ color: '#78350F' }}>
-                                The figures presented represent <strong>directional estimates</strong> rather than precise forecasts.
+                                The figures presented represent directional estimates rather than precise forecasts.
                                 Market sizing in nascent categories requires multiple assumptions that compound uncertainty. We have
                                 prioritized conservative assumptions at each stage to avoid overestimating addressable market size.
                                 Where ranges exist in source data, we have selected mid-to-lower-bound figures. Actual market size
-                                may vary by <strong>±30–50%</strong> depending on factors including: macroeconomic conditions,
+                                may vary by ±30–50% depending on factors including: macroeconomic conditions,
                                 competitive intensity, regulatory changes (e.g., outdoor cooking restrictions), and cultural adoption
                                 rates that may differ from historical proxies.
                             </p>
@@ -549,7 +549,7 @@ export default function MarketSizingMethodology({ part }: MarketSizingMethodolog
                 }
 
                 .appendix-title {
-                    font-size: 24px;
+                    font-size: var(--font-size-h2);
                     font-weight: 800;
                     color: var(--color-neutral-900);
                     margin-bottom: var(--space-6);
@@ -562,7 +562,7 @@ export default function MarketSizingMethodology({ part }: MarketSizingMethodolog
                 }
 
                 .section-title {
-                    font-size: 18px;
+                    font-size: var(--font-size-h3);
                     font-weight: 800;
                     color: var(--color-neutral-900);
                     margin-bottom: var(--space-4);
@@ -571,7 +571,7 @@ export default function MarketSizingMethodology({ part }: MarketSizingMethodolog
                 }
 
                 .subsection-title {
-                    font-size: 13px;
+                    font-size: var(--font-size-h4);
                     font-weight: 700;
                     color: var(--color-primary);
                     margin-top: var(--space-4);
@@ -583,7 +583,7 @@ export default function MarketSizingMethodology({ part }: MarketSizingMethodolog
                     padding: var(--space-2) var(--space-3);
                     border-left: 3px solid var(--color-primary);
                     margin-bottom: var(--space-3);
-                    font-size: 11px;
+                    font-size: var(--font-size-small);
                 }
 
                 .caveat-box {
@@ -596,7 +596,7 @@ export default function MarketSizingMethodology({ part }: MarketSizingMethodolog
 
                 .caveat-box h4 {
                     color: #92400E;
-                    font-size: 12px;
+                    font-size: var(--font-size-small);
                     font-weight: 800;
                     text-transform: uppercase;
                     letter-spacing: 0.05em;
@@ -604,7 +604,7 @@ export default function MarketSizingMethodology({ part }: MarketSizingMethodolog
                 }
 
                 .caveat-box p {
-                    font-size: 11px;
+                    font-size: var(--font-size-small);
                     color: #78350F;
                     margin: 0;
                 }
@@ -616,13 +616,13 @@ export default function MarketSizingMethodology({ part }: MarketSizingMethodolog
                     border-radius: var(--border-radius-sm);
                     padding: var(--space-3);
                     margin: var(--space-3) 0;
-                    font-size: 11px;
+                    font-size: var(--font-size-small);
                 }
 
                 .data-sources h5, .assumptions-box h5, .rationale-box h5, 
                 .scenario-box h5, .nuance-box h5, .sensitivity-box h5,
                 .justification-box h5, .formula-box h5 {
-                    font-size: 11px;
+                    font-size: var(--font-size-small);
                     font-weight: 700;
                     color: var(--color-neutral-700);
                     margin-bottom: var(--space-2);
@@ -662,11 +662,11 @@ export default function MarketSizingMethodology({ part }: MarketSizingMethodolog
                     border-radius: var(--border-radius-md);
                     padding: var(--space-4);
                     margin: var(--space-4) 0;
-                    font-size: 11px;
+                    font-size: var(--font-size-small);
                 }
 
                 .segment-box h5 {
-                    font-size: 12px;
+                    font-size: var(--font-size-small);
                     font-weight: 700;
                     margin-bottom: var(--space-3);
                 }
@@ -714,7 +714,7 @@ export default function MarketSizingMethodology({ part }: MarketSizingMethodolog
                     background: var(--color-neutral-100);
                     padding: var(--space-2) var(--space-3);
                     margin: 0;
-                    font-size: 11px;
+                    font-size: var(--font-size-small);
                     font-weight: 700;
                     border-bottom: 1px solid var(--color-neutral-200);
                 }
@@ -722,7 +722,7 @@ export default function MarketSizingMethodology({ part }: MarketSizingMethodolog
                 .data-table {
                     width: 100%;
                     border-collapse: collapse;
-                    font-size: 9.5px;
+                    font-size: var(--font-size-small);
                 }
 
                 .data-table th {
@@ -757,7 +757,7 @@ export default function MarketSizingMethodology({ part }: MarketSizingMethodolog
 
                 .formula-box p {
                     font-family: monospace;
-                    font-size: 12px;
+                    font-size: var(--font-size-small);
                     margin: 0;
                 }
 
@@ -767,26 +767,26 @@ export default function MarketSizingMethodology({ part }: MarketSizingMethodolog
                 }
 
                 .exhibit-container h5 {
-                    font-size: 11px;
+                    font-size: var(--font-size-small);
                     font-weight: 700;
                     color: var(--color-neutral-600);
                     margin-bottom: var(--space-2);
                 }
 
                 .exhibit-caption {
-                    font-size: 9px;
+                    font-size: var(--font-size-tiny);
                     color: var(--color-neutral-500);
                     font-style: italic;
                     margin-top: var(--space-2);
                 }
 
                 p {
-                    font-size: 10px;
+                    font-size: var(--font-size-body);
                     margin-bottom: var(--space-2);
                 }
 
                 ul, ol {
-                    font-size: 10px;
+                    font-size: var(--font-size-body);
                 }
             `}</style>
         </div>

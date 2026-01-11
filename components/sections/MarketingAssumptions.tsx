@@ -7,19 +7,18 @@ export default function MarketingAssumptions() {
         <div style={{
             width: '100%',
             height: '100%',
-            fontFamily: "'Inter', sans-serif",
-            fontSize: '9px',
+            fontSize: 'var(--font-size-small)',
             color: 'var(--color-neutral-800)',
             lineHeight: '1.3'
         }}>
             {/* Header */}
             <div style={{
-                marginBottom: '10px',
-                paddingBottom: '6px',
+                marginBottom: 'var(--space-3)',
+                paddingBottom: 'var(--space-2)',
                 borderBottom: '1px solid var(--color-primary)'
             }}>
                 <h2 style={{
-                    fontSize: '14px',
+                    fontSize: 'var(--font-size-h3)',
                     fontWeight: 700,
                     color: 'var(--color-primary)',
                     margin: 0,
@@ -30,7 +29,7 @@ export default function MarketingAssumptions() {
                 </h2>
                 <p style={{
                     margin: '2px 0 0 0',
-                    fontSize: '9px',
+                    fontSize: 'var(--font-size-small)',
                     color: 'var(--color-neutral-600)'
                 }}>
                     Comprehensive breakdown of Traffic, Conversion, Ad Spend, and Strategic Costs (2025-2030)
@@ -38,9 +37,9 @@ export default function MarketingAssumptions() {
             </div>
 
             {/* SECTION 1: TRAFFIC ACQUISITION */}
-            <div style={{ marginBottom: '12px' }}>
+            <div style={{ marginBottom: 'var(--space-3)' }}>
                 <h3 style={{
-                    fontSize: '10px',
+                    fontSize: 'var(--font-size-h4)',
                     fontWeight: 700,
                     backgroundColor: 'var(--color-neutral-100)',
                     padding: '3px 6px',
@@ -55,7 +54,7 @@ export default function MarketingAssumptions() {
 
                 <table style={{ width: '100%', borderCollapse: 'collapse' }}>
                     <thead>
-                        <tr style={{ borderBottom: '1px solid var(--color-neutral-300)' }}>
+                        <tr style={{ borderBottom: '1px solid var(--color-neutral-200)' }}>
                             <th style={{ textAlign: 'left', padding: '2px 4px', color: 'var(--color-neutral-500)', width: '28%' }}>Channel</th>
                             <th style={{ textAlign: 'center', width: '12%' }}>2025</th>
                             <th style={{ textAlign: 'center', width: '12%' }}>2026</th>
@@ -111,7 +110,7 @@ export default function MarketingAssumptions() {
                             <td style={{ textAlign: 'center' }}>108,631</td>
                             <td style={{ textAlign: 'center', fontWeight: 700 }}>154,039</td>
                         </tr>
-                        <tr style={{ borderTop: '2px solid var(--color-neutral-300)', fontWeight: 700 }}>
+                        <tr style={{ borderTop: '2px solid var(--color-neutral-200)', fontWeight: 700 }}>
                             <td style={{ padding: '2px 4px' }}>TOTAL TRAFFIC</td>
                             <td style={{ textAlign: 'center' }}>26,140</td>
                             <td style={{ textAlign: 'center' }}>245,085</td>
@@ -125,12 +124,12 @@ export default function MarketingAssumptions() {
             </div>
 
             {/* SECTION 2: CONVERSION ECONOMICS */}
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px', marginBottom: '12px' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-3)', marginBottom: 'var(--space-3)' }}>
 
                 {/* 2A: Conversion Rates */}
                 <div>
                     <h3 style={{
-                        fontSize: '10px',
+                        fontSize: 'var(--font-size-h4)',
                         fontWeight: 700,
                         backgroundColor: 'var(--color-neutral-100)',
                         padding: '3px 6px',
@@ -141,7 +140,7 @@ export default function MarketingAssumptions() {
                     </h3>
                     <table style={{ width: '100%', borderCollapse: 'collapse' }}>
                         <thead>
-                            <tr style={{ borderBottom: '1px solid var(--color-neutral-300)' }}>
+                            <tr style={{ borderBottom: '1px solid var(--color-neutral-200)' }}>
                                 <th style={{ textAlign: 'left', padding: '2px 4px', color: 'var(--color-neutral-500)' }}>Metric</th>
                                 <th style={{ textAlign: 'center' }}>2025</th>
                                 <th style={{ textAlign: 'center' }}>2026-30</th>
@@ -168,7 +167,7 @@ export default function MarketingAssumptions() {
                                 <td style={{ textAlign: 'center' }}>0.10%</td>
                                 <td style={{ textAlign: 'center' }}>0.10%</td>
                             </tr>
-                            <tr style={{ background: '#f5f5f5', fontWeight: 700, borderTop: '1px solid #ddd' }}>
+                            <tr style={{ background: 'var(--color-neutral-50)', fontWeight: 700, borderTop: '1px solid var(--color-neutral-200)' }}>
                                 <td style={{ padding: '2px 4px' }}>Blended Rate</td>
                                 <td style={{ textAlign: 'center' }}>0.15%</td>
                                 <td style={{ textAlign: 'center' }}>0.07%</td>
@@ -180,7 +179,7 @@ export default function MarketingAssumptions() {
                 {/* 2B: Paid Growth Efficiency (CPC) */}
                 <div>
                     <h3 style={{
-                        fontSize: '10px',
+                        fontSize: 'var(--font-size-h4)',
                         fontWeight: 700,
                         backgroundColor: 'var(--color-neutral-100)',
                         padding: '3px 6px',
@@ -191,7 +190,7 @@ export default function MarketingAssumptions() {
                     </h3>
                     <table style={{ width: '100%', borderCollapse: 'collapse' }}>
                         <thead>
-                            <tr style={{ borderBottom: '1px solid var(--color-neutral-300)' }}>
+                            <tr style={{ borderBottom: '1px solid var(--color-neutral-200)' }}>
                                 <th style={{ textAlign: 'left', padding: '2px 4px', color: 'var(--color-neutral-500)' }}>Platform</th>
                                 <th style={{ textAlign: 'center' }}>2025</th>
                                 <th style={{ textAlign: 'center' }}>2026-30</th>
@@ -225,7 +224,7 @@ export default function MarketingAssumptions() {
 
             {/* SECTION 4: BUDGET & COSTS */}
             <h3 style={{
-                fontSize: '10px',
+                fontSize: 'var(--font-size-h4)',
                 fontWeight: 700,
                 backgroundColor: 'var(--color-neutral-100)',
                 padding: '3px 6px',
@@ -235,9 +234,9 @@ export default function MarketingAssumptions() {
                 4. Marketing Budget & Cost Structure
             </h3>
 
-            <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '12px' }}>
+            <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: 'var(--space-3)' }}>
                 <thead>
-                    <tr style={{ borderBottom: '1px solid var(--color-neutral-300)' }}>
+                    <tr style={{ borderBottom: '1px solid var(--color-neutral-200)' }}>
                         <th style={{ textAlign: 'left', padding: '2px 4px', color: 'var(--color-neutral-500)' }}>Cost Item</th>
                         <th style={{ textAlign: 'center', width: '12%' }}>2025</th>
                         <th style={{ textAlign: 'center', width: '12%' }}>2026</th>
@@ -298,7 +297,7 @@ export default function MarketingAssumptions() {
 
             {/* SECTION 5: OTHER MARKTEING */}
             <h3 style={{
-                fontSize: '10px',
+                fontSize: 'var(--font-size-h4)',
                 fontWeight: 700,
                 backgroundColor: 'var(--color-neutral-100)',
                 padding: '3px 6px',
@@ -307,9 +306,9 @@ export default function MarketingAssumptions() {
             }}>
                 5. Other Marketing (Influencers, Events, SEO)
             </h3>
-            <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '12px' }}>
+            <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: 'var(--space-3)' }}>
                 <thead>
-                    <tr style={{ borderBottom: '1px solid var(--color-neutral-300)' }}>
+                    <tr style={{ borderBottom: '1px solid var(--color-neutral-200)' }}>
                         <th style={{ textAlign: 'left', padding: '2px 4px', color: 'var(--color-neutral-500)', width: '28%' }}>Item</th>
                         <th style={{ textAlign: 'center', width: '12%' }}>2025</th>
                         <th style={{ textAlign: 'center', width: '12%' }}>2026</th>
@@ -343,12 +342,12 @@ export default function MarketingAssumptions() {
 
             {/* SECTION 6: SHOWROOMS */}
             <div style={{
-                marginTop: '8px',
-                paddingTop: '8px',
+                marginTop: 'var(--space-2)',
+                paddingTop: 'var(--space-2)',
                 borderTop: '1px solid var(--color-neutral-200)'
             }}>
                 <h3 style={{
-                    fontSize: '10px',
+                    fontSize: 'var(--font-size-h4)',
                     fontWeight: 700,
                     backgroundColor: 'var(--color-neutral-100)',
                     padding: '3px 6px',
@@ -400,7 +399,6 @@ export default function MarketingAssumptions() {
                     </tbody>
                 </table>
             </div>
-
         </div>
     );
 }

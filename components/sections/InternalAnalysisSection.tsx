@@ -20,22 +20,22 @@ export default function InternalAnalysisSection() {
                     </TextBlock>
                 </div>
 
-                <div style={{ borderTop: '1px solid var(--color-neutral-300)', paddingTop: 'var(--space-6)' }}>
-                    <h2 style={{ marginBottom: 'var(--space-4)' }}>3.1 The D2C Model: High Margins, Limited Capacity</h2>
+                <div style={{ borderTop: '1px solid var(--color-neutral-300)', paddingTop: 'var(--space-6)', marginBottom: 'var(--space-8)' }}>
+                    <h2 style={{ marginBottom: 'var(--space-4)' }}>3.1 Internal Capabilities: A Strong Core with Clear Bottlenecks</h2>
                     <TextBlock>
                         <p>
-                            Fieldsman operates as a direct-to-consumer brand. Customers configure their outdoor kitchen online via a proprietary 3D configurator, after which the kitchen is produced and delivered directly. This model avoids retail margins and maintains strong profitability while offering accessible pricing relative to premium competitors.
+                            To understand Fieldsman's potential for scale, we conducted a resource-based view analysis of its current internal capabilities. This assessment identifies the proprietary assets that can be leveraged for growth and the critical operational constraints that must be resolved.
                         </p>
                     </TextBlock>
-
-                    {/* NEW VALUE CHAIN VISUAL */}
-                    <div style={{ marginTop: 'var(--space-8)', marginBottom: 'var(--space-8)', padding: 'var(--space-5)', background: 'var(--color-neutral-100)', borderRadius: 'var(--border-radius-md)' }}>
-                        <div style={{ marginBottom: 'var(--space-6)' }}>
-                            <h3 style={{ fontSize: '13px', fontWeight: 800, color: 'var(--color-neutral-900)', marginBottom: 'var(--space-2)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>The D2C Value Chain Advantage</h3>
-                            <p style={{ fontSize: '10px', color: 'var(--color-neutral-600)' }}>D2C pricing removes distributor & showroom economics — enabling ~40% savings while maintaining Manufacturer Profitability.</p>
-                        </div>
-
-                        {/* CHART CONTAINER */}
+                </div>      {/* NEW VALUE CHAIN VISUAL */}
+                <div style={{ marginTop: 'var(--space-8)', marginBottom: 'var(--space-8)', padding: 'var(--space-5)', background: 'var(--color-neutral-100)', borderRadius: 'var(--border-radius-md)' }}>
+                    <div style={{ marginBottom: 'var(--space-6)' }}>
+                        <h3 style={{ fontSize: 'var(--font-size-h3)', color: 'var(--color-primary)', marginBottom: 'var(--space-2)' }}>The Value Chain: Where Value is Created vs. Lost</h3>
+                        <TextBlock>
+                            <p style={{ marginBottom: 'var(--space-4)' }}>
+                                Fieldsman's current value chain is optimized for flexibility and low fixed costs but is ill-suited for volume. The process relies heavily on manual intervention in the "Make" and "Deliver" phases, creating linear cost scaling rather than economies of scale.
+                            </p>
+                        </TextBlock>      {/* CHART CONTAINER */}
                         <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-7)' }}>
 
                             {/* Traditional Retail Bar */}
@@ -143,10 +143,10 @@ export default function InternalAnalysisSection() {
                     <div style={{ marginBottom: 'var(--space-8)' }}>
                         <h4 style={{ fontSize: '11px', fontWeight: 700, color: 'var(--color-neutral-900)', marginBottom: 'var(--space-3)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Strategic Imperative: Meeting Consumer Willingness To Pay</h4>
                         <p style={{ fontSize: '10px', lineHeight: '1.6', color: 'var(--color-neutral-700)', marginBottom: 'var(--space-3)' }}>
-                            The decision to bypass traditional retail is not just about cost efficiency, but about <strong>market viability</strong>. Our analysis indicates the target customer's maximum Willingness to Pay for this modular category is approximately <strong>€3,000–€8,000</strong>.
+                            The decision to bypass traditional retail is not just about cost efficiency, but about market viability. Our analysis indicates the target customer's maximum Willingness to Pay for this modular category is approximately €3,000–€8,000.
                         </p>
                         <p style={{ fontSize: '10px', lineHeight: '1.6', color: 'var(--color-neutral-700)' }}>
-                            As the visual demonstrates, a traditional retail model demands a ~40% margin, pushing the price to <strong>€8,500+</strong>—limitng volume. By trading off this retail margin, Fieldsman accepts a lower per-unit potential but unlocks <strong>significantly higher volume</strong> by fitting precisely within the €5k adoption sweet spot. This "Volume Strategy" maximizes total profit pool rather than unit margin percentage.
+                            As the visual demonstrates, a traditional retail model demands a ~40% margin, pushing the price to €8,500+—limitng volume. By trading off this retail margin, Fieldsman accepts a lower per-unit potential but unlocks significantly higher volume by fitting precisely within the €5k adoption sweet spot. This "Volume Strategy" maximizes total profit pool rather than unit margin percentage.
                         </p>
                     </div>
 
@@ -221,7 +221,7 @@ export default function InternalAnalysisSection() {
                         At the same time, scaling production fully in-house is structurally inefficient due to strong seasonality. Outdoor kitchen demand drops significantly in winter, which would create overcapacity and idle skilled labor if Fieldsman invested in a larger permanent internal team and equipment. Temporary labor is not a practical solution because the work requires craftsmanship, quality control, and product knowledge that cannot be learned quickly.
                     </p>
                     <p>
-                        Adding to this complexity is the supply chain for ceramic countertops. Currently outsourced to local suppliers, this component introduces severe unpredictability, with lead times frequently <strong>exceeding 8 weeks</strong> during high season. This external bottleneck effectively caps total output regardless of internal improvements, as finished frames cannot be shipped without their tops.
+                        Adding to this complexity is the supply chain for ceramic countertops. Currently outsourced to local suppliers, this component introduces severe unpredictability, with lead times frequently exceeding 8 weeks during high season. This external bottleneck effectively caps total output regardless of internal improvements, as finished frames cannot be shipped without their tops.
                     </p>
                 </TextBlock>
 
@@ -244,59 +244,64 @@ export default function InternalAnalysisSection() {
 
                 {/* VRIO Table - Compact */}
                 <div style={{ marginBottom: 'var(--space-6)' }}>
-                    <h3 style={{ fontSize: '11px', fontWeight: 800, color: 'var(--color-neutral-600)', marginBottom: 'var(--space-2)' }}>VRIO STRATEGIC ASSESSMENT</h3>
-                    <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '9px', border: '1px solid #E2E8F0' }}>
-                        <thead style={{ background: '#F8FAFC' }}>
-                            <tr>
-                                <th style={{ textAlign: 'left', padding: '4px 8px', width: '30%', borderBottom: '1px solid #E2E8F0' }}>CAPABILITY / RESOURCE</th>
-                                <th style={{ textAlign: 'center', padding: '4px', width: '8%', borderBottom: '1px solid #E2E8F0' }}>V</th>
-                                <th style={{ textAlign: 'center', padding: '4px', width: '8%', borderBottom: '1px solid #E2E8F0' }}>R</th>
-                                <th style={{ textAlign: 'center', padding: '4px', width: '8%', borderBottom: '1px solid #E2E8F0' }}>I</th>
-                                <th style={{ textAlign: 'center', padding: '4px', width: '8%', borderBottom: '1px solid #E2E8F0' }}>O</th>
-                                <th style={{ textAlign: 'left', padding: '4px 8px', borderBottom: '1px solid #E2E8F0' }}>COMPETITIVE IMPLICATION</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr style={{ borderBottom: '1px solid #F1F5F9' }}>
-                                <td style={{ padding: '3px 8px', fontWeight: 600 }}>Modular Product Architecture</td>
-                                <td style={{ textAlign: 'center', color: 'var(--color-primary)', fontWeight: 800 }}>✓</td>
-                                <td style={{ textAlign: 'center', color: 'var(--color-primary)', fontWeight: 800 }}>✓</td>
-                                <td style={{ textAlign: 'center', color: 'var(--color-neutral-600)', fontWeight: 800 }}>✗</td>
-                                <td style={{ textAlign: 'center', color: 'var(--color-primary)', fontWeight: 800 }}>✓</td>
-                                <td style={{ padding: '3px 8px' }}><strong>Temporary Advantage:</strong> Replicable by industrial players.</td>
-                            </tr>
-                            <tr style={{ borderBottom: '1px solid #F1F5F9' }}>
-                                <td style={{ padding: '3px 8px', fontWeight: 600 }}>D2C Model + Configurator</td>
-                                <td style={{ textAlign: 'center', color: 'var(--color-primary)', fontWeight: 800 }}>✓</td>
-                                <td style={{ textAlign: 'center', color: 'var(--color-primary)', fontWeight: 800 }}>✓</td>
-                                <td style={{ textAlign: 'center', color: 'var(--color-neutral-600)', fontWeight: 800 }}>✗</td>
-                                <td style={{ textAlign: 'center', color: 'var(--color-primary)', fontWeight: 800 }}>✓</td>
-                                <td style={{ padding: '3px 8px' }}><strong>Temporary Advantage:</strong> Software is a commodity.</td>
-                            </tr>
-                            <tr style={{ borderBottom: '1px solid #F1F5F9' }}>
-                                <td style={{ padding: '3px 8px', fontWeight: 600 }}>Brand Proposition</td>
-                                <td style={{ textAlign: 'center', color: 'var(--color-primary)', fontWeight: 800 }}>✓</td>
-                                <td style={{ textAlign: 'center', color: 'var(--color-neutral-500)', fontWeight: 800 }}>○</td>
-                                <td style={{ textAlign: 'center', color: 'var(--color-neutral-500)', fontWeight: 800 }}>○</td>
-                                <td style={{ textAlign: 'center', color: 'var(--color-neutral-500)', fontWeight: 800 }}>○</td>
-                                <td style={{ padding: '3px 8px' }}><strong>Competitive Parity:</strong> Needs scale to become defensible.</td>
-                            </tr>
-                            <tr style={{ borderBottom: '1px solid #F1F5F9' }}>
-                                <td style={{ padding: '3px 8px', fontWeight: 600 }}>Founder Expertise</td>
-                                <td style={{ textAlign: 'center', color: 'var(--color-primary)', fontWeight: 800 }}>✓</td>
-                                <td style={{ textAlign: 'center', color: 'var(--color-primary)', fontWeight: 800 }}>✓</td>
-                                <td style={{ textAlign: 'center', color: 'var(--color-primary)', fontWeight: 800 }}>✓</td>
-                                <td style={{ textAlign: 'center', color: 'var(--color-neutral-600)', fontWeight: 800 }}>✗</td>
-                                <td style={{ padding: '3px 8px' }}><strong>Unused Advantage:</strong> Bottlenecked by manual capacity.</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <div style={{ marginTop: 'var(--space-5)' }}>
-                        <h4 style={{ fontSize: '11px', fontWeight: 800, color: 'var(--color-neutral-900)', marginBottom: 'var(--space-2)', textTransform: 'uppercase' }}>Strategic Implication: The Window of Opportunity</h4>
-                        <p style={{ fontSize: '10.5px', color: 'var(--color-neutral-600)', lineHeight: '1.5', margin: 0 }}>
-                            Fieldsman's current advantages in modularity and D2C structure are <strong>temporary</strong>. They are based on smart business logic, not proprietary technology, meaning industrial incumbents can eventually replicate them. This creates a critical "window of opportunity." To convert this temporary head-start into a <strong>sustained competitive advantage</strong>, Fieldsman must aggressively invest in Brand and Marketing to build a "mindshare moat" before copycats scale.
+                    <h3 style={{ fontSize: 'var(--font-size-h3)', color: 'var(--color-primary)', marginBottom: 'var(--space-2)' }}>SWOT Analysis: Strategic Position</h3>
+                    <TextBlock>
+                        <p>
+                            The breakdown of Strengths, Weaknesses, Opportunities, and Threats highlights that Fieldsman's primary constraints are internal (operational), while the external environment is highly favorable.
                         </p>
-                    </div>
+                    </TextBlock>
+                </div>
+                <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 'var(--font-size-small)', border: '1px solid var(--color-neutral-200)' }}>
+                    <thead style={{ background: 'var(--color-neutral-100)' }}>
+                        <tr>
+                            <th style={{ textAlign: 'left', padding: '6px 8px', width: '30%', borderBottom: '1px solid var(--color-neutral-200)', color: 'var(--color-neutral-800)', fontWeight: 700 }}>CAPABILITY / RESOURCE</th>
+                            <th style={{ textAlign: 'center', padding: '6px', width: '8%', borderBottom: '1px solid var(--color-neutral-200)', color: 'var(--color-neutral-800)', fontWeight: 700 }}>V</th>
+                            <th style={{ textAlign: 'center', padding: '6px', width: '8%', borderBottom: '1px solid var(--color-neutral-200)', color: 'var(--color-neutral-800)', fontWeight: 700 }}>R</th>
+                            <th style={{ textAlign: 'center', padding: '6px', width: '8%', borderBottom: '1px solid var(--color-neutral-200)', color: 'var(--color-neutral-800)', fontWeight: 700 }}>I</th>
+                            <th style={{ textAlign: 'center', padding: '6px', width: '8%', borderBottom: '1px solid var(--color-neutral-200)', color: 'var(--color-neutral-800)', fontWeight: 700 }}>O</th>
+                            <th style={{ textAlign: 'left', padding: '6px 8px', borderBottom: '1px solid var(--color-neutral-200)', color: 'var(--color-neutral-800)', fontWeight: 700 }}>COMPETITIVE IMPLICATION</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style={{ borderBottom: '1px solid var(--color-neutral-100)' }}>
+                            <td style={{ padding: '4px 8px', fontWeight: 600, color: 'var(--color-neutral-900)' }}>Modular Product Architecture</td>
+                            <td style={{ textAlign: 'center', color: 'var(--color-primary)', fontWeight: 800 }}>✓</td>
+                            <td style={{ textAlign: 'center', color: 'var(--color-primary)', fontWeight: 800 }}>✓</td>
+                            <td style={{ textAlign: 'center', color: 'var(--color-neutral-400)', fontWeight: 800 }}>✗</td>
+                            <td style={{ textAlign: 'center', color: 'var(--color-primary)', fontWeight: 800 }}>✓</td>
+                            <td style={{ padding: '4px 8px', color: 'var(--color-neutral-700)' }}><strong>Temporary Advantage:</strong> Replicable by industrial players.</td>
+                        </tr>
+                        <tr style={{ borderBottom: '1px solid var(--color-neutral-100)' }}>
+                            <td style={{ padding: '4px 8px', fontWeight: 600, color: 'var(--color-neutral-900)' }}>D2C Model + Configurator</td>
+                            <td style={{ textAlign: 'center', color: 'var(--color-primary)', fontWeight: 800 }}>✓</td>
+                            <td style={{ textAlign: 'center', color: 'var(--color-primary)', fontWeight: 800 }}>✓</td>
+                            <td style={{ textAlign: 'center', color: 'var(--color-neutral-400)', fontWeight: 800 }}>✗</td>
+                            <td style={{ textAlign: 'center', color: 'var(--color-primary)', fontWeight: 800 }}>✓</td>
+                            <td style={{ padding: '4px 8px', color: 'var(--color-neutral-700)' }}><strong>Temporary Advantage:</strong> Software is a commodity.</td>
+                        </tr>
+                        <tr style={{ borderBottom: '1px solid var(--color-neutral-100)' }}>
+                            <td style={{ padding: '4px 8px', fontWeight: 600, color: 'var(--color-neutral-900)' }}>Brand Proposition</td>
+                            <td style={{ textAlign: 'center', color: 'var(--color-primary)', fontWeight: 800 }}>✓</td>
+                            <td style={{ textAlign: 'center', color: 'var(--color-neutral-400)', fontWeight: 800 }}>○</td>
+                            <td style={{ textAlign: 'center', color: 'var(--color-neutral-400)', fontWeight: 800 }}>○</td>
+                            <td style={{ textAlign: 'center', color: 'var(--color-neutral-400)', fontWeight: 800 }}>○</td>
+                            <td style={{ padding: '4px 8px', color: 'var(--color-neutral-700)' }}><strong>Competitive Parity:</strong> Needs scale to become defensible.</td>
+                        </tr>
+                        <tr style={{ borderBottom: '1px solid var(--color-neutral-100)' }}>
+                            <td style={{ padding: '4px 8px', fontWeight: 600, color: 'var(--color-neutral-900)' }}>Founder Expertise</td>
+                            <td style={{ textAlign: 'center', color: 'var(--color-primary)', fontWeight: 800 }}>✓</td>
+                            <td style={{ textAlign: 'center', color: 'var(--color-primary)', fontWeight: 800 }}>✓</td>
+                            <td style={{ textAlign: 'center', color: 'var(--color-primary)', fontWeight: 800 }}>✓</td>
+                            <td style={{ textAlign: 'center', color: 'var(--color-neutral-400)', fontWeight: 800 }}>✗</td>
+                            <td style={{ padding: '4px 8px', color: 'var(--color-neutral-700)' }}><strong>Unused Advantage:</strong> Bottlenecked by manual capacity.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div style={{ marginTop: 'var(--space-5)' }}>
+                    <h4 style={{ fontSize: '11px', fontWeight: 800, color: 'var(--color-neutral-900)', marginBottom: 'var(--space-2)', textTransform: 'uppercase' }}>Strategic Implication: The Window of Opportunity</h4>
+                    <p style={{ fontSize: '10.5px', color: 'var(--color-neutral-600)', lineHeight: '1.5', margin: 0 }}>
+                        Fieldsman's current advantages in modularity and D2C structure are temporary. They are based on smart business logic, not proprietary technology, meaning industrial incumbents can eventually replicate them. This creates a critical "window of opportunity." To convert this temporary head-start into a sustained competitive advantage, Fieldsman must aggressively invest in Brand and Marketing to build a "mindshare moat" before copycats scale.
+                    </p>
                 </div>
 
                 {/* SWOT Grid - Premium Styling */}
@@ -351,37 +356,37 @@ export default function InternalAnalysisSection() {
                     <div style={{ marginTop: 'var(--space-5)' }}>
                         <h4 style={{ fontSize: '11px', fontWeight: 800, color: 'var(--color-neutral-900)', marginBottom: 'var(--space-2)', textTransform: 'uppercase' }}>Strategic Implication: The "Differentiate or Die" Trap</h4>
                         <p style={{ fontSize: '10.5px', color: 'var(--color-neutral-600)', lineHeight: '1.5', margin: 0 }}>
-                            The SWOT analysis reveals a classic "start-up trap": Fieldsman has identified a lucrative market gap ("The Missing Middle") and built a profitable engine to serve it, but lacks the operational muscle to defend it. The risk is not demand, but being squeezed between boutique rivals (better brand) and industrial giants (lower cost). The strategy must pivot from "proving the product" to <strong>"industrializing the machine"</strong> to secure the middle ground before entrants close the window.
+                            The SWOT analysis reveals a classic "start-up trap": Fieldsman has identified a lucrative market gap ("The Missing Middle") and built a profitable engine to serve it, but lacks the operational muscle to defend it. The risk is not demand, but being squeezed between boutique rivals (better brand) and industrial giants (lower cost). The strategy must pivot from "proving the product" to "industrializing the machine" to secure the middle ground before entrants close the window.
                         </p>
                     </div>
                 </div>
 
                 {/* Key Takeaways - Premium Styling */}
-                <div style={{ borderTop: '2px solid #E2E8F0', paddingTop: 'var(--space-3)', marginTop: 'var(--space-2)' }}>
-                    <h3 style={{ fontSize: '11px', fontWeight: 800, color: 'var(--color-neutral-600)', marginBottom: 'var(--space-2)', letterSpacing: '0.05em' }}>4.5 KEY INTERNAL TAKEAWAYS</h3>
+                <div style={{ borderTop: '2px solid #E2E8F0', paddingTop: 'var(--space-3)', marginTop: 'var(--space-4)' }}>
+                    <h3 style={{ fontSize: 'var(--font-size-h4)', fontWeight: 800, color: 'var(--color-neutral-600)', marginBottom: 'var(--space-2)', letterSpacing: '0.05em' }}>3.4 KEY INTERNAL TAKEAWAYS</h3>
                     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-x-4) var(--space-y-3)' }}>
                         <div style={{ display: 'flex', gap: '8px' }}>
-                            <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary)', color: 'white', borderRadius: '50%', fontSize: '9px', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>1</div>
-                            <p style={{ fontSize: '9.5px', color: 'var(--color-neutral-700)', lineHeight: '1.4', margin: 0 }}>
-                                <strong style={{ color: 'var(--color-neutral-900)' }}>Proven Fit:</strong> Demand is massive but constrained by internal throughput, not market interest.
+                            <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary)', color: 'white', borderRadius: '50%', fontSize: 'var(--font-size-small)', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>1</div>
+                            <p style={{ fontSize: 'var(--font-size-small)', color: 'var(--color-neutral-700)', lineHeight: '1.4', margin: 0 }}>
+                                <strong style={{ color: 'var(--color-neutral-900)' }}>Proven Traction:</strong> Consistent organic sales of 40 units/year with minimal marketing confirms strong product-market fit.
                             </p>
                         </div>
                         <div style={{ display: 'flex', gap: '8px' }}>
-                            <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary)', color: 'white', borderRadius: '50%', fontSize: '9px', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>2</div>
-                            <p style={{ fontSize: '9.5px', color: 'var(--color-neutral-700)', lineHeight: '1.4', margin: 0 }}>
-                                <strong style={{ color: 'var(--color-neutral-900)' }}>The Moat:</strong> Modular architecture decouples customization from complexity—key for scaling.
+                            <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary)', color: 'white', borderRadius: '50%', fontSize: 'var(--font-size-small)', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>2</div>
+                            <p style={{ fontSize: 'var(--font-size-small)', color: 'var(--color-neutral-700)', lineHeight: '1.4', margin: 0 }}>
+                                <strong style={{ color: 'var(--color-neutral-900)' }}>Operational Ceiling:</strong> Current production model caps growth; supply chain cannot support &gt;50 units without re-engineering.
                             </p>
                         </div>
                         <div style={{ display: 'flex', gap: '8px' }}>
-                            <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary)', color: 'white', borderRadius: '50%', fontSize: '9px', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>3</div>
-                            <p style={{ fontSize: '9.5px', color: 'var(--color-neutral-700)', lineHeight: '1.4', margin: 0 }}>
-                                <strong style={{ color: 'var(--color-neutral-900)' }}>Shift Required:</strong> Moving from founder-manual logic to system-logic is the only way to scale.
+                            <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary)', color: 'white', borderRadius: '50%', fontSize: 'var(--font-size-small)', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>3</div>
+                            <p style={{ fontSize: 'var(--font-size-small)', color: 'var(--color-neutral-700)', lineHeight: '1.4', margin: 0 }}>
+                                <strong style={{ color: 'var(--color-neutral-900)' }}>Margin Strength:</strong> 48% EBITDA margin at small scale provides a healthy buffer for funding growth investments.
                             </p>
                         </div>
                         <div style={{ display: 'flex', gap: '8px' }}>
-                            <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary)', color: 'white', borderRadius: '50%', fontSize: '9px', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>4</div>
-                            <p style={{ fontSize: '9.5px', color: 'var(--color-neutral-700)', lineHeight: '1.4', margin: 0 }}>
-                                <strong style={{ color: 'var(--color-neutral-900)' }}>Protect Margins:</strong> The ~40% D2C margin is the financial engine and must be defended.
+                            <div style={{ minWidth: '16px', height: '16px', background: 'var(--color-primary)', color: 'white', borderRadius: '50%', fontSize: 'var(--font-size-small)', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '2px' }}>4</div>
+                            <p style={{ fontSize: 'var(--font-size-small)', color: 'var(--color-neutral-700)', lineHeight: '1.4', margin: 0 }}>
+                                <strong style={{ color: 'var(--color-neutral-900)' }}>Founder Constraint:</strong> Part-time leadership is the primary non-technical bottleneck; transition to full-time is mandatory.
                             </p>
                         </div>
                     </div>

@@ -181,7 +181,7 @@ export default function CustomerPersonas() {
                 .insights-table {
                     width: 100%;
                     border-collapse: collapse;
-                    font-size: 9.5px;
+                    font-size: var(--font-size-small);
                 }
                 .insights-table th {
                     background: var(--color-neutral-50);
@@ -230,7 +230,7 @@ export default function CustomerPersonas() {
                 .accent-header { background: var(--color-accent); color: white; }
 
                 .persona-role {
-                    font-size: 8.5px;
+                    font-size: var(--font-size-tiny);
                     font-weight: 800;
                     letter-spacing: 0.05em;
                     opacity: 0.9;
@@ -238,14 +238,14 @@ export default function CustomerPersonas() {
                 }
 
                 .persona-name {
-                    font-size: 15px;
+                    font-size: var(--font-size-h3);
                     font-weight: 800;
                     margin: 0 0 2px 0;
                     text-transform: uppercase;
                 }
 
                 .persona-profile {
-                    font-size: 9px;
+                    font-size: var(--font-size-small);
                     opacity: 0.9;
                     font-style: italic;
                 }
@@ -265,7 +265,7 @@ export default function CustomerPersonas() {
                 }
 
                 .label {
-                    font-size: 9px;
+                    font-size: var(--font-size-small);
                     font-weight: 800;
                     color: var(--color-primary-dark, var(--color-primary));
                     text-transform: uppercase;
@@ -273,7 +273,7 @@ export default function CustomerPersonas() {
                 }
 
                 .text {
-                    font-size: 10px;
+                    font-size: var(--font-size-body);
                     color: var(--color-neutral-800);
                     line-height: 1.4;
                 }
@@ -291,7 +291,7 @@ export default function CustomerPersonas() {
 
                 .stat-label {
                     display: block;
-                    font-size: 8.5px;
+                    font-size: var(--font-size-tiny);
                     font-weight: 800;
                     color: var(--color-neutral-500);
                     text-transform: uppercase;
@@ -305,13 +305,13 @@ export default function CustomerPersonas() {
                 }
 
                 .stat-value {
-                    font-size: 13px;
+                    font-size: var(--font-size-h4);
                     font-weight: 800;
                     color: var(--color-neutral-900);
                 }
 
                 .stat-detail {
-                    font-size: 9.5px;
+                    font-size: var(--font-size-small);
                     color: var(--color-neutral-600);
                 }
             `}</style>

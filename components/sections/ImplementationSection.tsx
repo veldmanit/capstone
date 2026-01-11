@@ -18,7 +18,7 @@ export default function ImplementationSection() {
       */}
             <PageWrapper sectionLabel="SECTION 5: IMPLEMENTATION">
                 <TextBlock style={{ marginBottom: 'var(--space-6)' }}>
-                    <p>This chapter defines the strategic transformations required to scale Fieldsman from <strong>50 to 2,000+ kitchens per year</strong>. The implementation starts with the defining value proposition and brand positioning, flows into the commercial growth engine, and concludes with the operational transformation and expansion roadmap.</p>
+                    <p>This chapter defines the strategic transformations required to scale Fieldsman from 50 to 2,000+ kitchens per year. The implementation starts with the defining value proposition and brand positioning, flows into the commercial growth engine, and concludes with the operational transformation and expansion roadmap.</p>
                 </TextBlock>
 
                 {/* 5.1 Value Proposition, Offering & Brand */}
@@ -31,15 +31,15 @@ export default function ImplementationSection() {
                         <div style={{ display: 'grid', gridTemplateColumns: '1.2fr 0.8fr', gap: 'var(--space-6)' }}>
                             <TextBlock>
                                 <p style={{ fontSize: '9.5px', marginBottom: '8px', lineHeight: '1.5' }}>
-                                    Fieldsman disrupts the market by decoupling "premium" from "expensive." Traditional buying journeys force a binary choice: <strong>expensive custom masonry (€15k–30k)</strong> with long lead times, or <strong>flimsy DIY kits (€1k–2k)</strong> that degrade quickly. There is almost no middle ground for the design-conscious homeowner.
+                                    Fieldsman disrupts the market by decoupling "premium" from "expensive." Traditional buying journeys force a binary choice: expensive custom masonry (€15k–30k) with long lead times, or flimsy DIY kits (€1k–2k) that degrade quickly. There is almost no middle ground for the design-conscious homeowner.
                                 </p>
                                 <p style={{ fontSize: '9.5px', margin: 0, lineHeight: '1.5' }}>
-                                    Fieldsman occupies this "Blue Ocean" by delivering <strong>€15,000 perceived value at a €3,500–8,000 price point</strong>. This is not a discount strategy; it is a structural cost advantage achieved through <strong>standardized customization</strong>. By operating at **industrial scale**, Fieldsman outcompetes local bespoke players on price while offering superior durability and design precision.
+                                    Fieldsman occupies this "Blue Ocean" by delivering €15,000 perceived value at a €3,500–8,000 price point. This is not a discount strategy; it is a structural cost advantage achieved through standardized customization. By operating at industrial scale, Fieldsman outcompetes local bespoke players on price while offering superior durability and design precision.
                                 </p>
                             </TextBlock>
                             <div style={{ background: 'var(--color-neutral-50)', border: '1px solid var(--color-secondary)', padding: '12px', borderRadius: '4px' }}>
-                                <h4 style={{ fontSize: '9px', fontWeight: 800, color: 'var(--color-secondary)', marginBottom: '8px', textTransform: 'uppercase' }}>Explicit Trade-Offs</h4>
-                                <ul style={{ margin: 0, paddingLeft: '12px', fontSize: '9px', color: 'var(--color-neutral-700)', lineHeight: '1.6' }}>
+                                <h4 style={{ fontSize: 'var(--font-size-small)', fontWeight: 800, color: 'var(--color-secondary)', marginBottom: '8px', textTransform: 'uppercase' }}>Explicit Trade-Offs</h4>
+                                <ul style={{ margin: 0, paddingLeft: '12px', fontSize: 'var(--font-size-small)', color: 'var(--color-neutral-700)', lineHeight: '1.6' }}>
                                     <li style={{ marginBottom: '4px' }}>Mass-customization <strong>over</strong> Bespoke</li>
                                     <li style={{ marginBottom: '4px' }}>Self-installation <strong>over</strong> White-glove (at entry)</li>
                                     <li style={{ marginBottom: '4px' }}>Showroom-light <strong>over</strong> Dense retail</li>
@@ -73,12 +73,12 @@ export default function ImplementationSection() {
                             {/* Middle Tier */}
                             <div style={{ background: 'white', border: '1px solid var(--color-primary)', padding: '8px 12px', borderRadius: '4px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', boxShadow: 'var(--box-shadow-sm)', position: 'relative', zIndex: 10 }}>
                                 <div>
-                                    <div style={{ fontSize: '9px', fontWeight: 700, color: 'var(--color-primary)' }}>MIDDLE – ASPIRATIONAL TIER</div>
-                                    <div style={{ fontSize: '8px', color: 'var(--color-primary)', fontStyle: 'italic' }}>4-6 Modules • Enhanced comfort & design</div>
+                                    <div style={{ fontSize: 'var(--font-size-small)', fontWeight: 700, color: 'var(--color-primary)' }}>MIDDLE – ASPIRATIONAL TIER</div>
+                                    <div style={{ fontSize: 'var(--font-size-tiny)', color: 'var(--color-primary)', fontStyle: 'italic' }}>4-6 Modules • Enhanced comfort & design</div>
                                 </div>
                                 <div style={{ textAlign: 'right' }}>
-                                    <div style={{ fontSize: '10px', fontWeight: 800, color: 'var(--color-primary)' }}>€3.5k - 5.5k</div>
-                                    <div style={{ fontSize: '8px', color: 'var(--color-primary)', fontWeight: 700 }}>Personalized outdoor living.</div>
+                                    <div style={{ fontSize: 'var(--font-size-body)', fontWeight: 800, color: 'var(--color-primary)' }}>€3.5k - 5.5k</div>
+                                    <div style={{ fontSize: 'var(--font-size-tiny)', color: 'var(--color-primary)', fontWeight: 700 }}>Personalized outdoor living.</div>
                                 </div>
                             </div>
 
@@ -104,7 +104,7 @@ export default function ImplementationSection() {
                         {/* Strategic Rationale for Branding (Compact) */}
                         <div style={{ marginBottom: 'var(--space-3)' }}>
                             <p style={{ fontSize: '9px', lineHeight: '1.5', color: 'var(--color-neutral-700)', margin: 0 }}>
-                                Branding is essential to transform Fieldsman into a <strong>professional premium brand</strong>. By establishing <strong>brand legitimacy</strong>, Fieldsman secures a <strong>sustainable competitive advantage</strong> in a market where trust and aesthetics drive high-involvement purchase decisions. Strong branding allows Fieldsman to <strong>escape pure price competition</strong> and justify healthier margins. By turning the modular system into a <strong>desirable lifestyle investment</strong> with a recognizable <strong>“Fieldsman Look,”</strong> Fieldsman enables rapid, profitable scale.
+                                Branding is essential to transform Fieldsman into a professional premium brand. By establishing brand legitimacy, Fieldsman secures a sustainable competitive advantage in a market where trust and aesthetics drive high-involvement purchase decisions. Strong branding allows Fieldsman to escape pure price competition and justify healthier margins. By turning the modular system into a desirable lifestyle investment with a recognizable “Fieldsman Look,” Fieldsman enables rapid, profitable scale.
                             </p>
                         </div>
 
@@ -114,7 +114,7 @@ export default function ImplementationSection() {
                                 <div style={{ fontSize: '11px', fontWeight: 700, color: 'white' }}>Brand Essence: "Authentic Craftmanship. Built for Bringing People Together."</div>
                             </div>
                             <p style={{ fontSize: '9px', lineHeight: '1.4', color: 'var(--color-neutral-200)', margin: 0 }}>
-                                The brand bridges two worlds: The <strong>Three Brothers</strong> (Grounded, Honest, Makers) and the <strong>Design-Conscious Host</strong> (Social, Aspirational, Connector). Fieldsman uses authentic Dutch craftmanship to build the perfect stage for the client's sense of belonging.
+                                The brand bridges two worlds: The Three Brothers (Grounded, Honest, Makers) and the Design-Conscious Host (Social, Aspirational, Connector). Fieldsman uses authentic Dutch craftmanship to build the perfect stage for the client's sense of belonging.
                             </p>
                         </div>
 
@@ -163,33 +163,51 @@ export default function ImplementationSection() {
             </PageWrapper >
 
             {/* 5.2 GTM Intro + Layer 1 */}
-            < PageWrapper sectionLabel="SECTION 5: IMPLEMENTATION" >
-                <div>
-                    <h2 style={{ marginBottom: 'var(--space-2)' }}>5.2 Go-to-Market: Building a Scalable Commercial Engine</h2>
-                    <TextBlock style={{ marginBottom: 'var(--space-2)' }}>
-                        <p style={{ lineHeight: '1.3' }}>Scaling from €170K to €10.6M requires a fundamental transformation of how Fieldsman generates demand. The current founder-driven sales model cannot scale. The new commercial engine is built on a unified strategic framework, beginning with a deep understanding of the customer's path to purchase.</p>
+            <PageWrapper sectionLabel="SECTION 5: IMPLEMENTATION">
+                <div style={{ marginBottom: 'var(--space-8)' }}>
+                    <h2 style={{ marginBottom: 'var(--space-4)' }}>5.1 Commercial Workstream: The "Phygital" Engine</h2>
+                    <TextBlock>
+                        <p style={{ fontSize: 'var(--font-size-body)' }}>
+                            The commercial objective is to decouple sales growth from headcount. By moving the primary sales interaction to a digital configurator, Fieldsman can handle thousands of leads with a lean team. Physical touchpoints serve only to validate quality, not to initiate the sale.
+                        </p>
                     </TextBlock>
+                </div>
 
+                {/* Customer Journey Visual */}
+                <div style={{ marginBottom: 'var(--space-6)' }}>
+                    <TextBlock style={{ marginBottom: 'var(--space-4)' }}>
+                        <p style={{ fontSize: 'var(--font-size-small)', lineHeight: '1.3' }}>To move beyond founder-led sales, Fieldsman must stop treating sales as a series of ad-hoc conversations and start managing them as a designed product. This defined Customer Journey serves as the backbone of the new commercial engine, orchestrating every digital and physical touchpoint into a seamless, reproducible experience.</p>
+                    </TextBlock>
+                    <h4 style={{ fontSize: 'var(--font-size-h4)', fontWeight: 800, color: 'var(--color-neutral-600)', marginBottom: 'var(--space-2)', textTransform: 'uppercase', textAlign: 'center' }}>The Multi-Channel Customer Journey</h4>
+                    <CustomerJourney />
+                </div>
 
-                    {/* Customer Journey Visual */}
+                {/* Integrated Commercial Engine Visual */}
+                <div style={{ marginBottom: 'var(--space-8)' }}>
+                    <TextBlock style={{ marginBottom: 'var(--space-4)' }}>
+                        <p style={{ fontSize: 'var(--font-size-small)', color: 'var(--color-neutral-600)' }}>The operationalization of this journey is architected into three integrated layers: Marketing (Inflow), AI Operations (Throughput), and Phygital Service (Trust). This unified commercial engine ensures efficiency does not come at the cost of the "Proud Host" experience.</p>
+                    </TextBlock>
+                    <CommercialArchitecture />
+                </div>
+
+                {/* 5.3 Organizational Workstream: Building the Brain */}
+                <div style={{ marginBottom: 'var(--space-8)' }}>
+                    <h2 style={{ marginBottom: 'var(--space-4)' }}>5.3 Organizational Workstream: Building the Brain</h2>
+                    <TextBlock>
+                        <p style={{ fontSize: 'var(--font-size-body)' }}>
+                            The organization must evolve from a "founder-does-everything" structure to a functional specialist model. The critical hire in 2025 is the <strong>Operations Manager</strong>, who will take over day-to-day fulfillment, allowing the founders to focus on product and growth.
+                        </p>
+                    </TextBlock>
                     <div style={{ marginBottom: 'var(--space-6)' }}>
-                        <TextBlock style={{ marginBottom: 'var(--space-4)' }}>
-                            <p style={{ fontSize: '9px', lineHeight: '1.3' }}>To move beyond founder-led sales, Fieldsman must stop treating sales as a series of ad-hoc conversations and start managing them as a designed product. This defined Customer Journey serves as the backbone of the new commercial engine, orchestrating every digital and physical touchpoint into a seamless, reproducible experience.</p>
-                        </TextBlock>
-                        <h4 style={{ fontSize: '9px', fontWeight: 800, color: 'var(--color-neutral-600)', marginBottom: 'var(--space-2)', textTransform: 'uppercase', textAlign: 'center' }}>The Multi-Channel Customer Journey</h4>
-                        <CustomerJourney />
+                        <OrganizationalStructureFuture />
                     </div>
-
-                    {/* Integrated Commercial Engine Visual */}
-                    <div style={{ marginBottom: 'var(--space-8)' }}>
-                        <TextBlock style={{ marginBottom: 'var(--space-4)' }}>
-                            <p style={{ fontSize: '9px', color: 'var(--color-neutral-600)' }}>The operationalization of this journey is architected into three integrated layers: Marketing (Inflow), AI Operations (Throughput), and Phygital Service (Trust). This unified commercial engine ensures efficiency does not come at the cost of the "Proud Host" experience.</p>
-                        </TextBlock>
-                        <CommercialArchitecture />
+                    <div style={{ marginTop: 'var(--space-2)' }}>
+                        <p style={{ fontSize: 'var(--font-size-tiny)', color: 'var(--color-neutral-500)', fontStyle: 'italic', textAlign: 'center' }}>
+                            *Full Org Chart Evolution available in internal documentation.
+                        </p>
                     </div>
                 </div>
-            </PageWrapper >
-
+            </PageWrapper>
             {/* 5.3 Production Transformation (Was 5.1) */}
             < PageWrapper sectionLabel="SECTION 5: IMPLEMENTATION" >
                 <div style={{ marginBottom: 'var(--space-8)' }}>
@@ -201,7 +219,7 @@ export default function ImplementationSection() {
                         <div style={{ marginBottom: '16px', paddingBottom: '16px', borderBottom: '1px dashed var(--color-neutral-300)' }}>
                             <h4 style={{ fontSize: '11px', fontWeight: 800, color: 'var(--color-neutral-700)', marginBottom: '6px', textTransform: 'uppercase' }}>The Challenge: The Seasonal Capacity Trap</h4>
                             <p style={{ fontSize: '10px', color: 'var(--color-neutral-600)', lineHeight: '1.5' }}>
-                                The fundamental challenge of the outdoor living market is extreme seasonality: <strong>80% of consumer demand occurs between March and July.</strong> Under the current model, scaling production requires hiring permanent skilled craftsmen. This creates a "Capacity Trap": you either under-produce during the summer peak (losing revenue) or carry massive overhead during the winter trough (destroying margin).
+                                The fundamental challenge of the outdoor living market is extreme seasonality: 80% of consumer demand occurs between March and July. Under the current model, scaling production requires hiring permanent skilled craftsmen. This creates a "Capacity Trap": you either under-produce during the summer peak (losing revenue) or carry massive overhead during the winter trough (destroying margin).
                             </p>
                         </div>
 
@@ -209,7 +227,7 @@ export default function ImplementationSection() {
                         <div>
                             <h4 style={{ fontSize: '11px', fontWeight: 800, color: 'var(--color-primary)', marginBottom: '6px', textTransform: 'uppercase' }}>The Solution: The Integrated Hub Strategy</h4>
                             <p style={{ fontSize: '10px', color: 'var(--color-neutral-600)', lineHeight: '1.5', marginBottom: '16px' }}>
-                                The Transformation solves this by decoupling component stability from assembly flexibility. By moving to an <strong>Integrated Hub Model</strong>, Fieldsman can flatten the production curve:
+                                The Transformation solves this by decoupling component stability from assembly flexibility. By moving to an Integrated Hub Model, Fieldsman can flatten the production curve:
                             </p>
                             <ul style={{ fontSize: '10px', color: 'var(--color-neutral-600)', lineHeight: '1.5', margin: '0 0 16px 12px', paddingLeft: '12px' }}>
                                 <li style={{ marginBottom: '4px' }}><strong>Winter (Stockpile):</strong> Steady production of standardized modules from global partners fills the buffer.</li>
@@ -224,7 +242,7 @@ export default function ImplementationSection() {
                                     <strong>Ceramics & Cutting (Value Add):</strong> Slabs are sourced globally (**China & Spain**), but cutting is vertically integrated in the NL Hub. This reduces unit costs from <strong>€900 to €100</strong> and lead times from <strong>8 weeks to 2 weeks</strong>.
                                 </div>
                                 <div>
-                                    <strong>Flex Assembly Hub (Quality):</strong> The NL Hub acts as a critical **seasonal buffer** and quality gate. Centralized final assembly ensures <strong>100% quality control</strong> before dispatch, scaling with temporary labor during peak demand.
+                                    <strong>Flex Assembly Hub (Quality):</strong> The NL Hub acts as a critical **seasonal buffer** and quality gate. Centralized final assembly ensures 100% quality control before dispatch, scaling with temporary labor during peak demand.
                                 </div>
                             </div>
                         </div>
@@ -237,9 +255,7 @@ export default function ImplementationSection() {
                 </div>
             </PageWrapper >
 
-            {/* 
-        PAGE 3: 5.4 Expansion
-      */}
+            {/* PAGE 3: 5.4 Expansion */}
             < PageWrapper sectionLabel="SECTION 5: IMPLEMENTATION" >
 
                 {/* 5.4 Organization Plan */}
@@ -249,7 +265,7 @@ export default function ImplementationSection() {
 
                     <TextBlock style={{ marginBottom: 'var(--space-6)' }}>
                         <p style={{ lineHeight: '1.5', fontSize: '10px', color: 'var(--color-neutral-700)' }}>
-                            To successfully execute the 2026–2027 growth strategy, Fieldsman must transition from a flexible startup to a disciplined scale-up organization. This requires a fundamental shift in the founders' commitment: <strong>realizing this growth potential demands fully invested, full-time leadership.</strong> The founders must step out of daily execution to own strategic pillars, supported by a specialized team structure that replaces generalist roles with dedicated functional experts. The chart below outlines the target structure required to support the new Integrated Hub model.
+                            To successfully execute the 2026–2027 growth strategy, Fieldsman must transition from a flexible startup to a disciplined scale-up organization. This requires a fundamental shift in the founders' commitment: realizing this growth potential demands fully invested, full-time leadership. The founders must step out of daily execution to own strategic pillars, supported by a specialized team structure that replaces generalist roles with dedicated functional experts. The chart below outlines the target structure required to support the new Integrated Hub model.
                         </p>
                     </TextBlock>
 
@@ -257,8 +273,6 @@ export default function ImplementationSection() {
                     <div style={{ marginBottom: 'var(--space-6)' }}>
                         <OrganizationalStructureFuture />
                     </div>
-
-
                 </div >
 
                 {/* 5.5 Geographic Expansion (Was 5.4) */}
@@ -312,7 +326,33 @@ export default function ImplementationSection() {
                 </div >
 
                 {/* Key Takeaways */}
-                < div style={{ borderTop: '2px solid var(--color-neutral-200)', paddingTop: 'var(--space-3)', marginTop: 'auto' }}>
+                < div style={{ padding: 'var(--space-6)', background: 'var(--color-primary-100)', borderRadius: 'var(--border-radius-lg)', marginBottom: 'var(--space-10)', border: '1px solid var(--color-primary-200)' }}>
+                    <h3 style={{ fontSize: 'var(--font-size-h3)', fontWeight: 800, color: 'var(--color-primary-800)', marginBottom: 'var(--space-4)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Scaling Logic: The "Crawl, Walk, Run" Approach</h3>
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 'var(--space-6)' }}>
+                        <div>
+                            <div style={{ fontSize: 'var(--font-size-h4)', fontWeight: 800, color: 'var(--color-primary)', marginBottom: '2px' }}>PHASE 1 (2025-2026)</div>
+                            <div style={{ fontSize: 'var(--font-size-h4)', fontWeight: 800, color: 'var(--color-neutral-900)', marginBottom: '8px' }}>THE FOUNDATION</div>
+                            <p style={{ fontSize: 'var(--font-size-small)', lineHeight: '1.5', color: 'var(--color-neutral-700)' }}>
+                                Focus is on <strong>systematization</strong>, not volume. Implementing the ERP, formalizing the modular product data, and hiring the core team (Ops Manager, Sales Lead). Goal: Remove the founder bottleneck.
+                            </p>
+                        </div>
+                        <div style={{ borderLeft: '1px solid var(--color-primary-200)', paddingLeft: 'var(--space-4)' }}>
+                            <div style={{ fontSize: 'var(--font-size-h4)', fontWeight: 800, color: 'var(--color-primary)', marginBottom: '2px' }}>PHASE 2 (2027-2028)</div>
+                            <div style={{ fontSize: 'var(--font-size-h4)', fontWeight: 800, color: 'var(--color-neutral-900)', marginBottom: '8px' }}>THE ACCELERATOR</div>
+                            <p style={{ fontSize: 'var(--font-size-small)', lineHeight: '1.5', color: 'var(--color-neutral-700)' }}>
+                                Focus shifts to <strong>automation</strong> and <strong>expansion</strong>. Entering Belgium, opening the first remote implementation hub, and robotizing the countertop cutting process. Goal: Prove scalability in a new market.
+                            </p>
+                        </div>
+                        <div style={{ borderLeft: '1px solid var(--color-primary-200)', paddingLeft: 'var(--space-4)' }}>
+                            <div style={{ fontSize: 'var(--font-size-h4)', fontWeight: 800, color: 'var(--color-primary)', marginBottom: '2px' }}>PHASE 3 (2029-2030)</div>
+                            <div style={{ fontSize: 'var(--font-size-h4)', fontWeight: 800, color: 'var(--color-neutral-900)', marginBottom: '8px' }}>THE SCALE-UP</div>
+                            <p style={{ fontSize: 'var(--font-size-small)', lineHeight: '1.5', color: 'var(--color-neutral-700)' }}>
+                                Focus is on <strong>replication</strong>. Aggressive expansion into Germany, standardized localized assembly hubs, and full modular platform leverage. Goal: European category leadership.
+                            </p>
+                        </div>
+                    </div>
+                </div >
+                <div style={{ borderTop: '2px solid var(--color-neutral-200)', paddingTop: 'var(--space-3)', marginTop: 'auto' }}>
                     <h3 style={{ fontSize: '11px', fontWeight: 800, color: 'var(--color-neutral-600)', marginBottom: 'var(--space-2)', letterSpacing: '0.05em' }}>5.6 KEY IMPLEMENTATION TAKEAWAYS</h3>
                     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-x-4) var(--space-y-3)' }}>
                         <div style={{ display: 'flex', gap: '8px' }}>
@@ -340,7 +380,7 @@ export default function ImplementationSection() {
                             </p>
                         </div>
                     </div>
-                </div >
+                </div>
             </PageWrapper >
         </>
     );

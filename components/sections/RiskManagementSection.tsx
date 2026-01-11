@@ -106,96 +106,66 @@ export default function RiskManagementSection() {
                 </TextBlock>
             </div>
 
-            <div className="risk-table-container">
-                <table className="risk-table">
-                    <thead>
+            <div style={{ border: '1px solid var(--color-neutral-200)', borderRadius: '4px', overflow: 'hidden' }}>
+                <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 'var(--font-size-small)' }}>
+                    <thead style={{ background: 'var(--color-neutral-100)' }}>
                         <tr>
-                            <th style={{ width: '30px' }}>#</th>
-                            <th style={{ width: '25%' }}>Risk</th>
-                            <th style={{ width: '40px' }}>P</th>
-                            <th style={{ width: '40px' }}>I</th>
-                            <th style={{ width: '80px' }}>Category</th>
-                            <th>Mitigation</th>
-                            <th style={{ width: '20%' }}>Leading Indicators</th>
+                            <th style={{ width: '30px', padding: '6px 8px', textAlign: 'left', fontWeight: 700, color: 'var(--color-neutral-800)', borderBottom: '1px solid var(--color-neutral-200)' }}>#</th>
+                            <th style={{ width: '25%', padding: '6px 8px', textAlign: 'left', fontWeight: 700, color: 'var(--color-neutral-800)', borderBottom: '1px solid var(--color-neutral-200)' }}>Risk</th>
+                            <th style={{ width: '40px', padding: '6px 8px', textAlign: 'center', fontWeight: 700, color: 'var(--color-neutral-800)', borderBottom: '1px solid var(--color-neutral-200)' }}>P</th>
+                            <th style={{ width: '40px', padding: '6px 8px', textAlign: 'center', fontWeight: 700, color: 'var(--color-neutral-800)', borderBottom: '1px solid var(--color-neutral-200)' }}>I</th>
+                            <th style={{ width: '80px', padding: '6px 8px', textAlign: 'left', fontWeight: 700, color: 'var(--color-neutral-800)', borderBottom: '1px solid var(--color-neutral-200)' }}>Category</th>
+                            <th style={{ padding: '6px 8px', textAlign: 'left', fontWeight: 700, color: 'var(--color-neutral-800)', borderBottom: '1px solid var(--color-neutral-200)' }}>Mitigation</th>
+                            <th style={{ width: '20%', padding: '6px 8px', textAlign: 'left', fontWeight: 700, color: 'var(--color-neutral-800)', borderBottom: '1px solid var(--color-neutral-200)' }}>Leading Indicators</th>
                         </tr>
                     </thead>
                     <tbody>
                         {risks.map((row) => (
-                            <tr key={row.id}>
-                                <td style={{ textAlign: 'center', fontWeight: 'bold', color: 'var(--color-neutral-500)' }}>{row.id}</td>
-                                <td style={{ fontWeight: 500 }}>{row.risk}</td>
-                                <td style={{ textAlign: 'center' }}>
-                                    <span className="risk-badge" style={{ color: getBadgeColor(row.prob), borderColor: getBadgeColor(row.prob) }}>
+                            <tr key={row.id} style={{ borderBottom: '1px solid var(--color-neutral-100)' }}>
+                                <td style={{ padding: '6px 8px', textAlign: 'center', fontWeight: 600, color: 'var(--color-neutral-500)', verticalAlign: 'top' }}>{row.id}</td>
+                                <td style={{ padding: '6px 8px', fontWeight: 600, color: 'var(--color-neutral-900)', verticalAlign: 'top' }}>{row.risk}</td>
+                                <td style={{ padding: '6px 8px', textAlign: 'center', verticalAlign: 'top' }}>
+                                    <span style={{
+                                        display: 'inline-block',
+                                        fontSize: '9px',
+                                        fontWeight: 700,
+                                        padding: '1px 4px',
+                                        border: `1px solid ${getBadgeColor(row.prob)}`,
+                                        color: getBadgeColor(row.prob),
+                                        borderRadius: '4px',
+                                        minWidth: '16px',
+                                        textAlign: 'center'
+                                    }}>
                                         {row.prob}
                                     </span>
                                 </td>
-                                <td style={{ textAlign: 'center' }}>
-                                    <span className="risk-badge" style={{ color: getBadgeColor(row.impact), borderColor: getBadgeColor(row.impact) }}>
+                                <td style={{ padding: '6px 8px', textAlign: 'center', verticalAlign: 'top' }}>
+                                    <span style={{
+                                        display: 'inline-block',
+                                        fontSize: '9px',
+                                        fontWeight: 700,
+                                        padding: '1px 4px',
+                                        border: `1px solid ${getBadgeColor(row.impact)}`,
+                                        color: getBadgeColor(row.impact),
+                                        borderRadius: '4px',
+                                        minWidth: '16px',
+                                        textAlign: 'center'
+                                    }}>
                                         {row.impact}
                                     </span>
                                 </td>
-                                <td style={{ fontSize: '9px', color: 'var(--color-neutral-600)' }}>{row.category}</td>
-                                <td style={{ fontSize: '10px' }}>{row.mitigation}</td>
-                                <td style={{ fontSize: '9px', color: 'var(--color-neutral-700)', fontStyle: 'italic' }}>{row.indicators}</td>
+                                <td style={{ padding: '6px 8px', fontSize: 'var(--font-size-small)', color: 'var(--color-neutral-600)', verticalAlign: 'top' }}>{row.category}</td>
+                                <td style={{ padding: '6px 8px', fontSize: 'var(--font-size-small)', color: 'var(--color-neutral-700)', verticalAlign: 'top', lineHeight: '1.4' }}>{row.mitigation}</td>
+                                <td style={{ padding: '6px 8px', fontSize: 'var(--font-size-tiny)', color: 'var(--color-neutral-600)', fontStyle: 'italic', verticalAlign: 'top' }}>{row.indicators}</td>
                             </tr>
                         ))}
                     </tbody>
                 </table>
             </div>
 
-            <div style={{ marginTop: 'var(--space-4)', fontSize: '9px', color: 'var(--color-neutral-500)' }}>
+            <div style={{ marginTop: 'var(--space-4)', fontSize: 'var(--font-size-tiny)', color: 'var(--color-neutral-500)' }}>
                 <strong>Legend:</strong> P = Probability, I = Impact (L = Low, M = Medium, H = High)
             </div>
-
-            <style jsx>{`
-                .risk-table-container {
-                    border: 1px solid var(--color-neutral-200);
-                    border-radius: var(--border-radius-sm);
-                    overflow: hidden;
-                    background: white;
-                }
-
-                .risk-table {
-                    width: 100%;
-                    border-collapse: collapse;
-                    font-size: 10px;
-                }
-
-                .risk-table th {
-                    background: var(--color-neutral-100);
-                    padding: 8px 6px;
-                    text-align: left;
-                    font-weight: 700;
-                    color: var(--color-neutral-800);
-                    border-bottom: 2px solid var(--color-neutral-200);
-                    text-transform: uppercase;
-                    letter-spacing: 0.05em;
-                    font-size: 9px;
-                }
-
-                .risk-table td {
-                    padding: 8px 6px;
-                    border-bottom: 1px solid var(--color-neutral-100);
-                    vertical-align: top;
-                    line-height: 1.4;
-                    color: var(--color-neutral-900);
-                }
-
-                .risk-table tr:last-child td {
-                    border-bottom: none;
-                }
-
-                .risk-badge {
-                    display: inline-block;
-                    font-size: 9px;
-                    font-weight: 700;
-                    padding: 1px 4px;
-                    border: 1px solid currentColor;
-                    border-radius: 4px;
-                    min-width: 16px;
-                    text-align: center;
-                }
-            `}</style>
         </PageWrapper>
     );
 }
