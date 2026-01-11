@@ -50,7 +50,7 @@ export default function KPIDashboard() {
   ];
 
   return (
-    <div className="kpi-dashboard">
+    <div className="kpi-dashboard" data-export-as-image="true">
 
       {/* Header */}
       <div className="dashboard-header">

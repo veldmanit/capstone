@@ -89,7 +89,7 @@ export default function RoadmapGantt() {
   };
 
   return (
-    <div className="roadmap-wrapper">
+    <div className="roadmap-wrapper" data-export-as-image="true">
 
       {/* Timeline Header */}
       <div className="timeline-header">

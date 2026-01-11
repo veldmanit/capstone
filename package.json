@@ -7,11 +7,14 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "export": "node scripts/generate-pdf.mjs"
+    "export": "node scripts/generate-pdf.mjs",
+    "export:word": "node scripts/generate-docx.mjs"
   },
   "dependencies": {
     "@fontsource/inter": "^5.2.8",
     "@fontsource/work-sans": "^5.2.8",
+    "html-to-docx": "^1.8.0",
+    "jsdom": "^27.4.0",
     "next": "16.1.1",
     "pdf-lib": "^1.17.1",
     "puppeteer": "^24.34.0",

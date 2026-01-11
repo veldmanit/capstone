@@ -4,7 +4,7 @@ import React from 'react';
 
 export default function PestleSummaryVisual() {
     return (
-        <div style={{ marginTop: 'var(--space-6)', marginBottom: 'var(--space-8)' }}>
+        <div style={{ marginTop: 'var(--space-6)', marginBottom: 'var(--space-8)' }} data-export-as-image="true">
             <h3 style={{
                 fontSize: '11px',
                 fontWeight: 800,

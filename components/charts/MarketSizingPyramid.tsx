@@ -11,7 +11,7 @@ import React from 'react';
  */
 export default function MarketSizingPyramid() {
   return (
-    <div className="pyramid-container">
+    <div className="pyramid-container" data-export-as-image="true">
       <h2 className="chart-title">
         Market Sizing: The "Missing Middle" Opportunity
       </h2>

@@ -4,7 +4,7 @@ import React from 'react';
 
 export default function BusinessModelCanvas() {
     return (
-        <div style={{ marginBottom: 'var(--space-8)' }}>
+        <div style={{ marginBottom: 'var(--space-8)' }} data-export-as-image="true">
             <h2 style={{ marginBottom: 'var(--space-2)' }}>Appendix E: Business Model Canvas</h2>
             <h3 style={{ fontSize: '14px', color: 'var(--color-neutral-600)', marginBottom: 'var(--space-4)' }}>Strategic Overview (2026+)</h3>
 

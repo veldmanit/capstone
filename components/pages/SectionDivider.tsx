@@ -3,7 +3,7 @@
 import React from 'react';
 
 interface SectionDividerProps {
-  sectionNumber: number;
+  sectionNumber?: number;
   title: string;
   subtitle?: string;
   accentColor?: string;
@@ -20,7 +20,7 @@ export default function SectionDivider({
       <div className="background-decoration"></div>
 
       <div className="content">
-        <div className="section-number">{sectionNumber}</div>
+        {sectionNumber !== undefined && <div className="section-number">{sectionNumber}</div>}
         <h1 className="section-title">{title}</h1>
         {subtitle && <p className="section-subtitle">{subtitle}</p>}
       </div>

@@ -10,7 +10,7 @@ import React from 'react';
  */
 const PortersFiveForces = () => {
     return (
-        <div className="framework-canvas">
+        <div className="framework-canvas" data-export-as-image="true">
             <div className="forces-grid">
                 {/* Top: Threat of New Entrants */}
                 <div className="force-node top">

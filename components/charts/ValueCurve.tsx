@@ -44,7 +44,7 @@ const ValueCurve = () => {
     ];
 
     return (
-        <div className="value-curve-container">
+        <div className="value-curve-container" data-export-as-image="true">
             {/* Header */}
             <div className="chart-header">
                 <h3 className="chart-title">Strategy Canvas: Value Curve Analysis</h3>

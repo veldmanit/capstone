@@ -126,7 +126,7 @@ export default function FieldsmanModules() {
     );
 
     return (
-        <div className="modules-container">
+        <div className="modules-container" data-export-as-image="true">
             {/* Header */}
             <div style={{
                 marginBottom: 'var(--space-6)',

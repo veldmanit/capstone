@@ -74,7 +74,7 @@ const CustomerJourney: React.FC = () => {
     const barHeight = 40;
 
     return (
-        <div style={{ width: '100%', padding: '0', fontFamily: 'Inter, sans-serif' }}>
+        <div style={{ width: '100%', padding: '0', fontFamily: 'Inter, sans-serif' }} data-export-as-image="true">
             <div style={{ position: 'relative', width: '100%', height: 'auto' }}>
                 <svg width="100%" height="auto" viewBox={`0 0 ${width} ${height}`} preserveAspectRatio="xMidYMid meet" style={{ overflow: 'visible' }}>
 

@@ -172,7 +172,7 @@ export default function OrganizationalStructureFuture() {
             borderRadius: 'var(--border-radius-md)',
             marginBottom: 'var(--space-8)',
             position: 'relative',
-        }}>
+        }} data-export-as-image="true">
             <h3 style={{
                 fontSize: '11px',
                 fontWeight: 800,

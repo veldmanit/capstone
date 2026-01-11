@@ -9,7 +9,7 @@ const CommercialArchitecture = () => {
             borderRadius: '8px',
             border: '1px solid #e2e8f0',
             boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)'
-        }}>
+        }} data-export-as-image="true">
             <div style={{ textAlign: 'center', marginBottom: '20px' }}>
                 <h3 style={{ fontSize: '14px', fontWeight: 800, textTransform: 'uppercase', color: 'var(--color-neutral-900)', letterSpacing: '0.05em' }}>The Fieldsman Commercial Engine</h3>
                 <p style={{ fontSize: '10px', color: '#64748b', marginTop: '4px' }}>A unified system translating awareness into high-value sales.</p>

@@ -11,7 +11,7 @@ export default function BottleneckVisual() {
             border: '1px solid #C8B696',
             borderRadius: 'var(--border-radius-md)',
             boxShadow: 'var(--shadow-sm)'
-        }}>
+        }} data-export-as-image="true">
             <h3 style={{
                 fontSize: '11px',
                 fontWeight: 700,

@@ -43,6 +43,7 @@ export default function TableOfContents({ entries }: TableOfContentsProps) {
       <style jsx>{`
         .table-of-contents {
           padding: var(--space-8) 0;
+          width: 100%;
         }
         
         .toc-heading {
@@ -57,13 +58,36 @@ export default function TableOfContents({ entries }: TableOfContentsProps) {
           display: flex;
           flex-direction: column;
           gap: var(--space-3);
+          width: 100%;
         }
         
         .toc-entry {
-          display: grid;
-          grid-template-columns: auto 1fr auto;
+          display: flex;
           align-items: baseline;
-          gap: var(--space-2);
+          width: 100%;
+          position: relative;
+        }
+        
+        .toc-title {
+          flex-shrink: 0;
+          background: white; /* Cover dots behind text if needed, though usually side-by-side */
+          padding-right: 4px;
+        }
+        
+        .toc-dots {
+          flex-grow: 1;
+          border-bottom: 2px dotted var(--color-neutral-300);
+          margin: 0 4px;
+          opacity: 0.5;
+        }
+        
+        .toc-page {
+          flex-shrink: 0;
+          font-family: var(--font-body);
+          font-weight: var(--font-weight-bold);
+          text-align: right;
+          padding-left: 4px;
+          min-width: 24px; /* Ensure space for 2 digits */
         }
         
         .toc-entry-1 {
@@ -86,27 +110,12 @@ export default function TableOfContents({ entries }: TableOfContentsProps) {
           color: var(--color-text-tertiary);
           padding-left: var(--space-12);
         }
-        
-        .toc-title {
-          white-space: nowrap;
-        }
-        
-        .toc-dots {
-          border-bottom: 1px dotted var(--color-neutral-300);
-          margin-bottom: 4px;
-        }
-        
-        .toc-page {
-          font-family: var(--font-body);
-          font-weight: var(--font-weight-medium);
-          white-space: nowrap;
-        }
-        
+
         .toc-subsections {
-          grid-column: 1 / -1;
           display: flex;
           flex-direction: column;
           gap: var(--space-2);
+          width: 100%;
         }
       `}</style>
     </div>

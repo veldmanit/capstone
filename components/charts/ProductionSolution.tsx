@@ -16,7 +16,7 @@ export default function ProductionSolution() {
             background: 'white',
             fontFamily: 'var(--font-body)',
             padding: '20px 0'
-        }}>
+        }} data-export-as-image="true">
 
             {/* 1. HEADER & STRATEGY */}
             <div style={{

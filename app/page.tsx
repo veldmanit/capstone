@@ -24,6 +24,7 @@ import ConclusionSection from '@/components/sections/ConclusionSection';
 
 export default function ReportPage() {
   // Manual TOC entries (page numbers will be approximate guides)
+  // Manual TOC entries (page numbers will be approximate guides)
   const tocEntries = [
     { title: '1. Introduction', pageNumber: 4, level: 1 as const },
     { title: '2. External Analysis', pageNumber: 7, level: 1 as const },
@@ -31,7 +32,19 @@ export default function ReportPage() {
     { title: '4. Strategic Options', pageNumber: 17, level: 1 as const },
     { title: '5. Implementation', pageNumber: 22, level: 1 as const },
     { title: '6. Action Plan', pageNumber: 28, level: 1 as const },
-    { title: 'Appendix', pageNumber: 32, level: 1 as const },
+    { title: '7. Financial Plan', pageNumber: 31, level: 1 as const },
+    { title: '8. Risk Management', pageNumber: 33, level: 1 as const },
+    { title: '9. Conclusion', pageNumber: 35, level: 1 as const },
+    {
+      title: 'Appendix', pageNumber: 36, level: 1 as const, subsections: [
+        { title: 'A. PESTLE Analysis', pageNumber: 36, level: 2 as const },
+        { title: 'B. Market Sizing Methodology', pageNumber: 37, level: 2 as const },
+        { title: 'C. Customer Personas', pageNumber: 38, level: 2 as const },
+        { title: 'D. Competitor Analysis', pageNumber: 39, level: 2 as const },
+        { title: 'E. Business Model Canvas', pageNumber: 40, level: 2 as const },
+        { title: 'F. Modular Architecture', pageNumber: 41, level: 2 as const },
+      ]
+    },
   ];
 
   return (
@@ -143,7 +156,6 @@ export default function ReportPage() {
 
       {/* Appendix */}
       <SectionDivider
-        sectionNumber={10}
         title="Appendix"
         subtitle="Supporting Materials"
         accentColor="var(--color-neutral-600)"

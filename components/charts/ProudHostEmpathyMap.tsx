@@ -11,7 +11,7 @@ import React from 'react';
  */
 export default function ProudHostEmpathyMap() {
   return (
-    <div className="empathy-canvas">
+    <div className="empathy-canvas" data-export-as-image="true">
       {/* 1. Header (No Icon, Compact) */}
       <div className="canvas-header">
         <div className="header-left">
